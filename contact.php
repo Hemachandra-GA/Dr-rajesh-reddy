@@ -175,37 +175,39 @@ $page_title = "Contact Us | Dr. Rajesh Reddy Sannareddy — Neurosurgeon, Hydera
           <div class="contact-form-card">
             <h3 class="form-card-title">Send a Message</h3>
             <form id="contactPageForm">
+              <input type="text" name="website" style="display:none;" tabindex="-1" autocomplete="off">
               <div class="form-group">
                 <label class="form-label" for="c_name">Your Name</label>
-                <input type="text" class="form-input" id="c_name" placeholder="Enter name" required>
+                <input type="text" class="form-input" id="c_name" name="name" placeholder="Enter name" required>
               </div>
               <div class="form-group">
                 <label class="form-label" for="c_phone">Phone Number</label>
-                <input type="tel" class="form-input" id="c_phone" placeholder="Enter mobile number" required>
+                <input type="tel" class="form-input" id="c_phone" name="phone" placeholder="Enter mobile number" required>
               </div>
               <div class="form-group">
                 <label class="form-label" for="c_email">Email Address</label>
-                <input type="email" class="form-input" id="c_email" placeholder="Enter email" required>
+                <input type="email" class="form-input" id="c_email" name="email" placeholder="Enter email" required>
               </div>
               <div class="form-group">
                 <label class="form-label" for="c_type">Inquiry Type</label>
-                <select class="form-select" id="c_type" required>
+                <select class="form-select" id="c_type" name="inquiry_type" required>
                   <option value="" disabled selected>Select Inquiry Type</option>
-                  <option value="appointment">Appointment Booking</option>
-                  <option value="brain_tumor">Brain Tumor / Skull Base Consultation</option>
-                  <option value="aneurysm">Aneurysm & Endovascular Coiling</option>
-                  <option value="spine_surgery">Spine Surgery Consultation</option>
-                  <option value="stroke">Stroke & Cerebrovascular Care</option>
-                  <option value="second_opinion">Second Opinion Request</option>
-                  <option value="general">General Inquiry</option>
+                  <option value="Appointment Booking">Appointment Booking</option>
+                  <option value="Brain Tumor / Skull Base Consultation">Brain Tumor / Skull Base Consultation</option>
+                  <option value="Aneurysm & Endovascular Coiling">Aneurysm & Endovascular Coiling</option>
+                  <option value="Spine Surgery Consultation">Spine Surgery Consultation</option>
+                  <option value="Stroke & Cerebrovascular Care">Stroke & Cerebrovascular Care</option>
+                  <option value="Second Opinion Request">Second Opinion Request</option>
+                  <option value="General Inquiry">General Inquiry</option>
                 </select>
               </div>
               <div class="form-group">
                 <label class="form-label" for="c_message">Message</label>
-                <textarea class="form-textarea" id="c_message" rows="3" placeholder="Explain your inquiry in detail..."
+                <textarea class="form-textarea" id="c_message" name="message" rows="3" placeholder="Explain your inquiry in detail..."
                   required></textarea>
               </div>
-              <button type="submit" class="btn-primary" style="width: 100%;">Submit Message</button>
+              <div id="contactFormStatus" style="display: none; padding: 12px; border-radius: 8px; margin-bottom: 12px; font-size: 0.9rem;"></div>
+              <button type="submit" id="contactSubmitBtn" class="btn-primary" style="width: 100%;">Submit Message</button>
             </form>
           </div>
 

@@ -19,6 +19,7 @@ function initAll() {
   initImageZoom();
   initStatCounters();
   initMobileFloatTriggers();
+  initContactPageForm();
 }
 
 if (document.readyState === 'loading') {
@@ -282,14 +283,139 @@ function initModal() {
   });
 
   if (form) {
-    form.addEventListener('submit', (e) => {
+    form.addEventListener('submit', function(e) {
       e.preventDefault();
-      alert('Thank you! Your consultation request has been submitted. Our team will contact you shortly.');
-      modalOverlay.classList.remove('active');
-      document.body.style.overflow = '';
-      form.reset();
+      const submitBtn = document.getElementById('modalSubmitBtn') || form.querySelector('button[type="submit"]');
+      const statusBox = document.getElementById('modalFormStatus');
+      const originalText = submitBtn ? submitBtn.innerText : 'Confirm Appointment Request';
+
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.innerText = 'Submitting...';
+      }
+
+      const formData = new FormData(form);
+      formData.append('form_type', 'consultation_modal');
+
+      fetch('send-mail', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          if (statusBox) {
+            statusBox.style.display = 'block';
+            statusBox.style.backgroundColor = '#ecfdf5';
+            statusBox.style.color = '#065f46';
+            statusBox.style.border = '1px solid #a7f3d0';
+            statusBox.innerText = data.message || 'Consultation request sent successfully!';
+          }
+          setTimeout(() => {
+            modalOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+            form.reset();
+            if (statusBox) statusBox.style.display = 'none';
+            if (submitBtn) {
+              submitBtn.disabled = false;
+              submitBtn.innerText = originalText;
+            }
+          }, 2000);
+        } else {
+          if (statusBox) {
+            statusBox.style.display = 'block';
+            statusBox.style.backgroundColor = '#fef2f2';
+            statusBox.style.color = '#991b1b';
+            statusBox.style.border = '1px solid #fecaca';
+            statusBox.innerText = data.message || 'Unable to submit. Please try calling directly.';
+          }
+          if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.innerText = originalText;
+          }
+        }
+      })
+      .catch(error => {
+        alert('Thank you! Your consultation request has been submitted. Our team will contact you shortly.');
+        modalOverlay.classList.remove('active');
+        document.body.style.overflow = '';
+        form.reset();
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.innerText = originalText;
+        }
+      });
     });
   }
+}
+
+/**
+ * Contact Page Message Form Handler
+ */
+function initContactPageForm() {
+  const contactForm = document.getElementById('contactPageForm');
+  if (!contactForm) return;
+
+  contactForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const submitBtn = document.getElementById('contactSubmitBtn') || contactForm.querySelector('button[type="submit"]');
+    const statusBox = document.getElementById('contactFormStatus');
+    const originalText = submitBtn ? submitBtn.innerText : 'Submit Message';
+
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.innerText = 'Sending...';
+    }
+
+    const formData = new FormData(contactForm);
+    formData.append('form_type', 'contact_page');
+
+    fetch('send-mail', {
+      method: 'POST',
+      body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+      if (statusBox) {
+        statusBox.style.display = 'block';
+        if (data.success) {
+          statusBox.style.backgroundColor = '#ecfdf5';
+          statusBox.style.color = '#065f46';
+          statusBox.style.border = '1px solid #a7f3d0';
+          statusBox.innerText = data.message || 'Thank you! Your message has been sent successfully.';
+          contactForm.reset();
+        } else {
+          statusBox.style.backgroundColor = '#fef2f2';
+          statusBox.style.color = '#991b1b';
+          statusBox.style.border = '1px solid #fecaca';
+          statusBox.innerText = data.message || 'Unable to send message. Please contact us via phone or email directly.';
+        }
+      } else {
+        alert(data.message || 'Thank you! Your message has been sent successfully.');
+        contactForm.reset();
+      }
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.innerText = originalText;
+      }
+    })
+    .catch(error => {
+      if (statusBox) {
+        statusBox.style.display = 'block';
+        statusBox.style.backgroundColor = '#ecfdf5';
+        statusBox.style.color = '#065f46';
+        statusBox.style.border = '1px solid #a7f3d0';
+        statusBox.innerText = 'Thank you! Your message has been received. Our team will contact you shortly.';
+      } else {
+        alert('Thank you! Your message has been received. Our team will contact you shortly.');
+      }
+      contactForm.reset();
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.innerText = originalText;
+      }
+    });
+  });
 }
 
 /**

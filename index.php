@@ -567,30 +567,31 @@
       <p class="modal-subtitle">Schedule an appointment with Dr. Rajesh Reddy Sannareddy</p>
 
       <form id="consultationForm">
+        <input type="text" name="website" style="display:none;" tabindex="-1" autocomplete="off">
         <div class="form-group">
           <label for="patientName" class="form-label">Full Name</label>
-          <input type="text" id="patientName" class="form-input" placeholder="e.g. Rahul Sharma" required>
+          <input type="text" id="patientName" name="name" class="form-input" placeholder="e.g. Rahul Sharma" required>
         </div>
         <div class="form-group">
           <label for="patientPhone" class="form-label">Phone Number</label>
-          <input type="tel" id="patientPhone" class="form-input" placeholder="+91 98765 43210" required>
+          <input type="tel" id="patientPhone" name="phone" class="form-input" placeholder="+91 98765 43210" required>
         </div>
         <div class="form-group">
           <label for="treatmentType" class="form-label">Treatment Specialty</label>
-          <select id="treatmentType" class="form-select">
-            <option value="brain">Brain Tumor Surgery</option>
-            <option value="spine">Minimally Invasive Spine</option>
-            <option value="neurovascular">Neurovascular & Stroke</option>
-            <option value="endoscopic">Endoscopic Surgery</option>
-            <option value="other">General Consultation</option>
+          <select id="treatmentType" name="specialty" class="form-select">
+            <option value="Brain Tumor Surgery">Brain Tumor Surgery</option>
+            <option value="Minimally Invasive Spine">Minimally Invasive Spine</option>
+            <option value="Neurovascular & Stroke">Neurovascular & Stroke</option>
+            <option value="Endoscopic Surgery">Endoscopic Surgery</option>
+            <option value="General Consultation">General Consultation</option>
           </select>
         </div>
         <div class="form-group">
           <label for="preferredDate" class="form-label">Preferred Date</label>
-          <input type="date" id="preferredDate" class="form-input" required>
+          <input type="date" id="preferredDate" name="preferred_date" class="form-input" required>
         </div>
-        <button type="submit" class="btn-primary" style="width: 100%; margin-top: 0.5rem;">Confirm Appointment
-          Request</button>
+        <div id="modalFormStatus" style="display: none; padding: 10px; border-radius: 8px; margin-bottom: 10px; font-size: 0.88rem;"></div>
+        <button type="submit" id="modalSubmitBtn" class="btn-primary" style="width: 100%; margin-top: 0.5rem;">Confirm Appointment Request</button>
       </form>
     </div>
   </div>
