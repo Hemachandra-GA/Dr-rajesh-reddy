@@ -1,0 +1,48 @@
+# Google Search Console Disavow File for drrajeshreddy.com
+# Generated: November 25, 2026
+# Purpose: Disavow toxic, scraper, and low-quality automated "domain report / SEO stats" backlinks
+# Format: Use 'domain:example.com' to disavow all links from that domain.
+#
+# Instructions:
+# 1. Open Google Search Console: https://search.google.com/search-console/disavow-links
+# 2. Select Property: https://drrajeshreddy.com/
+# 3. Upload this disavow.txt file.
+
+# Automated "domain statistics" and scraper networks
+domain:siteindices.com
+domain:cutestat.com
+domain:websiterating.com
+domain:hypestat.com
+domain:webstatsdomain.org
+domain:statscrop.com
+domain:semrushbot.info
+domain:whoisdomain.org
+domain:worthofweb.com
+domain:websiteinformer.com
+domain:siterip.com
+domain:domainwiki.org
+domain:topalternatives.com
+domain:urlrate.net
+domain:domainhacks.org
+domain:trafficestimate.org
+domain:sitestatistics.net
+domain:rankw.org
+domain:statshow.com
+domain:webstatschecker.com
+
+# Scraper & Aggregator directory spam
+domain:directory-bot.com
+domain:free-backlinks-seo.info
+domain:fast-ranker-tools.xyz
+domain:automated-seo-reports.biz
+domain:web-directory-rank.top
+domain:domain-lookup-indexer.online
+domain:seo-backlink-cloud.com
+domain:link-vault-indexer.cc
+
+# Recommended White-Hat Link Building Targets (Do NOT disavow):
+# - Medicover Hospital official doctor profile (medicoverhospitals.in)
+# - Google Business Profile listing & citations
+# - Verified medical directories: Practo, Justdial, Lybrate, Sehat, Credihealth
+# - Telangana Medical Council / NMC registry listings
+# - Medical journal publications and verified press releases

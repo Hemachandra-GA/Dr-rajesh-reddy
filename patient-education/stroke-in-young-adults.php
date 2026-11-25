@@ -4,6 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stroke in Young Adults: Impact of Stress and Mental Health | Dr. Rajesh Reddy</title>
+  <link rel="canonical" href="https://drrajeshreddy.com/patient-education/stroke-in-young-adults">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://drrajeshreddy.com/patient-education/stroke-in-young-adults">
+  <meta property="og:title" content="Stroke in Young Adults: Impact of Stress and Mental Health | Dr. Rajesh Reddy">
+  <meta property="og:description" content="Explore how stress, anxiety, and depression influence stroke risk in young adults under 50. Clinical guidance and prevention strategies by Dr. Rajesh Reddy.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/logo.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/patient-education/stroke-in-young-adults">
+  <meta name="twitter:title" content="Stroke in Young Adults: Impact of Stress and Mental Health | Dr. Rajesh Reddy">
+  <meta name="twitter:description" content="Explore how stress, anxiety, and depression influence stroke risk in young adults under 50. Clinical guidance and prevention strategies by Dr. Rajesh Reddy.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/logo.webp">
+
     
     <meta name="description" content="Explore how stress, anxiety, and depression influence stroke risk in young adults under 50. Clinical guidance and prevention strategies by Dr. Rajesh Reddy.">
     <meta name="keywords" content="stroke in young adults, stress young adult stroke risk, causes of stroke under 50, early age stroke symptoms">
@@ -324,6 +341,14 @@
 
     gtag('config', 'G-Q90BC8GWVR');
   </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
+  </script>
 </head>
 <body>
 
@@ -335,9 +360,9 @@
         
         <!-- Breadcrumb -->
         <div class="breadcrumb">
-            <a href="../patient-education.php">Patient Education</a>
+            <a href="../patient-education">Patient Education</a>
             <span>/</span>
-            <a href="../patient-education.php">Brain & Stroke Care</a>
+            <a href="../patient-education">Brain & Stroke Care</a>
             <span>/</span>
             <span>Stroke in Young Adults</span>
         </div>
@@ -409,11 +434,11 @@
             <!-- Sidebar Column -->
             <aside style="position: sticky; top: 80px; align-self: start;">
                 
-                <!-- HELPLINE Widget -->
+                <!-- Emergency Assistance Widget -->
                 <div class="sidebar-widget sidebar-emergency">
-                    <h4>HELPLINE</h4>
+                    <h4>EMERGENCY ASSISTANCE</h4>
                     <p class="emergency-desc">If you or a family member is showing signs of a stroke, do not wait. Contact our clinical help desk immediately:</p>
-                    <a href="tel:09000224265" class="btn-sidebar-call">
+                    <a href="tel:08520052229" class="btn-sidebar-call">
                         <span>📞 Call Help Desk</span>
                     </a>
                 </div>
@@ -437,7 +462,7 @@
                             <span class="sidebar-stat-label">PAPERS</span>
                         </div>
                     </div>
-                    <a href="tel:09000224265" class="btn-sidebar-helpline">📞 Call Helpline</a>
+                    <a href="tel:08520052229" class="btn-sidebar-helpline">📞 Call Help Desk</a>
                 </div>
             </aside>
             

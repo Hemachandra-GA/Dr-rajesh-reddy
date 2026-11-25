@@ -50,8 +50,7 @@ if (!isset($path_prefix)) {
     <div class="footer-grid">
       <!-- Brand & Info -->
       <div class="footer-brand" style="padding-right: 2rem;">
-        <img src="<?= $path_prefix ?>images/Logo.svg" alt="Dr. Rajesh Reddy Neurosurgery" class="logo-img"
-          style="height: 65px; margin-bottom: 0.5rem;" onerror="this.src='<?= $path_prefix ?>images/logo-icon.webp';">
+        <img src="<?= $path_prefix ?>images/Logo.svg" alt="Dr. Rajesh Reddy Neurosurgery" class="logo-img" width="220" height="52">
         <p style="font-size: 0.8rem; color: #525252; margin-bottom: 0;">Medicover Hospital - Financial District</p>
         <p style="font-size: 0.8rem; color: #525252; margin-bottom: 1rem;">Hyderabad, Telangana 500032</p>
 
@@ -155,7 +154,7 @@ if (!isset($path_prefix)) {
       <div>
         <h4 class="footer-heading" style="font-size: 0.9rem; margin-bottom: 1rem;">Contact</h4>
         <ul class="footer-links" style="font-size: 0.8rem;">
-          <li><a href="tel:09000224265" style="color: #525252;">For appointments - 9000224265</a></li>
+          <li><a href="tel:08520052229" style="color: #525252;">For appointments - 8520052229</a></li>
           <li><a href="mailto:info@drrajeshreddy.com" style="color: #525252;">info@drrajeshreddy.com</a>
           </li>
           <li><a href="<?= $path_prefix ?>contact" style="color: #525252;">Book Appointment</a></li>
@@ -166,13 +165,113 @@ if (!isset($path_prefix)) {
     <!-- Bottom Footer Bar -->
     <div class="footer-bottom"
       style="border-top: 1px solid #d4d4d4; padding-top: 1rem; color: #737373; font-size: 0.75rem;">
-      <p>Copyright © 2026 Dr. Rajesh Reddy. All rights reserved.</p>
+      <p>Copyright © 2026 Dr. Rajesh Reddy. All rights reserved. | Designed &amp; Developed by <a href="http://gadigitalsolutions.com/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">GA Digital Solutions</a></p>
       <div class="footer-bottom-links">
         <a href="<?= $path_prefix ?>privacy">Privacy Policy</a> |
         <a href="<?= $path_prefix ?>terms">Terms of Use</a>
       </div>
     </div>
   </div>
+
+<!-- GLOBAL CONSULTATION & AFTER-HOURS CALLBACK MODAL -->
+<div class="modal-overlay" id="consultationModal" style="display: none; align-items: center; justify-content: center;">
+  <div class="modal-content" style="max-height: 90vh; overflow-y: auto;">
+    <button class="modal-close" id="closeModal" aria-label="Close Modal">&times;</button>
+    <h3 class="modal-title" style="font-size: 1.5rem; font-weight: 700; color: #1d1d1f; margin-bottom: 4px;">Book Consultation</h3>
+    <p class="modal-subtitle" style="font-size: 0.9rem; color: #64748b; margin-bottom: 1rem;">Schedule an appointment or request an after-hours callback</p>
+
+    <!-- WhatsApp Quick Connect Pill -->
+    <div style="background-color: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 10px; padding: 10px 14px; margin-bottom: 1.25rem; display: flex; align-items: center; justify-content: space-between; gap: 10px;">
+      <div style="font-size: 0.85rem; color: #166534; line-height: 1.3;">
+        <strong>Need immediate response?</strong><br>Connect on WhatsApp.
+      </div>
+      <a href="https://wa.me/918520052229?text=Hello%20Dr.%20Rajesh%20Reddy%27s%20Clinic%2C%20I%20would%20like%20to%20inquire%20about%20a%20consultation." target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; background-color: #25D366; color: #ffffff !important; font-size: 0.82rem; font-weight: 600; padding: 6px 14px; border-radius: 999px; text-decoration: none; white-space: nowrap;">
+        <i class="fa-brands fa-whatsapp"></i> Chat Now
+      </a>
+    </div>
+
+    <form id="consultationForm">
+      <input type="text" name="website" style="display:none;" tabindex="-1" autocomplete="off">
+      <div class="form-group" style="margin-bottom: 0.85rem;">
+        <label for="patientName" class="form-label" style="display: block; font-size: 0.85rem; font-weight: 600; color: #334155; margin-bottom: 4px;">Full Name *</label>
+        <input type="text" id="patientName" name="name" class="form-input" placeholder="e.g. Rahul Sharma" required style="width: 100%; padding: 10px 14px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 0.95rem;">
+      </div>
+      <div class="form-group" style="margin-bottom: 0.85rem;">
+        <label for="patientPhone" class="form-label" style="display: block; font-size: 0.85rem; font-weight: 600; color: #334155; margin-bottom: 4px;">Phone Number *</label>
+        <input type="tel" id="patientPhone" name="phone" class="form-input" placeholder="+91 85200 52229" required style="width: 100%; padding: 10px 14px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 0.95rem;">
+      </div>
+      <div class="form-group" style="margin-bottom: 0.85rem;">
+        <label for="treatmentType" class="form-label" style="display: block; font-size: 0.85rem; font-weight: 600; color: #334155; margin-bottom: 4px;">Treatment Specialty</label>
+        <select id="treatmentType" name="specialty" class="form-select" style="width: 100%; padding: 10px 14px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 0.95rem; background-color: #fff;">
+          <option value="Brain Tumor Surgery">Brain Tumor Surgery / Awake Craniotomy</option>
+          <option value="Minimally Invasive Spine">Minimally Invasive Spine / Fracture</option>
+          <option value="Neurovascular & Stroke">Aneurysm / Stroke / AVM Coiling</option>
+          <option value="General Neurosurgery Consultation">General Consultation / Second Opinion</option>
+        </select>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 0.85rem;">
+        <div class="form-group">
+          <label for="preferredDate" class="form-label" style="display: block; font-size: 0.85rem; font-weight: 600; color: #334155; margin-bottom: 4px;">Preferred Date</label>
+          <input type="date" id="preferredDate" name="preferred_date" class="form-input" style="width: 100%; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 0.9rem;">
+        </div>
+        <div class="form-group">
+          <label for="callbackTime" class="form-label" style="display: block; font-size: 0.85rem; font-weight: 600; color: #334155; margin-bottom: 4px;">Callback Window</label>
+          <select id="callbackTime" name="callback_time" class="form-select" style="width: 100%; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 0.9rem; background-color: #fff;">
+            <option value="Anytime">Anytime</option>
+            <option value="Morning (10 AM - 1 PM)">Morning (10 AM - 1 PM)</option>
+            <option value="Afternoon (1 PM - 4 PM)">Afternoon (1 PM - 4 PM)</option>
+            <option value="After-Hours (4 PM - 8 PM)">After-Hours (4 PM - 8 PM)</option>
+          </select>
+        </div>
+      </div>
+      <div id="modalFormStatus" style="display: none; padding: 10px; border-radius: 8px; margin-bottom: 10px; font-size: 0.88rem;"></div>
+      <button type="submit" id="modalSubmitBtn" class="btn-primary" style="width: 100%; margin-top: 0.5rem; border-radius: 999px; padding: 0.75rem 1.5rem; font-weight: 600;">Confirm Request</button>
+      <p style="font-size: 0.75rem; color: #94a3b8; text-align: center; margin-top: 8px; margin-bottom: 0;">Our clinical desk will call you back during hours or first thing next morning.</p>
+    </form>
+  </div>
+</div>
+
+
+
+
+
+<!-- DESKTOP & MOBILE FLOATING WHATSAPP BUTTON (BOTTOM-LEFT) -->
+<a href="https://wa.me/918520052229?text=Hello%20Dr.%20Rajesh%20Reddy%27s%20Clinic%2C%20I%20would%20like%20to%20inquire%20about%20a%20consultation." target="_blank" rel="noopener noreferrer" class="desktop-floating-whatsapp" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+  <span class="floating-wa-label">WhatsApp</span>
+</a>
+
+<!-- GLOBAL MOBILE NEED GUIDANCE TRIGGER (for non-pillar pages) -->
+<div class="global-mobile-float-trigger" id="globalMobileFloatTrigger">
+  <button type="button" class="mobile-float-btn float-right" id="globalNeedGuidanceBtn" aria-label="Need Guidance">
+    <i class="fa-solid fa-headset"></i>
+    <span>Need Guidance?</span>
+  </button>
+</div>
+
+<!-- GLOBAL GUIDANCE DRAWER -->
+<div class="global-guidance-drawer" id="globalGuidanceDrawer">
+  <div class="guidance-card">
+    <div class="mobile-drawer-header">
+      <h3 class="mobile-drawer-title">Need Guidance?</h3>
+      <button class="mobile-drawer-close" id="globalGuidanceClose" aria-label="Close">&times;</button>
+    </div>
+    <h3>Need Guidance?</h3>
+    <p>Contact our clinic coordinators immediately for appointment scheduling, second opinions, or emergency care.</p>
+    <a href="tel:08520052229" class="guidance-phone"><i class="fa-solid fa-phone"></i> 8520052229</a>
+    <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 14px;">
+      <a href="https://wa.me/918520052229?text=Hello%20Dr.%20Rajesh%20Reddy%27s%20Clinic%2C%20I%20would%20like%20to%20inquire%20about%20a%20consultation." target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; justify-content: center; gap: 8px; background-color: #25D366; color: #ffffff; padding: 12px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.95rem; box-shadow: 0 4px 12px rgba(37,211,102,0.3);">
+        <i class="fa-brands fa-whatsapp" style="font-size: 1.25rem;"></i> Chat on WhatsApp
+      </a>
+      <a href="<?= $path_prefix ?>contact" class="guidance-btn" style="display: flex; align-items: center; justify-content: center; gap: 8px; background-color: #0066cc; color: #ffffff; padding: 12px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.95rem;">
+        <i class="fa-solid fa-calendar-check"></i> Book Appointment
+      </a>
+    </div>
+    <p style="font-size: 0.75rem; color: #94a3b8; margin-top: 14px; margin-bottom: 0; text-align: center;">Clinic OPD Hours: Mon – Sat, 10:00 AM – 4:00 PM</p>
+  </div>
+</div>
+<div id="globalGuidanceOverlay" class="mobile-float-overlay"></div>
+
 </footer>
 <script src="<?= $path_prefix ?>js/main.js?v=<?= time() ?>" defer></script>
 

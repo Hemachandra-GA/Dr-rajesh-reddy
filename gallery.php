@@ -12,6 +12,23 @@ $page_title = "Gallery | Dr. Rajesh Reddy";
   <meta name="keywords"
     content="Dr Rajesh Reddy gallery, neurosurgery clinic photos, neurosurgeon events, surgical milestones Hyderabad, Dr Rajesh Reddy achievements">
   <title><?php echo $page_title; ?></title>
+  <link rel="canonical" href="https://drrajeshreddy.com/gallery">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/gallery">
+  <meta property="og:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta property="og:description" content="Gallery of Dr. Rajesh Reddy Sannareddy - Snapshots of clinical excellence and milestones.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/logo.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/gallery">
+  <meta name="twitter:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta name="twitter:description" content="Gallery of Dr. Rajesh Reddy Sannareddy - Snapshots of clinical excellence and milestones.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/logo.webp">
+
     <!-- Preconnect to Font domains -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,6 +49,14 @@ $page_title = "Gallery | Dr. Rajesh Reddy";
     gtag('js', new Date());
 
     gtag('config', 'G-Q90BC8GWVR');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
   </script>
 </head>
 
@@ -122,11 +147,11 @@ $page_title = "Gallery | Dr. Rajesh Reddy";
           <p class="app-subtitle" style="font-size: 1.25rem; font-weight: 400; margin-bottom: 2rem; color: #fff;">Manage appointments and medical reports seamlessly.</p>
 
           <div class="app-store-btns" style="display: flex; gap: 1rem;">
-            <a href="#" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <a href="https://apps.apple.com/in/app/dr-reddys-neuro-care/id6753586620" target="_blank" rel="noopener noreferrer" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
               <i class="fa-brands fa-app-store-ios" style="color: #0066cc; font-size: 1.25rem;"></i>
               Download on App Store
             </a>
-            <a href="#" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <a href="https://play.google.com/store/apps/details?id=com.docterz.connect.drreddysneurocare" target="_blank" rel="noopener noreferrer" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
               <i class="fa-brands fa-google-play" style="color: #1d1d1f; font-size: 1.25rem;"></i>
               Get it on Google Play
             </a>

@@ -4,6 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cognitive Decline vs. Normal Aging: Key Differences | Dr. Rajesh Reddy</title>
+  <link rel="canonical" href="https://drrajeshreddy.com/patient-education/cognitive-decline-vs-normal-aging">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://drrajeshreddy.com/patient-education/cognitive-decline-vs-normal-aging">
+  <meta property="og:title" content="Cognitive Decline vs. Normal Aging: Key Differences | Dr. Rajesh Reddy">
+  <meta property="og:description" content="Learn the key differences between normal cognitive aging, mild cognitive impairment (MCI), and dementia by Dr. Rajesh Reddy Sannareddy. Discover warning signs and tips for brain health.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/logo.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/patient-education/cognitive-decline-vs-normal-aging">
+  <meta name="twitter:title" content="Cognitive Decline vs. Normal Aging: Key Differences | Dr. Rajesh Reddy">
+  <meta name="twitter:description" content="Learn the key differences between normal cognitive aging, mild cognitive impairment (MCI), and dementia by Dr. Rajesh Reddy Sannareddy. Discover warning signs and tips for brain health.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/logo.webp">
+
     
     <meta name="description" content="Learn the key differences between normal cognitive aging, mild cognitive impairment (MCI), and dementia by Dr. Rajesh Reddy Sannareddy. Discover warning signs and tips for brain health.">
     <meta name="keywords" content="cognitive decline vs normal aging, mild cognitive impairment symptoms, dementia warning signs, memory loss vs aging">
@@ -328,6 +345,14 @@
 
     gtag('config', 'G-Q90BC8GWVR');
   </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
+  </script>
 </head>
 <body>
 
@@ -339,9 +364,9 @@
         
         <!-- Breadcrumb -->
         <div class="breadcrumb">
-            <a href="../patient-education.php">Patient Education</a>
+            <a href="../patient-education">Patient Education</a>
             <span>/</span>
-            <a href="../patient-education.php">Brain Care</a>
+            <a href="../patient-education">Brain Care</a>
             <span>/</span>
             <span>Cognitive Decline vs. Normal Aging</span>
         </div>
@@ -474,11 +499,11 @@
             <!-- Sidebar Column -->
             <aside style="position: sticky; top: 80px; align-self: start;">
                 
-                <!-- HELPLINE Widget -->
+                <!-- Emergency Assistance Widget -->
                 <div class="sidebar-widget sidebar-emergency">
-                    <h4>HELPLINE</h4>
+                    <h4>EMERGENCY ASSISTANCE</h4>
                     <p class="emergency-desc">If experiencing sudden cognitive decline, severe confusion, or acute neurological symptoms, call immediately:</p>
-                    <a href="tel:09000224265" class="btn-sidebar-call">
+                    <a href="tel:08520052229" class="btn-sidebar-call">
                         <span>📞 Call Help Desk</span>
                     </a>
                 </div>
@@ -502,7 +527,7 @@
                             <span class="sidebar-stat-label">PAPERS</span>
                         </div>
                     </div>
-                    <a href="tel:09000224265" class="btn-sidebar-helpline">📞 Call Helpline</a>
+                    <a href="tel:08520052229" class="btn-sidebar-helpline">📞 Call Help Desk</a>
                 </div>
             </aside>
             

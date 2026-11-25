@@ -32,6 +32,7 @@ if ($formType === 'consultation_modal') {
     $phone = trim(filter_input(INPUT_POST, 'phone', FILTER_SANITIZE_SPECIAL_CHARS) ?? '');
     $specialty = trim(filter_input(INPUT_POST, 'specialty', FILTER_SANITIZE_SPECIAL_CHARS) ?? 'General');
     $preferredDate = trim(filter_input(INPUT_POST, 'preferred_date', FILTER_SANITIZE_SPECIAL_CHARS) ?? '');
+    $callbackTime = trim(filter_input(INPUT_POST, 'callback_time', FILTER_SANITIZE_SPECIAL_CHARS) ?? 'Anytime');
     $email = trim(filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL) ?? '');
 
     if (empty($name) || empty($phone)) {
@@ -51,6 +52,7 @@ if ($formType === 'consultation_modal') {
     }
     $body .= "Treatment Specialty: {$specialty}\n";
     $body .= "Preferred Date:      {$preferredDate}\n";
+    $body .= "Callback Window:     {$callbackTime}\n";
     $body .= "Submission Time:     " . date('Y-m-d H:i:s') . "\n";
     $body .= "IP Address:          " . ($_SERVER['REMOTE_ADDR'] ?? 'Unknown') . "\n";
     $body .= "--------------------------------------------------------\n";

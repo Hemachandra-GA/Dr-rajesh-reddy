@@ -12,6 +12,21 @@ $page_title = "Cervical Spine Fracture Treatment: C1–C7 Injuries | Dr. Rajesh 
   <meta name="keywords"
     content="cervical spine fracture treatment, neck fracture surgery Hyderabad, C2 odontoid fracture, ACDF cervical fracture, cervical spine injury neurosurgeon, C1 Jefferson fracture, atlantoaxial instability">
   <link rel="canonical" href="https://drrajeshreddy.com/cervical-spine-fracture-treatment">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/cervical-spine-fracture-treatment">
+  <meta property="og:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta property="og:description" content="Expert cervical spine fracture treatment in Hyderabad by Dr. Rajesh Reddy — odontoid fractures, Jefferson fractures, hangman's fractures, burst fractures, and fracture-dislocations. Emergency and elective surgical care.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/cervical-spine-fracture-treatment/Spine Fracture Treatment_hero.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/cervical-spine-fracture-treatment">
+  <meta name="twitter:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta name="twitter:description" content="Expert cervical spine fracture treatment in Hyderabad by Dr. Rajesh Reddy — odontoid fractures, Jefferson fractures, hangman's fractures, burst fractures, and fracture-dislocations. Emergency and elective surgical care.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/cervical-spine-fracture-treatment/Spine Fracture Treatment_hero.webp">
   <title><?php echo $page_title; ?></title>
 
   <!-- Global Stylesheet -->
@@ -112,6 +127,14 @@ $page_title = "Cervical Spine Fracture Treatment: C1–C7 Injuries | Dr. Rajesh 
     gtag('js', new Date());
 
     gtag('config', 'G-Q90BC8GWVR');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
   </script>
 </head>
 
@@ -479,7 +502,7 @@ $page_title = "Cervical Spine Fracture Treatment: C1–C7 Injuries | Dr. Rajesh 
             <div style="background:#f4f8fc; border-radius:12px; padding:24px; margin-top:32px;">
               <h3 style="margin-top:0; color:#0066cc;">Emergency or Elective: Consult Dr. Rajesh Reddy for Cervical Spine Fracture</h3>
               <p style="margin-bottom:16px;">Whether you have sustained a recent cervical fracture and need emergency assessment, or have been told you have an unstable cervical injury and are seeking expert neurosurgical opinion — Dr. Rajesh Reddy Sannareddy provides comprehensive cervical spine consultations.</p>
-              <p style="margin-bottom:0; font-weight:600;">For emergencies, call 9000224265. For elective consultations, book via the Dr. Reddy's Neuro Care app on Google Play.</p>
+              <p style="margin-bottom:0; font-weight:600;">For emergencies, call 8520052229. For elective consultations, book via the Dr. Reddy's Neuro Care app on Google Play.</p>
             </div>
           </section>
 
@@ -534,7 +557,7 @@ $page_title = "Cervical Spine Fracture Treatment: C1–C7 Injuries | Dr. Rajesh 
             </div>
             <h3>Need Guidance?</h3>
             <p>Contact our clinic coordinators immediately for appointment scheduling, second opinions, or emergency details.</p>
-            <a href="tel:09000224265" class="guidance-phone">9000224265</a>
+            <a href="tel:08520052229" class="guidance-phone">8520052229</a>
             <a href="contact" class="guidance-btn">Book Appointment</a>
           </div>
         </aside>

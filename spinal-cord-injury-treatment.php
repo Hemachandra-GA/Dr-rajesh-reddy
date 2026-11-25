@@ -20,6 +20,14 @@ $page_description = "Comprehensive guide to spinal cord injury treatment, ASIA g
   <meta property="og:url" content="https://drrajeshreddy.com/spinal-cord-injury-treatment">
   <meta property="og:type" content="article">
   <meta property="og:image" content="https://drrajeshreddy.com/images/spinal-cord-injury/Spinal Cord Injury.webp">
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/spinal-cord-injury-treatment">
+  <meta name="twitter:title" content="<?= $page_title ?>">
+  <meta name="twitter:description" content="<?= $page_description ?>">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/spinal-cord-injury/Spinal Cord Injury.webp">
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -84,7 +92,7 @@ $page_description = "Comprehensive guide to spinal cord injury treatment, ASIA g
         "jobTitle": "Senior Consultant Neurosurgeon",
         "url": "https://drrajeshreddy.com/profile",
         "medicalSpecialty": ["Neurosurgery", "Spine Surgery", "Neurotrauma"],
-        "telephone": "+91-9000224265",
+        "telephone": "+91-8520052229",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Hyderabad",
@@ -158,6 +166,14 @@ $page_description = "Comprehensive guide to spinal cord injury treatment, ASIA g
     gtag('js', new Date());
 
     gtag('config', 'G-Q90BC8GWVR');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
   </script>
 </head>
 
@@ -628,10 +644,10 @@ $page_description = "Comprehensive guide to spinal cord injury treatment, ASIA g
           <!-- Section 12: Consultation in Hyderabad -->
           <section id="consultation" class="pillar-section" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 32px; margin-top: 40px;">
             <h2 style="margin-top: 0;">Consult Dr. Rajesh Reddy for Spinal Cord Injury Management in Hyderabad</h2>
-            <p>Whether you are seeking emergency consultation for an acute spinal cord injury, a second opinion on surgical management, or guidance on rehabilitation planning, Dr. Rajesh Reddy Sannareddy provides comprehensive spinal cord injury consultations in Hyderabad. Book via the Dr. Reddy's Neuro Care app on Google Play or call 9000224265.</p>
+            <p>Whether you are seeking emergency consultation for an acute spinal cord injury, a second opinion on surgical management, or guidance on rehabilitation planning, Dr. Rajesh Reddy Sannareddy provides comprehensive spinal cord injury consultations in Hyderabad. Book via the Dr. Reddy's Neuro Care app on Google Play or call 8520052229.</p>
             <div style="display: flex; gap: 16px; flex-wrap: wrap; margin-top: 24px;">
               <a href="contact" class="btn-primary" style="padding: 10px 24px; font-weight: 600;">Book Spine Consultation</a>
-              <a href="tel:09000224265" class="btn-outline" style="padding: 10px 24px; font-weight: 600;">Call 9000224265</a>
+              <a href="tel:08520052229" class="btn-outline" style="padding: 10px 24px; font-weight: 600;">Call 8520052229</a>
             </div>
           </section>
 
@@ -689,7 +705,7 @@ $page_description = "Comprehensive guide to spinal cord injury treatment, ASIA g
             </div>
             <h3>Need Guidance?</h3>
             <p>Contact our clinic coordinators immediately for appointment scheduling, emergency spine care, or second opinions.</p>
-            <a href="tel:09000224265" class="guidance-phone">9000224265</a>
+            <a href="tel:08520052229" class="guidance-phone">8520052229</a>
             <a href="contact" class="guidance-btn">Book Appointment</a>
           </div>
         </aside>

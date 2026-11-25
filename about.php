@@ -8,8 +8,23 @@ $page_title = "Dr. Rajesh Reddy Sannareddy | Brain, Spine and Endovascular Neuro
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Dr. Rajesh Reddy Sannareddy — JIPMER Gold Medalist, NIMS Exam Topper, FINR Zurich. Senior Consultant Neurosurgeon in Hyderabad specialising in brain tumor surgery, aneurysm coiling, spine surgery, and stroke treatment. 5,000+ procedures.">
-  <meta name="keywords" content="neurosurgeon Hyderabad, brain surgeon Hyderabad, interventional neuroradiologist Hyderabad, aneurysm specialist Hyderabad, best neurosurgeon Hyderabad, Dr Rajesh Reddy Sannareddy">
+  <meta name="keywords" content="neurosurgeon Hyderabad, brain surgeon Hyderabad, interventional neuroradiologist Hyderabad, aneurysm specialist Hyderabad, Dr Rajesh Reddy Sannareddy">
   <link rel="canonical" href="https://drrajeshreddy.com/profile">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/about">
+  <meta property="og:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta property="og:description" content="Dr. Rajesh Reddy Sannareddy — JIPMER Gold Medalist, NIMS Exam Topper, FINR Zurich. Senior Consultant Neurosurgeon in Hyderabad specialising in brain tumor surgery, aneurysm coiling, spine surgery, and stroke treatment. 5,000+ procedures.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/logo.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/about">
+  <meta name="twitter:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta name="twitter:description" content="Dr. Rajesh Reddy Sannareddy — JIPMER Gold Medalist, NIMS Exam Topper, FINR Zurich. Senior Consultant Neurosurgeon in Hyderabad specialising in brain tumor surgery, aneurysm coiling, spine surgery, and stroke treatment. 5,000+ procedures.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/logo.webp">
   <title><?php echo $page_title; ?></title>
     <!-- Preconnect to Font domains -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -117,6 +132,14 @@ $page_title = "Dr. Rajesh Reddy Sannareddy | Brain, Spine and Endovascular Neuro
 
     gtag('config', 'G-Q90BC8GWVR');
   </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
+  </script>
 </head>
 
 <body id="top">
@@ -160,8 +183,8 @@ $page_title = "Dr. Rajesh Reddy Sannareddy | Brain, Spine and Endovascular Neuro
             </div>
           </div>
 
-          <a href="tel:09000224265" class="btn-primary" style="width: 100%; border-radius: 999px; margin-top: 1.25rem; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;">
-            <i class="fa-solid fa-phone"></i> Call Helpline
+          <a href="tel:08520052229" class="btn-primary" style="width: 100%; border-radius: 999px; margin-top: 1.25rem; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;">
+            <i class="fa-solid fa-phone"></i> Call Clinic
           </a>
           <a href="contact.php" class="btn-secondary" style="width: 100%; border-radius: 999px; margin-top: 0.5rem; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.6rem 1rem; font-size: 0.9rem; text-decoration: none; border: 1px solid #0066cc; color: #0066cc;">
             <i class="fa-solid fa-calendar-check"></i> Book Consultation
@@ -685,7 +708,7 @@ $page_title = "Dr. Rajesh Reddy Sannareddy | Brain, Spine and Endovascular Neuro
               </div>
               <div>
                 <p style="font-size: 0.85rem; color: #0066cc; font-weight: 700; text-transform: uppercase; margin-bottom: 4px;">Contact</p>
-                <p style="margin: 0; font-size: 0.9rem; color: #333;"><strong>Phone:</strong> <a href="tel:09000224265" style="color: #0066cc; text-decoration: none;">9000224265</a></p>
+                <p style="margin: 0; font-size: 0.9rem; color: #333;"><strong>Phone:</strong> <a href="tel:08520052229" style="color: #0066cc; text-decoration: none;">8520052229</a></p>
                 <p style="margin: 0; font-size: 0.9rem; color: #333;"><strong>Email:</strong> <a href="mailto:info@drrajeshreddy.com" style="color: #0066cc; text-decoration: none;">info@drrajeshreddy.com</a></p>
               </div>
               <div>
@@ -733,7 +756,7 @@ $page_title = "Dr. Rajesh Reddy Sannareddy | Brain, Spine and Endovascular Neuro
           <p class="app-subtitle" style="font-size: 1.25rem; font-weight: 400; margin-bottom: 2rem; color: #fff;">Book appointments, access reports, and stay connected to your treatment plan — anytime, anywhere.</p>
 
           <div class="app-store-btns" style="display: flex; gap: 1rem;">
-            <a href="#" class="app-badge-btn"
+            <a href="https://apps.apple.com/in/app/dr-reddys-neuro-care/id6753586620" target="_blank" rel="noopener noreferrer" class="app-badge-btn"
               style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
               <i class="fa-brands fa-app-store-ios" style="color: #0066cc; font-size: 1.25rem;"></i>
               Download on the App Store

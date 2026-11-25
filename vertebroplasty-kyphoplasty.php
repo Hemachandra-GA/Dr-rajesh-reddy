@@ -12,6 +12,21 @@ $page_title = "Vertebroplasty and Kyphoplasty for Spinal Compression Fractures i
   <meta name="keywords"
     content="vertebroplasty and kyphoplasty Hyderabad, vertebroplasty for compression fracture, balloon kyphoplasty spine, osteoporotic vertebral fracture treatment, cement injection spine Hyderabad, spinal compression fracture pain relief">
   <link rel="canonical" href="https://drrajeshreddy.com/vertebroplasty-kyphoplasty">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/vertebroplasty-kyphoplasty">
+  <meta property="og:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta property="og:description" content="Severe back pain from a spinal compression fracture? Dr. Rajesh Reddy, Senior Neurosurgeon in Hyderabad, explains vertebroplasty and kyphoplasty — minimally invasive cement procedures that relieve pain and restore vertebral height.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/Vertebroplasty_and_kypthoplasty_treatment/Vertebroplasty_and_kypthoplasty_treatment.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/vertebroplasty-kyphoplasty">
+  <meta name="twitter:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta name="twitter:description" content="Severe back pain from a spinal compression fracture? Dr. Rajesh Reddy, Senior Neurosurgeon in Hyderabad, explains vertebroplasty and kyphoplasty — minimally invasive cement procedures that relieve pain and restore vertebral height.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/Vertebroplasty_and_kypthoplasty_treatment/Vertebroplasty_and_kypthoplasty_treatment.webp">
   <title><?php echo $page_title; ?></title>
 
   <!-- Global Stylesheet -->
@@ -127,6 +142,14 @@ $page_title = "Vertebroplasty and Kyphoplasty for Spinal Compression Fractures i
     gtag('js', new Date());
 
     gtag('config', 'G-Q90BC8GWVR');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
   </script>
 </head>
 
@@ -573,10 +596,10 @@ $page_title = "Vertebroplasty and Kyphoplasty for Spinal Compression Fractures i
           <!-- Section 13: Consultation CTA -->
           <section id="consultation" class="pillar-section" style="background-color: #f8fafc; padding: 32px; border-radius: 16px; border: 1px solid #e2e8f0; margin-top: 32px;">
             <h2 style="margin-top: 0; color: #1e293b;">Consult Dr. Rajesh Reddy for Vertebroplasty and Kyphoplasty in Hyderabad</h2>
-            <p>If you or a family member is suffering from severe back pain following a compression fracture — from osteoporosis, cancer, or other causes — Dr. Rajesh Reddy Sannareddy provides vertebroplasty and kyphoplasty consultations in Hyderabad with same-day or next-day procedure scheduling for appropriate cases. Book via the Dr. Reddy's Neuro Care app on Google Play or call <strong>9000224265</strong>.</p>
+            <p>If you or a family member is suffering from severe back pain following a compression fracture — from osteoporosis, cancer, or other causes — Dr. Rajesh Reddy Sannareddy provides vertebroplasty and kyphoplasty consultations in Hyderabad with same-day or next-day procedure scheduling for appropriate cases. Book via the Dr. Reddy's Neuro Care app on Google Play or call <strong>8520052229</strong>.</p>
             <div style="display: flex; gap: 16px; flex-wrap: wrap; margin-top: 20px;">
               <a href="contact" class="btn-primary" style="padding: 10px 24px; font-weight: 600;">Book Spine Consultation</a>
-              <a href="tel:09000224265" class="btn-outline" style="padding: 10px 24px; font-weight: 600;">Call 9000224265</a>
+              <a href="tel:08520052229" class="btn-outline" style="padding: 10px 24px; font-weight: 600;">Call 8520052229</a>
             </div>
           </section>
 
@@ -634,7 +657,7 @@ $page_title = "Vertebroplasty and Kyphoplasty for Spinal Compression Fractures i
             </div>
             <h3>Need Guidance?</h3>
             <p>Contact our clinic coordinators immediately for appointment scheduling, second opinions, or emergency spine fracture care.</p>
-            <a href="tel:09000224265" class="guidance-phone">9000224265</a>
+            <a href="tel:08520052229" class="guidance-phone">8520052229</a>
             <a href="contact" class="guidance-btn">Book Appointment</a>
           </div>
         </aside>

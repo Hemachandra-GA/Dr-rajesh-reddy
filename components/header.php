@@ -73,7 +73,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
       "description": "Senior Consultant Neurosurgeon with over 15 years of surgical experience across India and abroad. He specializes in microsurgical, endoscopic, and minimally invasive procedures for brain, spine, and neurovascular conditions — using intraoperative navigation and neuro-monitoring to protect function while treating even the most complex cases.",
       "url": "https://drrajeshreddy.com/profile",
       "image": "https://drrajeshreddy.com/images/doctor-portrait.webp",
-      "telephone": "+91-9000224265",
+      "telephone": "+91-8520052229",
       "email": "info@drrajeshreddy.com",
       "hasCredential": [
         {
@@ -150,7 +150,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
       "@id": "https://drrajeshreddy.com/#hospital",
       "name": "Medicover Hospital - Financial District",
       "url": "https://www.medicoverhospitals.in/",
-      "telephone": "+91-9000224265",
+      "telephone": "+91-8520052229",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Medicover Hospital - Financial District",
@@ -198,8 +198,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
         style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
         <picture>
           <source media="(max-width: 991px)" srcset="<?= $path_prefix ?>images/logo-icon.webp">
-          <img src="<?= $path_prefix ?>images/Logo.svg" alt="Dr. Rajesh Reddy Neurosurgery Logo" class="logo-img"
-            width="260" height="60" style="height: 60px; width: auto;" fetchpriority="high">
+          <img src="<?= $path_prefix ?>images/Logo.svg" alt="Dr. Rajesh Reddy Neurosurgery Logo" class="logo-img" width="220" height="52">
         </picture>
       </a>
 
@@ -223,6 +222,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
                   class="fa-solid fa-lightbulb" style="color: #0066cc; width: 20px;"></i> Insights & Expertise</a></li>
             <li class="mobile-only-link"><a href="<?= $path_prefix ?>patient-stories" class="<?= ($current_page === 'patient-stories') ? 'active' : '' ?>"><i class="fa-solid fa-star"
                   style="color: #0066cc; width: 20px;"></i> Patient Stories</a></li>
+            <li class="mobile-only-link"><a href="https://wa.me/918520052229?text=Hello%20Dr.%20Rajesh%20Reddy%27s%20Clinic%2C%20I%20would%20like%20to%20inquire%20about%20a%20consultation." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" style="color: #25D366; width: 20px;"></i> Chat on WhatsApp (24/7)</a></li>
             <li class="mobile-only-link"><a href="<?= $path_prefix ?>gallery" class="<?= ($current_page === 'gallery') ? 'active' : '' ?>"><i class="fa-solid fa-images"
                   style="color: #0066cc; width: 20px;"></i> Gallery</a></li>
 
@@ -306,7 +306,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
                     <div class="mega-cluster-panel active" id="tab-brain-tumor">
                       <div class="mega-cluster-header">
                         <div class="mega-cluster-header-left">
-                          <h3 class="mega-cluster-title">Brain Tumor Removal Surgery</h3>
+                          <div class="mega-cluster-title">Brain Tumor Removal Surgery</div>
                           <p class="mega-cluster-desc">Microsurgical precision, awake craniotomy, and minimally invasive skull base excision.</p>
                         </div>
                         <a href="<?= $path_prefix ?>brain-tumor-removal-surgery" class="mega-overview-btn">
@@ -316,7 +316,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
 
                       <div class="mega-cluster-columns-wrap">
                         <div class="mega-subcol">
-                          <h4 class="mega-subcol-title">UNDERSTANDING & TYPES</h4>
+                          <div class="mega-subcol-title">UNDERSTANDING & TYPES</div>
                           <ul class="mega-cluster-links">
                             <li>
                               <a href="<?= $path_prefix ?>brain-tumor-types" class="mega-cluster-link <?= ($current_page === 'brain-tumor-types') ? 'active-item' : '' ?>">
@@ -347,7 +347,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
                         </div>
 
                         <div class="mega-subcol">
-                          <h4 class="mega-subcol-title">SURGICAL PROCEDURES & CARE</h4>
+                          <div class="mega-subcol-title">SURGICAL PROCEDURES & CARE</div>
                           <ul class="mega-cluster-links">
                             <li>
                               <a href="<?= $path_prefix ?>awake-craniotomy" class="mega-cluster-link <?= ($current_page === 'awake-craniotomy') ? 'active-item' : '' ?>">
@@ -383,7 +383,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
                     <div class="mega-cluster-panel" id="tab-brain-aneurysm">
                       <div class="mega-cluster-header">
                         <div class="mega-cluster-header-left">
-                          <h3 class="mega-cluster-title">Brain Aneurysm Treatment</h3>
+                          <div class="mega-cluster-title">Brain Aneurysm Treatment</div>
                           <p class="mega-cluster-desc">Advanced endovascular coiling, flow diversion, microsurgical clipping and vascular malformation repair.</p>
                         </div>
                         <a href="<?= $path_prefix ?>brain-aneurysm-treatment" class="mega-overview-btn">
@@ -393,7 +393,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
 
                       <div class="mega-cluster-columns-wrap">
                         <div class="mega-subcol">
-                          <h4 class="mega-subcol-title">UNDERSTANDING & TYPES</h4>
+                          <div class="mega-subcol-title">UNDERSTANDING & TYPES</div>
                           <ul class="mega-cluster-links">
                             <li>
                               <a href="<?= $path_prefix ?>brain-aneurysm-symptoms" class="mega-cluster-link <?= ($current_page === 'brain-aneurysm-symptoms') ? 'active-item' : '' ?>">
@@ -419,7 +419,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
                         </div>
 
                         <div class="mega-subcol">
-                          <h4 class="mega-subcol-title">SURGICAL PROCEDURES & CARE</h4>
+                          <div class="mega-subcol-title">SURGICAL PROCEDURES & CARE</div>
                           <ul class="mega-cluster-links">
                             <li>
                               <a href="<?= $path_prefix ?>aneurysm-coiling-vs-clipping" class="mega-cluster-link <?= ($current_page === 'aneurysm-coiling-vs-clipping') ? 'active-item' : '' ?>">
@@ -450,7 +450,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
                     <div class="mega-cluster-panel" id="tab-acute-stroke">
                       <div class="mega-cluster-header">
                         <div class="mega-cluster-header-left">
-                          <h3 class="mega-cluster-title">Brain Stroke Treatment</h3>
+                          <div class="mega-cluster-title">Brain Stroke Treatment</div>
                           <p class="mega-cluster-desc">Emergency mechanical thrombectomy, thrombolytic care, ICH evacuation, and rapid stroke response.</p>
                         </div>
                         <a href="<?= $path_prefix ?>brain-stroke-treatment" class="mega-overview-btn">
@@ -460,7 +460,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
 
                       <div class="mega-cluster-columns-wrap">
                         <div class="mega-subcol">
-                          <h4 class="mega-subcol-title">UNDERSTANDING & TYPES</h4>
+                          <div class="mega-subcol-title">UNDERSTANDING & TYPES</div>
                           <ul class="mega-cluster-links">
                             <li>
                               <a href="<?= $path_prefix ?>coming-soon" class="mega-cluster-link">
@@ -486,7 +486,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
                         </div>
 
                         <div class="mega-subcol">
-                          <h4 class="mega-subcol-title">SURGICAL PROCEDURES & CARE</h4>
+                          <div class="mega-subcol-title">SURGICAL PROCEDURES & CARE</div>
                           <ul class="mega-cluster-links">
                             <li>
                               <a href="<?= $path_prefix ?>coming-soon" class="mega-cluster-link">
@@ -517,7 +517,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
                     <div class="mega-cluster-panel" id="tab-spine-fractures">
                       <div class="mega-cluster-header">
                         <div class="mega-cluster-header-left">
-                          <h3 class="mega-cluster-title">Spine Fracture Treatment</h3>
+                          <div class="mega-cluster-title">Spine Fracture Treatment</div>
                           <p class="mega-cluster-desc">Minimally invasive spinal stabilization, kyphoplasty, cervical reconstructions, and SCI recovery.</p>
                         </div>
                         <a href="<?= $path_prefix ?>spine-fracture-treatment" class="mega-overview-btn">
@@ -527,7 +527,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
 
                       <div class="mega-cluster-columns-wrap">
                         <div class="mega-subcol">
-                          <h4 class="mega-subcol-title">UNDERSTANDING & TYPES</h4>
+                          <div class="mega-subcol-title">UNDERSTANDING & TYPES</div>
                           <ul class="mega-cluster-links">
                             <li>
                               <a href="<?= $path_prefix ?>cervical-spine-fracture-treatment" class="mega-cluster-link <?= ($current_page === 'cervical-spine-fracture-treatment') ? 'active-item' : '' ?>">
@@ -553,7 +553,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
                         </div>
 
                         <div class="mega-subcol">
-                          <h4 class="mega-subcol-title">SURGICAL PROCEDURES & CARE</h4>
+                          <div class="mega-subcol-title">SURGICAL PROCEDURES & CARE</div>
                           <ul class="mega-cluster-links">
                             <li>
                               <a href="<?= $path_prefix ?>vertebroplasty-kyphoplasty" class="mega-cluster-link <?= ($current_page === 'vertebroplasty-kyphoplasty') ? 'active-item' : '' ?>">
@@ -579,7 +579,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
                     <div class="mega-cluster-panel" id="tab-disc-herniation">
                       <div class="mega-cluster-header">
                         <div class="mega-cluster-header-left">
-                          <h3 class="mega-cluster-title">Disc Herniation & Sciatica</h3>
+                          <div class="mega-cluster-title">Disc Herniation & Sciatica</div>
                           <p class="mega-cluster-desc">Microdiscectomy, endoscopic decompression, and nerve root relief for acute and chronic pain.</p>
                         </div>
                         <a href="<?= $path_prefix ?>coming-soon" class="mega-overview-btn">
@@ -589,7 +589,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
 
                       <div class="mega-cluster-columns-wrap">
                         <div class="mega-subcol">
-                          <h4 class="mega-subcol-title">UNDERSTANDING & TYPES</h4>
+                          <div class="mega-subcol-title">UNDERSTANDING & TYPES</div>
                           <ul class="mega-cluster-links">
                             <li><a href="<?= $path_prefix ?>coming-soon" class="mega-cluster-link"><span class="mega-link-dot"></span> Lumbar Disc Prolapse & Sciatica <span class="mega-coming-badge">Soon</span></a></li>
                             <li><a href="<?= $path_prefix ?>coming-soon" class="mega-cluster-link"><span class="mega-link-dot"></span> Cervical Radiculopathy & Arm Pain <span class="mega-coming-badge">Soon</span></a></li>
@@ -597,7 +597,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
                           </ul>
                         </div>
                         <div class="mega-subcol">
-                          <h4 class="mega-subcol-title">SURGICAL PROCEDURES & CARE</h4>
+                          <div class="mega-subcol-title">SURGICAL PROCEDURES & CARE</div>
                           <ul class="mega-cluster-links">
                             <li><a href="<?= $path_prefix ?>coming-soon" class="mega-cluster-link"><span class="mega-link-dot"></span> Microscopic Decompression <span class="mega-coming-badge">Soon</span></a></li>
                             <li><a href="<?= $path_prefix ?>coming-soon" class="mega-cluster-link"><span class="mega-link-dot"></span> Nerve Root & Epidural Blocks <span class="mega-coming-badge">Soon</span></a></li>
@@ -611,7 +611,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
                     <div class="mega-cluster-panel" id="tab-pediatric-functional">
                       <div class="mega-cluster-header">
                         <div class="mega-cluster-header-left">
-                          <h3 class="mega-cluster-title">Pediatric & Functional Care</h3>
+                          <div class="mega-cluster-title">Pediatric & Functional Care</div>
                           <p class="mega-cluster-desc">Hydrocephalus, congenital spinal defects, Chiari malformation, trigeminal neuralgia, and movement disorders.</p>
                         </div>
                         <a href="<?= $path_prefix ?>coming-soon" class="mega-overview-btn">
@@ -621,7 +621,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
 
                       <div class="mega-cluster-columns-wrap">
                         <div class="mega-subcol">
-                          <h4 class="mega-subcol-title">UNDERSTANDING & TYPES</h4>
+                          <div class="mega-subcol-title">UNDERSTANDING & TYPES</div>
                           <ul class="mega-cluster-links">
                             <li><a href="<?= $path_prefix ?>coming-soon" class="mega-cluster-link"><span class="mega-link-dot"></span> Pediatric Hydrocephalus & Shunts <span class="mega-coming-badge">Soon</span></a></li>
                             <li><a href="<?= $path_prefix ?>coming-soon" class="mega-cluster-link"><span class="mega-link-dot"></span> Spina Bifida & Tethered Cord <span class="mega-coming-badge">Soon</span></a></li>
@@ -629,7 +629,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
                           </ul>
                         </div>
                         <div class="mega-subcol">
-                          <h4 class="mega-subcol-title">SURGICAL PROCEDURES & CARE</h4>
+                          <div class="mega-subcol-title">SURGICAL PROCEDURES & CARE</div>
                           <ul class="mega-cluster-links">
                             <li><a href="<?= $path_prefix ?>coming-soon" class="mega-cluster-link"><span class="mega-link-dot"></span> Trigeminal Neuralgia (MVD) <span class="mega-coming-badge">Soon</span></a></li>
                             <li><a href="<?= $path_prefix ?>coming-soon" class="mega-cluster-link"><span class="mega-link-dot"></span> Hemifacial Spasm Relief <span class="mega-coming-badge">Soon</span></a></li>
@@ -644,8 +644,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
                   <!-- Pane 3: Emergency Care Card -->
                   <div class="mega-emergency-pane">
                     <div>
-                      <span class="mega-emergency-badge">HELPLINE</span>
-                      <h3 class="mega-emergency-title">Brain Stroke & Spine Emergency</h3>
+                      <div class="mega-emergency-title" style="margin-top: 4px;">Brain Stroke & Spine Emergency</div>
                       <p class="mega-emergency-desc">Immediate mechanical thrombectomy &amp; critical neurovascular intervention within the golden hour.</p>
 
                       <div class="mega-emergency-callcard">
@@ -653,8 +652,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
                           <i class="fa-solid fa-phone-volume"></i>
                         </div>
                         <div>
-                          <a href="tel:09000224265" class="mega-emergency-number">9000224265</a>
-                          <span class="mega-emergency-sub">24/7 Emergency Line</span>
+                          <a href="tel:08520052229" class="mega-emergency-number">8520052229</a>
                         </div>
                       </div>
                     </div>
@@ -679,7 +677,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
           </ul>
         </nav>
 
-        <a href="tel:09000224265" class="btn-primary mobile-helpline-btn">Call Helpline</a>
+        <a href="tel:08520052229" class="btn-primary mobile-helpline-btn"><i class="fa-solid fa-phone" style="font-size: 0.85rem; margin-right: 6px;"></i> Call Clinic</a>
         <a href="<?= $path_prefix ?>contact" class="btn-primary desktop-only-btn"
           style="padding: 0.6rem 1.5rem; font-size: 0.9rem;">Book Consultation</a>
       </div>

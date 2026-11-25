@@ -12,6 +12,23 @@ $page_title = "Ruptured vs. Unruptured Brain Aneurysm: Key Differences | Dr. Raj
   <meta name="keywords"
     content="ruptured unruptured brain aneurysm, ruptured brain aneurysm symptoms, unruptured aneurysm treatment, brain aneurysm rupture risk, SAH vs unruptured aneurysm, brain aneurysm diagnosis">
   <title><?php echo $page_title; ?></title>
+  <link rel="canonical" href="https://drrajeshreddy.com/ruptured-unruptured-brain-aneurysm">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/ruptured-unruptured-brain-aneurysm">
+  <meta property="og:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta property="og:description" content="What is the difference between a ruptured and unruptured brain aneurysm? Dr. Rajesh Reddy explains symptoms, risks, urgency, treatment, and outcomes — and what an unruptured aneurysm diagnosis really means for you.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/ruptured-vs-unruptured-brain-aneurysm/Treatment_options.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/ruptured-unruptured-brain-aneurysm">
+  <meta name="twitter:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta name="twitter:description" content="What is the difference between a ruptured and unruptured brain aneurysm? Dr. Rajesh Reddy explains symptoms, risks, urgency, treatment, and outcomes — and what an unruptured aneurysm diagnosis really means for you.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/ruptured-vs-unruptured-brain-aneurysm/Treatment_options.webp">
+
 
   <!-- Global Stylesheet -->
     <!-- Preconnect to Font domains -->
@@ -101,6 +118,14 @@ $page_title = "Ruptured vs. Unruptured Brain Aneurysm: Key Differences | Dr. Raj
     gtag('js', new Date());
 
     gtag('config', 'G-Q90BC8GWVR');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
   </script>
 </head>
 
@@ -699,7 +724,7 @@ $page_title = "Ruptured vs. Unruptured Brain Aneurysm: Key Differences | Dr. Raj
             </div>
             <h3>Need Guidance?</h3>
             <p>Contact our clinic coordinators immediately for appointment scheduling, second opinions, or emergency details.</p>
-            <a href="tel:09000224265" class="guidance-phone">9000224265</a>
+            <a href="tel:08520052229" class="guidance-phone">8520052229</a>
             <a href="contact" class="guidance-btn">Book Appointment</a>
           </div>
         </aside>

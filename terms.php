@@ -9,6 +9,23 @@ $page_title = "Terms & Conditions | Dr. Rajesh Reddy";
   <meta name="description" content="Terms and Conditions governing the use of the website and clinical services of Dr. Rajesh Reddy Sannareddy.">
   <meta name="keywords" content="Dr Rajesh Reddy terms and conditions, neurosurgery consultation terms, website terms of use, patient advisory terms">
   <title><?php echo $page_title; ?></title>
+  <link rel="canonical" href="https://drrajeshreddy.com/terms">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/terms">
+  <meta property="og:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta property="og:description" content="Terms and Conditions governing the use of the website and clinical services of Dr. Rajesh Reddy Sannareddy.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/logo.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/terms">
+  <meta name="twitter:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta name="twitter:description" content="Terms and Conditions governing the use of the website and clinical services of Dr. Rajesh Reddy Sannareddy.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/logo.webp">
+
     <!-- Preconnect to Font domains -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -89,6 +106,14 @@ $page_title = "Terms & Conditions | Dr. Rajesh Reddy";
 
     gtag('config', 'G-Q90BC8GWVR');
   </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
+  </script>
 </head>
 <body id="top">
 
@@ -105,7 +130,7 @@ $page_title = "Terms & Conditions | Dr. Rajesh Reddy";
   <p>By accessing or utilizing any page of <strong>drrajeshreddy.com</strong>, you agree to comply with the terms and guidelines detailed below.</p>
 
   <h2>1. Scope of Online Second Opinions</h2>
-  <p>Online evaluations, report consults, and second opinions provided through the WhatsApp helpline or secure virtual channels are clinical interpretations of the diagnostic assets provided by you. Because a physical neurological examination is absent, these opinions do not form a binding physician-patient contract and are intended to assist in planning physical diagnostic steps.</p>
+  <p>Online evaluations, report consults, and second opinions provided through the WhatsApp line or secure virtual channels are clinical interpretations of the diagnostic assets provided by you. Because a physical neurological examination is absent, these opinions do not form a binding physician-patient contract and are intended to assist in planning physical diagnostic steps.</p>
 
   <h2>2. Booking &amp; Cancellations</h2>
   <p>All clinical bookings made through the clinic or online portal are subject to availability. Please notify the reception desk at least 24 hours in advance of your scheduled slot if you need to reschedule or cancel a physical consultation.</p>

@@ -5,6 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insights &amp; Expertise | Dr. Rajesh Reddy</title>
+  <link rel="canonical" href="https://drrajeshreddy.com/insights-expertise">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/insights-expertise">
+  <meta property="og:title" content="Insights &amp; Expertise | Dr. Rajesh Reddy">
+  <meta property="og:description" content="Explore patient testimonials, media interviews, clinical lectures, and patient education resources by Senior Consultant Neurosurgeon Dr. Rajesh Reddy.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/logo.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/insights-expertise">
+  <meta name="twitter:title" content="Insights &amp; Expertise | Dr. Rajesh Reddy">
+  <meta name="twitter:description" content="Explore patient testimonials, media interviews, clinical lectures, and patient education resources by Senior Consultant Neurosurgeon Dr. Rajesh Reddy.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/logo.webp">
+
 
     <meta name="description"
         content="Explore patient testimonials, media interviews, clinical lectures, and patient education resources by Senior Consultant Neurosurgeon Dr. Rajesh Reddy.">
@@ -1136,6 +1153,14 @@
     gtag('js', new Date());
 
     gtag('config', 'G-Q90BC8GWVR');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
   </script>
 </head>
 

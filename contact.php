@@ -8,10 +8,25 @@ $page_title = "Contact Us | Dr. Rajesh Reddy Sannareddy — Neurosurgeon, Hydera
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="Get in touch with Dr. Rajesh Reddy Sannareddy's clinic in Financial District, Hyderabad. Call or WhatsApp the helpline, download the patient app, or send an inquiry for brain and spine consultations.">
+    content="Get in touch with Dr. Rajesh Reddy Sannareddy's clinic in Financial District, Hyderabad. Call or WhatsApp the clinic, download the patient app, or send an inquiry for brain and spine consultations.">
   <meta name="keywords"
     content="contact neurosurgeon Hyderabad, book appointment neurosurgeon, brain spine doctor contact, Medicover Hospital Financial District, Dr Rajesh Reddy WhatsApp">
-  <link rel="canonical" href="https://drrajeshreddy.com/contact-us">
+  <link rel="canonical" href="https://drrajeshreddy.com/contact">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/contact">
+  <meta property="og:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta property="og:description" content="Get in touch with Dr. Rajesh Reddy Sannareddy's clinic in Financial District, Hyderabad. Call or WhatsApp the clinic, download the patient app, or send an inquiry for brain and spine consultations.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/logo.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/contact">
+  <meta name="twitter:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta name="twitter:description" content="Get in touch with Dr. Rajesh Reddy Sannareddy's clinic in Financial District, Hyderabad. Call or WhatsApp the clinic, download the patient app, or send an inquiry for brain and spine consultations.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/logo.webp">
   <title><?php echo $page_title; ?></title>
     <!-- Preconnect to Font domains -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,14 +50,14 @@ $page_title = "Contact Us | Dr. Rajesh Reddy Sannareddy — Neurosurgeon, Hydera
         "@type": "ContactPage",
         "@id": "https://drrajeshreddy.com/contact-us",
         "name": "Contact Us | Dr. Rajesh Reddy Sannareddy",
-        "description": "Get in touch with Dr. Rajesh Reddy Sannareddy's clinic in Financial District, Hyderabad. Call or WhatsApp the helpline, download the patient app, or send an inquiry for brain and spine consultations."
+        "description": "Get in touch with Dr. Rajesh Reddy Sannareddy's clinic in Financial District, Hyderabad. Call or WhatsApp the clinic, download the patient app, or send an inquiry for brain and spine consultations."
       },
       {
         "@type": "MedicalOrganization",
         "@id": "https://drrajeshreddy.com/#organization",
         "name": "Dr. Rajesh Reddy Brain & Spine Care",
         "url": "https://drrajeshreddy.com",
-        "telephone": "+91-9000224265",
+        "telephone": "+91-8520052229",
         "email": "info@drrajeshreddy.com",
         "address": {
           "@type": "PostalAddress",
@@ -58,7 +73,7 @@ $page_title = "Contact Us | Dr. Rajesh Reddy Sannareddy — Neurosurgeon, Hydera
         "@id": "https://drrajeshreddy.com/#localbusiness",
         "name": "Dr. Rajesh Reddy Sannareddy Clinic at Medicover Hospital",
         "image": "https://drrajeshreddy.com/images/logo.webp",
-        "telephone": "+91-9000224265",
+        "telephone": "+91-8520052229",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Medicover Hospital - Financial District, Hyderabad",
@@ -81,6 +96,14 @@ $page_title = "Contact Us | Dr. Rajesh Reddy Sannareddy — Neurosurgeon, Hydera
 
     gtag('config', 'G-Q90BC8GWVR');
   </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
+  </script>
 </head>
 
 <body id="top">
@@ -97,79 +120,8 @@ $page_title = "Contact Us | Dr. Rajesh Reddy Sannareddy — Neurosurgeon, Hydera
           medical desk, book consultations, or download the patient app.</p>
       </div>
 
-      <!-- 1. Phone Helpline -->
-      <div class="preference-section">
-        <div class="preference-header">
-          <h2 class="preference-title">Phone Helpline</h2>
-          <span class="preference-tag">FIRST PREFERENCE</span>
-        </div>
-        <p style="font-size: 1rem; color: #4a5568; line-height: 1.6; margin-bottom: 1.25rem;">
-          The fastest way to reach the clinic is by phone. Our medical desk handles appointment scheduling,
-          second-opinion requests, and general queries directly.
-        </p>
-
-        <div class="contact-cards-grid" style="grid-template-columns: 1fr; width: 100%;">
-          <!-- Call Card -->
-          <div class="contact-card border-blue"
-            style="background: #fff; padding: 28px; border-radius: 12px; border: 1px solid #e2e8f0; border-top: 4px solid #0066cc; box-shadow: 0 4px 12px rgba(0,0,0,0.04); display: flex; flex-direction: column; align-items: flex-start;">
-            <p class="card-eyebrow blue-text"
-              style="color: #0066cc; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.5px; margin-bottom: 6px;">
-              CLINICAL HELPLINE</p>
-            <h3 class="card-number" style="font-size: 2rem; font-weight: 700; color: #1d1d1f; margin-bottom: 10px;">
-              9000224265</h3>
-            <p class="card-desc"
-              style="font-size: 1rem; color: #4a5568; line-height: 1.6; margin-bottom: 1.25rem; max-width: 800px;">
-              Call directly to schedule hospital appointments, request second opinions, or check clinic timings.
-              Available Monday to Saturday, 10:00 AM to 4:00 PM.
-            </p>
-            <a href="tel:09000224265" class="btn-primary"
-              style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 999px; padding: 0.75rem 2rem; font-size: 1rem; font-weight: 600; text-decoration: none;">
-              <i class="fa-solid fa-phone"></i> Call Helpline Now
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- 2. Download The Patient App -->
-      <div class="preference-section">
-        <div class="preference-header">
-          <h2 class="preference-title">Download The Patient App</h2>
-          <span class="preference-tag">SECOND PREFERENCE</span>
-        </div>
-
-        <div class="contact-app-banner">
-          <div class="app-banner-content">
-            <h3 class="app-banner-title">Digital Care on the Go</h3>
-            <p class="app-banner-desc">Skip phone queues and manage the entire treatment journey through the dedicated
-              mobile portal, available on both iOS and Android:</p>
-            <ul class="app-features-list">
-              <li><i class="fa-solid fa-check"></i> <strong>Book Appointments Online:</strong> Instantly secure
-                in-person clinic slots.</li>
-              <li><i class="fa-solid fa-check"></i> <strong>Video Consultation:</strong> Consult securely from home.
-              </li>
-              <li><i class="fa-solid fa-check"></i> <strong>Easy Digital Prescriptions:</strong> Instant access to
-                medications list.</li>
-              <li><i class="fa-solid fa-check"></i> <strong>Saved Medical Records:</strong> Access scans, reports, and
-                histories anytime.</li>
-            </ul>
-            <div class="app-store-btns" style="margin-top: 1.5rem;">
-              <a href="https://play.google.com/store/apps/details?id=com.docterz.connect.drreddysneurocare"
-                target="_blank" class="app-btn-white"><i class="fa-brands fa-google-play"></i> Get it on Google Play</a>
-            </div>
-          </div>
-          <div class="app-banner-image">
-            <img src="images/phone-qr.webp" alt="The Patient App" class="app-phone-img-contact">
-          </div>
-        </div>
-      </div>
-
-      <!-- 3. Email Inquiry & Clinic Location -->
-      <div class="preference-section">
-        <div class="preference-header">
-          <h2 class="preference-title">Email Inquiry & Contact Form</h2>
-          <span class="preference-tag">THIRD PREFERENCE</span>
-        </div>
-
+      <!-- Contact Form & Clinic Location -->
+      <div class="preference-section" style="margin-top: 1rem;">
         <div class="email-location-grid">
           <!-- Contact Form -->
           <div class="contact-form-card">
@@ -222,7 +174,7 @@ $page_title = "Contact Us | Dr. Rajesh Reddy Sannareddy — Neurosurgeon, Hydera
               <p class="location-text"><a href="mailto:info@drrajeshreddy.com" style="color: inherit; text-decoration: none;">info@drrajeshreddy.com</a></p>
             </div>
             <div class="location-info-block" style="margin-top: 1.5rem;">
-              <h4 class="location-eyebrow">HELPLINE HOURS</h4>
+              <h4 class="location-eyebrow">CLINIC HOURS</h4>
               <p class="location-text">Monday to Saturday, 10:00 AM to 4:00 PM</p>
             </div>
             <div class="location-info-block" style="margin-top: 1.5rem;">
@@ -236,6 +188,70 @@ $page_title = "Contact Us | Dr. Rajesh Reddy Sannareddy — Neurosurgeon, Hydera
                   referrerpolicy="strict-origin-when-cross-origin"></iframe>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1. Phone Assistance -->
+      <div class="preference-section">
+        <div class="preference-header">
+          <h2 class="preference-title">Phone Assistance</h2>
+          <span class="preference-tag">FIRST PREFERENCE</span>
+        </div>
+        <p style="font-size: 1rem; color: #4a5568; line-height: 1.6; margin-bottom: 1.25rem;">
+          The fastest way to reach the clinic is by phone. Our medical desk handles appointment scheduling, second-opinion requests, and general queries directly.
+        </p>
+
+        <div class="contact-cards-grid" style="grid-template-columns: 1fr; width: 100%;">
+          <!-- Call Card -->
+          <div class="contact-card border-blue"
+            style="background: #fff; padding: 28px; border-radius: 12px; border: 1px solid #e2e8f0; border-top: 4px solid #0066cc; box-shadow: 0 4px 12px rgba(0,0,0,0.04); display: flex; flex-direction: column; align-items: flex-start;">
+            <p class="card-eyebrow blue-text"
+              style="color: #0066cc; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.5px; margin-bottom: 6px;">
+              CLINICAL DESK</p>
+            <h3 class="card-number" style="font-size: 2rem; font-weight: 700; color: #1d1d1f; margin-bottom: 10px;">
+              8520052229</h3>
+            <p class="card-desc"
+              style="font-size: 1rem; color: #4a5568; line-height: 1.6; margin-bottom: 1.25rem; max-width: 800px;">
+              Call directly to schedule hospital appointments, request second opinions, or check clinic timings. Available Monday to Saturday, 10:00 AM to 4:00 PM.
+            </p>
+            <a href="tel:08520052229" class="btn-primary"
+              style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 999px; padding: 0.75rem 2rem; font-size: 1rem; font-weight: 600; text-decoration: none;">
+              <i class="fa-solid fa-phone"></i> Call Clinic Now
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Download The Patient App -->
+      <div class="preference-section">
+        <div class="preference-header">
+          <h2 class="preference-title">Download The Patient App</h2>
+          <span class="preference-tag">SECOND PREFERENCE</span>
+        </div>
+
+        <div class="contact-app-banner">
+          <div class="app-banner-content">
+            <h3 class="app-banner-title">Digital Care on the Go</h3>
+            <p class="app-banner-desc">Skip phone queues and manage the entire treatment journey through the dedicated
+              mobile portal, available on both iOS and Android:</p>
+            <ul class="app-features-list">
+              <li><i class="fa-solid fa-check"></i> <strong>Book Appointments Online:</strong> Instantly secure
+                in-person clinic slots.</li>
+              <li><i class="fa-solid fa-check"></i> <strong>Video Consultation:</strong> Consult securely from home.
+              </li>
+              <li><i class="fa-solid fa-check"></i> <strong>Easy Digital Prescriptions:</strong> Instant access to
+                medications list.</li>
+              <li><i class="fa-solid fa-check"></i> <strong>Saved Medical Records:</strong> Access scans, reports, and
+                histories anytime.</li>
+            </ul>
+            <div class="app-store-btns" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+              <a href="https://apps.apple.com/in/app/dr-reddys-neuro-care/id6753586620" target="_blank" rel="noopener noreferrer" class="app-btn-white"><i class="fa-brands fa-app-store-ios" style="color: #0066cc;"></i> Download on App Store</a>
+              <a href="https://play.google.com/store/apps/details?id=com.docterz.connect.drreddysneurocare" target="_blank" rel="noopener noreferrer" class="app-btn-white"><i class="fa-brands fa-google-play"></i> Get it on Google Play</a>
+            </div>
+          </div>
+          <div class="app-banner-image">
+            <img src="images/phone-qr.webp" alt="The Patient App" class="app-phone-img-contact">
           </div>
         </div>
       </div>

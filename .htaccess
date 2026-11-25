@@ -1,10 +1,29 @@
 RewriteEngine On
 
+# Enforce HTTPS (HTTP to HTTPS 301 Redirect)
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirect legacy /blogs/ URLs to /patient-education/
+RewriteRule ^blogs?/understanding-osteoporotic-spine-fractures.*$ /patient-education/osteoporotic-spine-fractures [R=301,L]
+RewriteRule ^blogs?/(.+)$ /patient-education/$1 [R=301,L]
+RewriteRule ^blogs?/?$ /patient-education [R=301,L]
+
 # Define 404 Error Document
 ErrorDocument 404 /404.php
 
+# Redirect /index or /index.php to root /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index(\.php)?[\s\?] [NC]
+RewriteRule ^index(\.php)?$ / [R=301,L]
+
 # 1. Redirect /about or /about.php to /profile
 RewriteRule ^about(\.php)?$ /profile [R=301,L]
+
+# Explicit 301 redirects for legacy .php pillar endpoints
+RewriteRule ^brain-tumor-removal-surgery\.php$ /brain-tumor-removal-surgery [R=301,L]
+RewriteRule ^brain-aneurysm-treatment\.php$ /brain-aneurysm-treatment [R=301,L]
+RewriteRule ^spine-fracture-treatment\.php$ /spine-fracture-treatment [R=301,L]
 
 # Redirect old spine health article slug to new slug
 RewriteRule ^patient-education/spine-health-as-you-age--tips-to-maintain-a-strong-back-after-50/?$ /patient-education/spine-health-after-50 [R=301,L]
@@ -41,8 +60,6 @@ RewriteRule ^ 404.php [L]
   AddOutputFilterByType DEFLATE image/svg+xml
 </IfModule>
 
-
-
 <IfModule mod_headers.c>
   <FilesMatch "\.(php|html)$">
     Header set Cache-Control "no-cache, no-store, must-revalidate"
@@ -50,8 +67,6 @@ RewriteRule ^ 404.php [L]
     Header set Expires "0"
   </FilesMatch>
 </IfModule>
-
-
 
 # Browser Caching Headers (Leverage Browser Cache)
 <IfModule mod_expires.c>

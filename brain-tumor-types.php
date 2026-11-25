@@ -12,6 +12,23 @@ $page_title = "Types of Brain Tumors: A Complete Guide | Dr. Rajesh Reddy";
   <meta name="keywords"
     content="types of brain tumors, glioma, meningioma, pituitary tumor, brain tumor grades, benign brain tumor, malignant brain tumor, WHO brain tumor classification">
   <title><?php echo $page_title; ?></title>
+  <link rel="canonical" href="https://drrajeshreddy.com/brain-tumor-types">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/brain-tumor-types">
+  <meta property="og:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta property="og:description" content="Understand the different types of brain tumors — from gliomas and meningiomas to pituitary adenomas and metastatic tumors. Expert guide by Dr. Rajesh Reddy, Senior Neurosurgeon, Hyderabad.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/brain-tumor-types/Brain_Tumor_Types_Hero.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/brain-tumor-types">
+  <meta name="twitter:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta name="twitter:description" content="Understand the different types of brain tumors — from gliomas and meningiomas to pituitary adenomas and metastatic tumors. Expert guide by Dr. Rajesh Reddy, Senior Neurosurgeon, Hyderabad.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/brain-tumor-types/Brain_Tumor_Types_Hero.webp">
+
 
   <!-- Global Stylesheet -->
     <!-- Preconnect to Font domains -->
@@ -103,6 +120,14 @@ $page_title = "Types of Brain Tumors: A Complete Guide | Dr. Rajesh Reddy";
     gtag('js', new Date());
 
     gtag('config', 'G-Q90BC8GWVR');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
   </script>
 </head>
 
@@ -651,7 +676,7 @@ $page_title = "Types of Brain Tumors: A Complete Guide | Dr. Rajesh Reddy";
             </div>
             <h3>Need Guidance?</h3>
             <p>Contact our clinic coordinators immediately for appointment scheduling, second opinions, or emergency details.</p>
-            <a href="tel:09000224265" class="guidance-phone">9000224265</a>
+            <a href="tel:08520052229" class="guidance-phone">8520052229</a>
             <a href="contact" class="guidance-btn">Book Appointment</a>
           </div>
         </aside>
@@ -669,11 +694,11 @@ $page_title = "Types of Brain Tumors: A Complete Guide | Dr. Rajesh Reddy";
             <p class="app-subtitle" style="font-size: 1.25rem; font-weight: 400; margin-bottom: 2rem; color: #fff;">Manage appointments and medical reports seamlessly.</p>
 
             <div class="app-store-btns" style="display: flex; gap: 1rem;">
-              <a href="#" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+              <a href="https://apps.apple.com/in/app/dr-reddys-neuro-care/id6753586620" target="_blank" rel="noopener noreferrer" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
                 <i class="fa-brands fa-app-store-ios" style="color: #0066cc; font-size: 1.25rem;"></i>
                 Download on App Store
               </a>
-              <a href="#" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+              <a href="https://play.google.com/store/apps/details?id=com.docterz.connect.drreddysneurocare" target="_blank" rel="noopener noreferrer" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
                 <i class="fa-brands fa-google-play" style="color: #1d1d1f; font-size: 1.25rem;"></i>
                 Get it on Google Play
               </a>
@@ -696,7 +721,7 @@ $page_title = "Types of Brain Tumors: A Complete Guide | Dr. Rajesh Reddy";
           <p style="color: #ccc; margin-bottom: 0;">Contact our helpdesk 24/7</p>
         </div>
         <div class="cta-button">
-          <a href="tel:09000224265" class="btn-primary" style="background-color: #0066cc; color: #fff; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600;">Call 9000224265</a>
+          <a href="tel:08520052229" class="btn-primary" style="background-color: #0066cc; color: #fff; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600;">Call 8520052229</a>
         </div>
       </div>
     </section>

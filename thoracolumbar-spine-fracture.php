@@ -12,6 +12,21 @@ $page_title = "Thoracolumbar Spine Fracture: Surgery vs. Conservative Management
   <meta name="keywords"
     content="thoracolumbar spine fracture, burst fracture spine surgery, thoracolumbar fracture treatment Hyderabad, MISS spine fracture, L1 burst fracture surgery, spine fracture brace vs surgery">
   <link rel="canonical" href="https://drrajeshreddy.com/thoracolumbar-spine-fracture">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/thoracolumbar-spine-fracture">
+  <meta property="og:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta property="og:description" content="When does a thoracolumbar spine fracture need surgery? Dr. Rajesh Reddy, Senior Neurosurgeon in Hyderabad, explains burst fractures, TLICS scoring, MISS fixation, and when bracing is enough.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/Thoracolumbar_spine_fracture_treatment/Thoracolumbar_spine_fracture_treatment.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/thoracolumbar-spine-fracture">
+  <meta name="twitter:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta name="twitter:description" content="When does a thoracolumbar spine fracture need surgery? Dr. Rajesh Reddy, Senior Neurosurgeon in Hyderabad, explains burst fractures, TLICS scoring, MISS fixation, and when bracing is enough.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/Thoracolumbar_spine_fracture_treatment/Thoracolumbar_spine_fracture_treatment.webp">
   <title><?php echo $page_title; ?></title>
 
   <!-- Global Stylesheet -->
@@ -131,6 +146,14 @@ $page_title = "Thoracolumbar Spine Fracture: Surgery vs. Conservative Management
     gtag('js', new Date());
 
     gtag('config', 'G-Q90BC8GWVR');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
   </script>
 </head>
 
@@ -576,10 +599,10 @@ $page_title = "Thoracolumbar Spine Fracture: Surgery vs. Conservative Management
           <!-- Section 10: Consultation CTA -->
           <section id="consultation" class="pillar-section" style="background-color: #f8fafc; padding: 32px; border-radius: 16px; border: 1px solid #e2e8f0; margin-top: 32px;">
             <h2 style="margin-top: 0; color: #1e293b;">Consult Dr. Rajesh Reddy for Thoracolumbar Fracture Assessment in Hyderabad</h2>
-            <p>Whether you have recently sustained a thoracolumbar fracture and need an expert assessment of whether surgery is required — or you have been recommended surgery and want a second opinion — Dr. Rajesh Reddy Sannareddy provides comprehensive spine fracture consultations in Hyderabad with access to the full range of treatment options. Book via the Dr. Reddy's Neuro Care app on Google Play or call <strong>9000224265</strong>.</p>
+            <p>Whether you have recently sustained a thoracolumbar fracture and need an expert assessment of whether surgery is required — or you have been recommended surgery and want a second opinion — Dr. Rajesh Reddy Sannareddy provides comprehensive spine fracture consultations in Hyderabad with access to the full range of treatment options. Book via the Dr. Reddy's Neuro Care app on Google Play or call <strong>8520052229</strong>.</p>
             <div style="display: flex; gap: 16px; flex-wrap: wrap; margin-top: 20px;">
               <a href="contact" class="btn-primary" style="padding: 10px 24px; font-weight: 600;">Book Spine Consultation</a>
-              <a href="tel:09000224265" class="btn-outline" style="padding: 10px 24px; font-weight: 600;">Call 9000224265</a>
+              <a href="tel:08520052229" class="btn-outline" style="padding: 10px 24px; font-weight: 600;">Call 8520052229</a>
             </div>
           </section>
 
@@ -637,7 +660,7 @@ $page_title = "Thoracolumbar Spine Fracture: Surgery vs. Conservative Management
             </div>
             <h3>Need Guidance?</h3>
             <p>Contact our clinic coordinators immediately for appointment scheduling, second opinions, or emergency spine fracture care.</p>
-            <a href="tel:09000224265" class="guidance-phone">9000224265</a>
+            <a href="tel:08520052229" class="guidance-phone">8520052229</a>
             <a href="contact" class="guidance-btn">Book Appointment</a>
           </div>
         </aside>

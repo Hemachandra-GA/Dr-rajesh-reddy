@@ -33,6 +33,14 @@ $page_title = "Brain Stroke Treatment in Hyderabad | Dr. Rajesh Reddy Sannareddy
   <meta property="og:url" content="https://drrajeshreddy.com/brain-stroke-treatment">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://drrajeshreddy.com/images/Brain%20stroke%20treatment/Brain_stroke_treatment.webp">
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/brain-stroke-treatment">
+  <meta name="twitter:title" content="Brain Stroke Treatment in Hyderabad | Dr. Rajesh Reddy Sannareddy">
+  <meta name="twitter:description" content="Expert brain stroke treatment in Hyderabad — ischaemic stroke, haemorrhagic stroke, TIA, mechanical thrombectomy, carotid surgery and stroke rehabilitation by Dr. Rajesh Reddy Sannareddy, Senior Neurosurgeon.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/Brain%20stroke%20treatment/Brain_stroke_treatment.webp">
 
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
@@ -50,7 +58,7 @@ $page_title = "Brain Stroke Treatment in Hyderabad | Dr. Rajesh Reddy Sannareddy
       "@id": "https://drrajeshreddy.com/#hospital",
       "name": "Medicover Hospital - Financial District",
       "url": "https://www.medicoverhospitals.in/",
-      "telephone": "+91-9000224265",
+      "telephone": "+91-8520052229",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Medicover Hospital - Financial District",
@@ -78,7 +86,7 @@ $page_title = "Brain Stroke Treatment in Hyderabad | Dr. Rajesh Reddy Sannareddy
       "url": "https://drrajeshreddy.com/profile",
       "image": "https://drrajeshreddy.com/images/doctor-portrait.webp",
       "logo": "https://drrajeshreddy.com/images/Logo.svg",
-      "telephone": "+91-9000224265",
+      "telephone": "+91-8520052229",
       "email": "info@drrajeshreddy.com",
       "medicalSpecialty": [
         "https://schema.org/Neurologic",
@@ -128,7 +136,7 @@ $page_title = "Brain Stroke Treatment in Hyderabad | Dr. Rajesh Reddy Sannareddy
       },
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+91-9000224265",
+        "telephone": "+91-8520052229",
         "contactType": "emergency",
         "availableLanguage": [
           "English",
@@ -321,6 +329,14 @@ $page_title = "Brain Stroke Treatment in Hyderabad | Dr. Rajesh Reddy Sannareddy
     gtag('js', new Date());
 
     gtag('config', 'G-Q90BC8GWVR');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
   </script>
 </head>
 
@@ -640,7 +656,7 @@ $page_title = "Brain Stroke Treatment in Hyderabad | Dr. Rajesh Reddy Sannareddy
             <div style="background: #f4f8fc; border-radius: 12px; padding: 24px; margin-top: 32px;">
               <h3 style="margin-top: 0; color: #0066cc;">Consult Dr. Rajesh Reddy — Stroke Specialist in Hyderabad</h3>
               <p style="margin-bottom: 16px;">If you have been diagnosed with a TIA, a minor stroke, or significant carotid stenosis — or if you have a family history of stroke and are concerned about your risk — book a consultation with Dr. Rajesh Reddy for a structured cerebrovascular assessment. Early intervention saves lives and prevents disability.</p>
-              <p style="margin-bottom: 0; font-weight: 600;">For appointments call <a href="tel:09000224265" style="color: #0066cc;">9000224265</a> or visit Medicover Hospital, Financial District, Hyderabad.</p>
+              <p style="margin-bottom: 0; font-weight: 600;">For appointments call <a href="tel:08520052229" style="color: #0066cc;">8520052229</a> or visit Medicover Hospital, Financial District, Hyderabad.</p>
             </div>
           </section>
 
@@ -801,7 +817,7 @@ $page_title = "Brain Stroke Treatment in Hyderabad | Dr. Rajesh Reddy Sannareddy
             </div>
             <h3>Need Guidance?</h3>
             <p>Contact our clinic coordinators immediately for appointment scheduling, second opinions, or emergency details.</p>
-            <a href="tel:09000224265" class="guidance-phone">9000224265</a>
+            <a href="tel:08520052229" class="guidance-phone">8520052229</a>
             <a href="contact" class="guidance-btn">Book Appointment</a>
           </div>
         </aside>
@@ -822,12 +838,12 @@ $page_title = "Brain Stroke Treatment in Hyderabad | Dr. Rajesh Reddy Sannareddy
               Manage appointments and medical reports seamlessly.</p>
 
             <div class="app-store-btns" style="display: flex; gap: 1rem;">
-              <a href="#" class="app-badge-btn"
+              <a href="https://apps.apple.com/in/app/dr-reddys-neuro-care/id6753586620" target="_blank" rel="noopener noreferrer" class="app-badge-btn"
                 style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
                 <i class="fa-brands fa-app-store-ios" style="color: #0066cc; font-size: 1.25rem;"></i>
                 Download on App Store
               </a>
-              <a href="#" class="app-badge-btn"
+              <a href="https://play.google.com/store/apps/details?id=com.docterz.connect.drreddysneurocare" target="_blank" rel="noopener noreferrer" class="app-badge-btn"
                 style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
                 <i class="fa-brands fa-google-play" style="color: #1d1d1f; font-size: 1.25rem;"></i>
                 Get it on Google Play
@@ -853,8 +869,8 @@ $page_title = "Brain Stroke Treatment in Hyderabad | Dr. Rajesh Reddy Sannareddy
           <p style="color: #ccc; margin-bottom: 0;">Contact our helpdesk 24/7</p>
         </div>
         <div class="cta-button">
-          <a href="tel:09000224265" class="btn-primary"
-            style="background-color: #0066cc; color: #fff; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600;">Call 9000224265</a>
+          <a href="tel:08520052229" class="btn-primary"
+            style="background-color: #0066cc; color: #fff; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600;">Call 8520052229</a>
         </div>
       </div>
     </section>

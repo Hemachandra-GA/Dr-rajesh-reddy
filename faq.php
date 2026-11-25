@@ -9,6 +9,21 @@ $page_title = "Frequently Asked Questions | Dr. Rajesh Reddy, Neurosurgeon Hyder
   <meta name="description" content="Answers to the most common questions about brain tumor surgery, aneurysm coiling, spine surgery, stroke treatment, and consultations with Dr. Rajesh Reddy Sannareddy, Senior Neurosurgeon in Hyderabad.">
   <meta name="keywords" content="neurosurgeon Hyderabad FAQ, brain tumor surgery questions, aneurysm treatment Hyderabad, spine surgery FAQs, stroke thrombectomy, neurosurgeon consultation Hyderabad">
   <link rel="canonical" href="https://drrajeshreddy.com/faq">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/faq">
+  <meta property="og:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta property="og:description" content="Answers to the most common questions about brain tumor surgery, aneurysm coiling, spine surgery, stroke treatment, and consultations with Dr. Rajesh Reddy Sannareddy, Senior Neurosurgeon in Hyderabad.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/logo.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/faq">
+  <meta name="twitter:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta name="twitter:description" content="Answers to the most common questions about brain tumor surgery, aneurysm coiling, spine surgery, stroke treatment, and consultations with Dr. Rajesh Reddy Sannareddy, Senior Neurosurgeon in Hyderabad.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/logo.webp">
   <title><?php echo $page_title; ?></title>
     <!-- Preconnect to Font domains -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,7 +48,7 @@ $page_title = "Frequently Asked Questions | Dr. Rajesh Reddy, Neurosurgeon Hyder
         "name": "What are the consultation timings for Dr. Rajesh Reddy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Dr. Rajesh Reddy holds outpatient consultations at Medicover Hospital - Financial District, Financial District, Hyderabad. Please call 9000224265 or use the Dr. Reddy's Neuro Care app on Google Play to check current clinic days and timings, as schedules are updated periodically."
+          "text": "Dr. Rajesh Reddy holds outpatient consultations at Medicover Hospital - Financial District, Financial District, Hyderabad. Please call 8520052229 or use the Dr. Reddy's Neuro Care app (on App Store and Google Play) to check current clinic days and timings, as schedules are updated periodically."
         }
       },
       {
@@ -41,7 +56,7 @@ $page_title = "Frequently Asked Questions | Dr. Rajesh Reddy, Neurosurgeon Hyder
         "name": "How can I book an appointment?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Appointments can be booked in two ways: (1) Call the clinic directly at 9000224265, or (2) Download the Dr. Reddy's Neuro Care app on Google Play — the app allows you to book appointments, share medical reports, and request video consultations from anywhere in India."
+          "text": "Appointments can be booked in two ways: (1) Call the clinic directly at 8520052229, or (2) Download the Dr. Reddy's Neuro Care app (on App Store and Google Play) — the app allows you to book appointments, share medical reports, and request video consultations from anywhere in India."
         }
       },
       {
@@ -73,7 +88,7 @@ $page_title = "Frequently Asked Questions | Dr. Rajesh Reddy, Neurosurgeon Hyder
         "name": "Does Dr. Rajesh Reddy accept emergency cases or hospital transfers?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Dr. Rajesh Reddy accepts emergency neurosurgical cases and transfers from referring hospitals across the region. For acute emergencies — subarachnoid haemorrhage, stroke requiring mechanical thrombectomy, acute spine cord compression, or head injury — call the emergency helpline."
+          "text": "Yes. Dr. Rajesh Reddy accepts emergency neurosurgical cases and transfers from referring hospitals across the region. For acute emergencies — subarachnoid haemorrhage, stroke requiring mechanical thrombectomy, acute spine cord compression, or head injury — call the emergency line."
         }
       },
       {
@@ -416,6 +431,14 @@ $page_title = "Frequently Asked Questions | Dr. Rajesh Reddy, Neurosurgeon Hyder
 
     gtag('config', 'G-Q90BC8GWVR');
   </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
+  </script>
 </head>
 <body id="top">
 
@@ -450,7 +473,7 @@ $page_title = "Frequently Asked Questions | Dr. Rajesh Reddy, Neurosurgeon Hyder
       </button>
       <div class="pfaq-answer">
         <div class="pfaq-answer-body">
-          Dr. Rajesh Reddy holds outpatient consultations at Medicover Hospital - Financial District, Financial District, Hyderabad. Please call <strong>9000224265</strong> or use the <strong>Dr. Reddy's Neuro Care</strong> app on Google Play to check current clinic days and timings, as schedules are updated periodically.
+          Dr. Rajesh Reddy holds outpatient consultations at Medicover Hospital - Financial District, Financial District, Hyderabad. Please call <strong>8520052229</strong> or use the <strong>Dr. Reddy's Neuro Care</strong> app on Google Play to check current clinic days and timings, as schedules are updated periodically.
         </div>
       </div>
     </div>
@@ -464,7 +487,7 @@ $page_title = "Frequently Asked Questions | Dr. Rajesh Reddy, Neurosurgeon Hyder
       </button>
       <div class="pfaq-answer">
         <div class="pfaq-answer-body">
-          Appointments can be booked in two ways: (1) Call the clinic directly at <strong>9000224265</strong>, or (2) Download the <strong>Dr. Reddy's Neuro Care</strong> app on Google Play — the app allows you to book appointments, share medical reports, and request video consultations from anywhere in India.
+          Appointments can be booked in two ways: (1) Call the clinic directly at <strong>8520052229</strong>, or (2) Download the <strong>Dr. Reddy's Neuro Care</strong> app on Google Play — the app allows you to book appointments, share medical reports, and request video consultations from anywhere in India.
         </div>
       </div>
     </div>
@@ -520,7 +543,7 @@ $page_title = "Frequently Asked Questions | Dr. Rajesh Reddy, Neurosurgeon Hyder
       </button>
       <div class="pfaq-answer">
         <div class="pfaq-answer-body">
-          Yes. Dr. Rajesh Reddy accepts emergency neurosurgical cases and transfers from referring hospitals across the region. For acute emergencies — subarachnoid haemorrhage, stroke requiring mechanical thrombectomy, acute spine cord compression, or head injury — call the emergency helpline.
+          Yes. Dr. Rajesh Reddy accepts emergency neurosurgical cases and transfers from referring hospitals across the region. For acute emergencies — subarachnoid haemorrhage, stroke requiring mechanical thrombectomy, acute spine cord compression, or head injury — call the emergency line.
         </div>
       </div>
     </div>

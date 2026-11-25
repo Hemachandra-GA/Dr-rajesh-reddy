@@ -14,6 +14,23 @@ $page_title = "Subarachnoid Hemorrhage (SAH): Causes, Symptoms & Treatment | Dr.
     content="subarachnoid hemorrhage treatment, SAH brain bleed, ruptured aneurysm SAH, subarachnoid haemorrhage Hyderabad, vasospasm after SAH, brain aneurysm rupture treatment">
 
   <title><?php echo $page_title; ?></title>
+  <link rel="canonical" href="https://drrajeshreddy.com/subarachnoid-hemorrhage-treatment">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/subarachnoid-hemorrhage-treatment">
+  <meta property="og:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta property="og:description" content="What is subarachnoid hemorrhage (SAH)? Dr. Rajesh Reddy, Senior Consultant Endovascular Neurosurgeon in Hyderabad, explains SAH causes, grading, emergency management, vasospasm, and outcomes.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/Subarachnoid_Hemorrhage/Diagnossis_Treatment.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/subarachnoid-hemorrhage-treatment">
+  <meta name="twitter:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta name="twitter:description" content="What is subarachnoid hemorrhage (SAH)? Dr. Rajesh Reddy, Senior Consultant Endovascular Neurosurgeon in Hyderabad, explains SAH causes, grading, emergency management, vasospasm, and outcomes.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/Subarachnoid_Hemorrhage/Diagnossis_Treatment.webp">
+
 
   <!-- Global Stylesheet -->
     <!-- Preconnect to Font domains -->
@@ -115,6 +132,14 @@ $page_title = "Subarachnoid Hemorrhage (SAH): Causes, Symptoms & Treatment | Dr.
     gtag('js', new Date());
 
     gtag('config', 'G-Q90BC8GWVR');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
   </script>
 </head>
 
@@ -781,7 +806,7 @@ $page_title = "Subarachnoid Hemorrhage (SAH): Causes, Symptoms & Treatment | Dr.
             </div>
             <h3>Need Guidance?</h3>
             <p>Contact our clinic coordinators immediately for appointment scheduling, second opinions, or emergency details.</p>
-            <a href="tel:09000224265" class="guidance-phone">9000224265</a>
+            <a href="tel:08520052229" class="guidance-phone">8520052229</a>
             <a href="contact" class="guidance-btn">Book Appointment</a>
           </div>
         </aside>

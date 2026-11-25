@@ -4,6 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neurological Recovery Can Be a Roller Coaster Ride | Dr. Rajesh Reddy</title>
+  <link rel="canonical" href="https://drrajeshreddy.com/patient-education/neurological-recovery-roller-coaster-ride">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://drrajeshreddy.com/patient-education/neurological-recovery-roller-coaster-ride">
+  <meta property="og:title" content="Neurological Recovery Can Be a Roller Coaster Ride | Dr. Rajesh Reddy">
+  <meta property="og:description" content="Explore why patience, team-based care, emotional support, and family involvement matter during neurological rehabilitation with Dr. Rajesh Reddy Sannareddy.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/logo.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/patient-education/neurological-recovery-roller-coaster-ride">
+  <meta name="twitter:title" content="Neurological Recovery Can Be a Roller Coaster Ride | Dr. Rajesh Reddy">
+  <meta name="twitter:description" content="Explore why patience, team-based care, emotional support, and family involvement matter during neurological rehabilitation with Dr. Rajesh Reddy Sannareddy.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/logo.webp">
+
     
     <meta name="description" content="Explore why patience, team-based care, emotional support, and family involvement matter during neurological rehabilitation with Dr. Rajesh Reddy Sannareddy.">
     <meta name="keywords" content="neurological recovery timeline, brain injury rehabilitation journey, neuro recovery milestones, patient family neuro rehabilitation">
@@ -353,6 +370,14 @@
 
     gtag('config', 'G-Q90BC8GWVR');
   </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
+  </script>
 </head>
 <body>
 
@@ -364,9 +389,9 @@
         
         <!-- Breadcrumb -->
         <div class="breadcrumb">
-            <a href="../patient-education.php">Patient Education</a>
+            <a href="../patient-education">Patient Education</a>
             <span>/</span>
-            <a href="../patient-education.php">Brain Care</a>
+            <a href="../patient-education">Brain Care</a>
             <span>/</span>
             <span>Neurological Recovery Can Be a Roller Coaster Ride</span>
         </div>
@@ -447,7 +472,7 @@
                 <div class="cta-box">
                     <h3>Consult Dr. Rajesh Reddy Sannareddy</h3>
                     <p>If you or your loved one is facing the challenges of neurological recovery, connect with Dr. Rajesh Reddy Sannareddy and his expert team.<br>Comprehensive, team-based care and professional support can guide you through setbacks and achievements, ensuring no one travels this unpredictable journey alone. Reach out today to access resources, personalized rehabilitation, and compassionate encouragement.</p>
-                    <a href="tel:09000224265" class="btn-cta">📞 Book Rehabilitation Consultation</a>
+                    <a href="tel:08520052229" class="btn-cta">📞 Book Rehabilitation Consultation</a>
                 </div>
 
                 <p style="margin-top: 32px; font-style: italic; color: var(--color-ink-muted-48);">Author: By Dr. Rajesh Reddy Sannareddy, Senior Consultant Neurosurgeon</p>
@@ -456,11 +481,11 @@
             <!-- Sidebar Column -->
             <aside style="position: sticky; top: 80px; align-self: start;">
                 
-                <!-- HELPLINE Widget -->
+                <!-- Emergency Assistance Widget -->
                 <div class="sidebar-widget sidebar-emergency">
-                    <h4>HELPLINE</h4>
+                    <h4>EMERGENCY ASSISTANCE</h4>
                     <p class="emergency-desc">For urgent neuro-rehabilitation guidance, stroke recovery, or trauma care, contact our desk:</p>
-                    <a href="tel:09000224265" class="btn-sidebar-call">
+                    <a href="tel:08520052229" class="btn-sidebar-call">
                         <span>📞 Call Help Desk</span>
                     </a>
                 </div>
@@ -484,7 +509,7 @@
                             <span class="sidebar-stat-label">PAPERS</span>
                         </div>
                     </div>
-                    <a href="tel:09000224265" class="btn-sidebar-helpline">📞 Call Helpline</a>
+                    <a href="tel:08520052229" class="btn-sidebar-helpline">📞 Call Help Desk</a>
                 </div>
             </aside>
             

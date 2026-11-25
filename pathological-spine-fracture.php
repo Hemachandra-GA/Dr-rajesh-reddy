@@ -20,6 +20,14 @@ $page_title = "Pathological Spine Fracture: Cancer and Osteoporosis | Dr. Rajesh
   <meta property="og:url" content="https://drrajeshreddy.com/pathological-spine-fracture">
   <meta property="og:type" content="article">
   <meta property="og:image" content="https://drrajeshreddy.com/images/Pathological_spine_fracture/pathological Spine Fracture.webp">
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/pathological-spine-fracture">
+  <meta name="twitter:title" content="<?= $page_title ?>">
+  <meta name="twitter:description" content="Comprehensive guide to pathological spine fractures caused by osteoporosis, cancer metastases and myeloma — diagnosis, SINS scoring, kyphoplasty, separation surgery and SBRT by Dr. Rajesh Reddy, Hyderabad.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/Pathological_spine_fracture/pathological Spine Fracture.webp">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -136,6 +144,14 @@ $page_title = "Pathological Spine Fracture: Cancer and Osteoporosis | Dr. Rajesh
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-Q90BC8GWVR');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
   </script>
 </head>
 
@@ -492,7 +508,7 @@ $page_title = "Pathological Spine Fracture: Cancer and Osteoporosis | Dr. Rajesh
             <div style="background:#f4f8fc; border-radius:12px; padding:24px; margin-top:32px;">
               <h3 style="margin-top:0; color:#0066cc;">Consult Dr. Rajesh Reddy for Pathological Spine Fracture Management in Hyderabad</h3>
               <p style="margin-bottom:16px;">Whether you have been diagnosed with an osteoporotic vertebral fracture, have a cancer history and are experiencing spinal pain, or have been referred for assessment of spinal instability, Dr. Rajesh Reddy Sannareddy provides expert pathological fracture consultations in Hyderabad.</p>
-              <p style="margin-bottom:0; font-weight:600;">Book via the Dr. Reddy's Neuro Care app on Google Play or call 9000224265.</p>
+              <p style="margin-bottom:0; font-weight:600;">Book via the Dr. Reddy's Neuro Care app on Google Play or call 8520052229.</p>
             </div>
           </section>
 
@@ -554,7 +570,7 @@ $page_title = "Pathological Spine Fracture: Cancer and Osteoporosis | Dr. Rajesh
             </div>
             <h3>Need Guidance?</h3>
             <p>Contact our clinic coordinators immediately for appointment scheduling, second opinions, or emergency details.</p>
-            <a href="tel:09000224265" class="guidance-phone">9000224265</a>
+            <a href="tel:08520052229" class="guidance-phone">8520052229</a>
             <a href="contact" class="guidance-btn">Book Appointment</a>
           </div>
         </aside>
@@ -568,10 +584,10 @@ $page_title = "Pathological Spine Fracture: Cancer and Osteoporosis | Dr. Rajesh
             <h2 class="app-title" style="font-size: 2.75rem; font-weight: 700; margin-bottom: 1rem; color: #fff;">The Patient App.</h2>
             <p class="app-subtitle" style="font-size: 1.25rem; font-weight: 400; margin-bottom: 2rem; color: #fff;">Manage appointments and medical reports seamlessly.</p>
             <div class="app-store-btns" style="display: flex; gap: 1rem;">
-              <a href="#" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+              <a href="https://apps.apple.com/in/app/dr-reddys-neuro-care/id6753586620" target="_blank" rel="noopener noreferrer" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
                 <i class="fa-brands fa-app-store-ios" style="color: #0066cc; font-size: 1.25rem;"></i> Download on App Store
               </a>
-              <a href="#" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+              <a href="https://play.google.com/store/apps/details?id=com.docterz.connect.drreddysneurocare" target="_blank" rel="noopener noreferrer" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
                 <i class="fa-brands fa-google-play" style="color: #1d1d1f; font-size: 1.25rem;"></i> Get it on Google Play
               </a>
             </div>
@@ -590,7 +606,7 @@ $page_title = "Pathological Spine Fracture: Cancer and Osteoporosis | Dr. Rajesh
           <p style="color: #ccc; margin-bottom: 0;">Contact our helpdesk 24/7</p>
         </div>
         <div class="cta-button">
-          <a href="tel:09000224265" class="btn-primary" style="background-color: #0066cc; color: #fff; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600;">Call 9000224265</a>
+          <a href="tel:08520052229" class="btn-primary" style="background-color: #0066cc; color: #fff; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600;">Call 8520052229</a>
         </div>
       </div>
     </section>

@@ -12,6 +12,23 @@ $page_title = "Aneurysm Coiling vs. Surgical Clipping: Which Is Better? | Dr. Ra
   <meta name="keywords"
     content="aneurysm coiling vs clipping, brain aneurysm coiling, surgical clipping aneurysm, ISAT trial, endovascular coiling vs surgery, aneurysm treatment Hyderabad, which is better coiling or clipping">
   <title><?php echo $page_title; ?></title>
+  <link rel="canonical" href="https://drrajeshreddy.com/aneurysm-coiling-vs-clipping">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/aneurysm-coiling-vs-clipping">
+  <meta property="og:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta property="og:description" content="Coiling or clipping for a brain aneurysm — which is right for you? Dr. Rajesh Reddy, trained in both techniques, explains the evidence, anatomy, outcomes, and how the right choice is made for each patient.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/aneurysm-coiling-vs-clipping/expert_care _for_brain_aneurysms.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/aneurysm-coiling-vs-clipping">
+  <meta name="twitter:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta name="twitter:description" content="Coiling or clipping for a brain aneurysm — which is right for you? Dr. Rajesh Reddy, trained in both techniques, explains the evidence, anatomy, outcomes, and how the right choice is made for each patient.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/aneurysm-coiling-vs-clipping/expert_care _for_brain_aneurysms.webp">
+
 
   <!-- Global Stylesheet -->
     <!-- Preconnect to Font domains -->
@@ -117,6 +134,14 @@ $page_title = "Aneurysm Coiling vs. Surgical Clipping: Which Is Better? | Dr. Ra
     gtag('js', new Date());
 
     gtag('config', 'G-Q90BC8GWVR');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
   </script>
 </head>
 
@@ -697,7 +722,7 @@ $page_title = "Aneurysm Coiling vs. Surgical Clipping: Which Is Better? | Dr. Ra
             </div>
             <h3>Need Guidance?</h3>
             <p>Contact our clinic coordinators immediately for appointment scheduling, second opinions, or emergency details.</p>
-            <a href="tel:09000224265" class="guidance-phone">9000224265</a>
+            <a href="tel:08520052229" class="guidance-phone">8520052229</a>
             <a href="contact" class="guidance-btn">Book Appointment</a>
           </div>
         </aside>

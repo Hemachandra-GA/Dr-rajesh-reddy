@@ -12,6 +12,23 @@ $page_title = "Brain Aneurysm Symptoms: When Is It an Emergency? | Dr. Rajesh Re
   <meta name="keywords"
     content="brain aneurysm symptoms, thunderclap headache aneurysm, signs of brain aneurysm, worst headache of my life, brain aneurysm warning signs, subarachnoid hemorrhage symptoms, sentinel headache">
   <title><?php echo $page_title; ?></title>
+  <link rel="canonical" href="https://drrajeshreddy.com/brain-aneurysm-symptoms">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/brain-aneurysm-symptoms">
+  <meta property="og:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta property="og:description" content="How do you know if a headache is a brain aneurysm? Dr. Rajesh Reddy explains the warning signs of brain aneurysm — from thunderclap headache and third nerve palsy to sentinel bleeds — and when to seek emergency care.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/brain-aneurysm-symptoms/expert_care _for_brain_aneurysms.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/brain-aneurysm-symptoms">
+  <meta name="twitter:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta name="twitter:description" content="How do you know if a headache is a brain aneurysm? Dr. Rajesh Reddy explains the warning signs of brain aneurysm — from thunderclap headache and third nerve palsy to sentinel bleeds — and when to seek emergency care.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/brain-aneurysm-symptoms/expert_care _for_brain_aneurysms.webp">
+
 
   <!-- Global Stylesheet -->
     <!-- Preconnect to Font domains -->
@@ -101,6 +118,14 @@ $page_title = "Brain Aneurysm Symptoms: When Is It an Emergency? | Dr. Rajesh Re
     gtag('js', new Date());
 
     gtag('config', 'G-Q90BC8GWVR');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
   </script>
 </head>
 
@@ -864,7 +889,7 @@ $page_title = "Brain Aneurysm Symptoms: When Is It an Emergency? | Dr. Rajesh Re
             <h3>Need Guidance?</h3>
             <p>Contact our clinic coordinators immediately for appointment scheduling, second opinions, or emergency
               details.</p>
-            <a href="tel:09000224265" class="guidance-phone">9000224265</a>
+            <a href="tel:08520052229" class="guidance-phone">8520052229</a>
             <a href="contact" class="guidance-btn">Book Appointment</a>
           </div>
         </aside>
