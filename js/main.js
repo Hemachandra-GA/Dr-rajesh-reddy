@@ -306,17 +306,33 @@ function initMobileNav() {
   if (navMenu.dataset.mobileNavInitialized === 'true') return;
   navMenu.dataset.mobileNavInitialized = 'true';
 
-  mobileToggle.onclick = function(e) {
-    if (e) e.stopPropagation();
-    navMenu.classList.add('active');
-    document.body.style.overflow = 'hidden';
-  };
-
-  if (mobileCloseBtn) {
-    mobileCloseBtn.onclick = function() {
+  mobileToggle.addEventListener('click', function(e) {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    const isActive = navMenu.classList.contains('active');
+    if (isActive) {
       navMenu.classList.remove('active');
       document.body.style.overflow = '';
-    };
+      mobileToggle.setAttribute('aria-expanded', 'false');
+    } else {
+      navMenu.classList.add('active');
+      document.body.style.overflow = 'hidden';
+      mobileToggle.setAttribute('aria-expanded', 'true');
+    }
+  });
+
+  if (mobileCloseBtn) {
+    mobileCloseBtn.addEventListener('click', function(e) {
+      if (e) {
+        e.preventDefault();
+        e.stopPropagation();
+      }
+      navMenu.classList.remove('active');
+      document.body.style.overflow = '';
+      if (mobileToggle) mobileToggle.setAttribute('aria-expanded', 'false');
+    });
   }
 
   // Accordion toggle for "I Treat" on mobile viewports
