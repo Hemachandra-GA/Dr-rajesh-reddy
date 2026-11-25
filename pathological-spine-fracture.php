@@ -289,6 +289,9 @@ $page_title = "Pathological Spine Fracture: Cancer and Osteoporosis | Dr. Rajesh
             <p style="margin-top: 18px;">Tuberculosis of the spine — Pott's disease — remains one of the most important causes of pathological vertebral fracture in India and across South Asia. It typically involves two adjacent vertebrae and the intervening disc, with bone destruction, disc space collapse, and the formation of a paravertebral 'cold abscess'. Neurological complications, including spinal cord compression and paraplegia, occur in up to 30% of cases without adequate treatment. Dr. Rajesh Reddy manages Pott's disease with anti-tubercular chemotherapy as the primary treatment, reserving surgery for cases with neurological deficit, structural instability, or failure to respond to medical management.</p>
           </section>
 
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="symptoms" class="pillar-section">
             <h2>Recognising a Pathological Spine Fracture: Symptoms and Red Flags</h2>
             <p>Pathological vertebral fractures often present differently from traumatic fractures, and a high index of suspicion is essential — particularly in patients with known risk factors.</p>
@@ -371,6 +374,9 @@ $page_title = "Pathological Spine Fracture: Cancer and Osteoporosis | Dr. Rajesh
             </div>
             <p style="margin-top: 18px;"><strong>Total SINS Score Interpretation:</strong> 0–6 = Stable; 7–12 = Potentially unstable; 13–18 = Unstable. The SINS score is completed by the treating clinician or radiologist reviewing the patient's MRI and CT, and provides a structured basis for surgical consultation. A score of 7 or above warrants referral to a spine surgeon for assessment of the need for stabilisation, even if the patient is neurologically intact.</p>
           </section>
+
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
 
           <section id="noms" class="pillar-section">
             <h2>The NOMS Framework: Decision-Making for Spinal Metastases</h2>
@@ -511,6 +517,9 @@ $page_title = "Pathological Spine Fracture: Cancer and Osteoporosis | Dr. Rajesh
               <p style="margin-bottom:0; font-weight:600;">Book via the Dr. Reddy's Neuro Care app on Google Play or call 8520052229.</p>
             </div>
           </section>
+
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
 
           <section id="consultation" class="pillar-section">
             <h2>References</h2>

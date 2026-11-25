@@ -224,6 +224,9 @@ $page_title = "Cervical Spine Fracture Treatment: C1–C7 Injuries | Dr. Rajesh 
             <p>C3 through C7 have conventional vertebral bodies, discs, facet joints, and posterior elements. The subaxial cervical canal is narrower than the upper cervical region, and the cord is more vulnerable to compression from displaced bone or disc material. The brachial plexus nerve roots — which supply the arms — exit at C5–T1, so subaxial injuries commonly cause arm weakness and radiculopathy in addition to or instead of cord injury.</p>
           </section>
 
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="types-of-fractures" class="pillar-section">
             <h2>Types of Cervical Spine Fractures</h2>
             <p>The table below summarises the most important cervical fracture and dislocation types, their levels, neurological risk, and typical management:</p>
@@ -359,6 +362,9 @@ $page_title = "Cervical Spine Fracture Treatment: C1–C7 Injuries | Dr. Rajesh 
             <p>The sequence matters: MRI before reduction, then anterior discectomy if disc herniation is present, then reduction and posterior stabilisation. Attempting closed reduction without first excluding a herniated disc in the presence of cord injury is a preventable cause of neurological deterioration.</p>
           </section>
 
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="surgical-approaches" class="pillar-section">
             <h2>Surgical Approaches for Cervical Fractures</h2>
             <p>The choice of surgical approach depends on where the compressive pathology lies, the injury pattern, and the level of instability:</p>
@@ -457,6 +463,9 @@ $page_title = "Cervical Spine Fracture Treatment: C1–C7 Injuries | Dr. Rajesh 
               <figcaption style="margin-top: 8px; color: #64748b; font-size: 0.9rem;">Follow-up imaging and guided rehabilitation help monitor healing and support a gradual return to daily activities.</figcaption>
             </figure>
           </section>
+
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
 
           <section id="faq" class="pillar-section">
             <h2>Frequently Asked Questions</h2>

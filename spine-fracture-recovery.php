@@ -393,6 +393,9 @@ $page_description = "A complete guide to spine fracture recovery — hospital st
           </section>
 
           <!-- Section 5: What Happens in Hospital After Spine Surgery? -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="hospital-experience" class="pillar-section">
             <h2>What Happens in Hospital After Spine Surgery?</h2>
             
@@ -520,6 +523,9 @@ $page_description = "A complete guide to spine fracture recovery — hospital st
           </section>
 
           <!-- Section 9: Warning Signs: When to Contact Dr. Rajesh Reddy Urgently -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="warning-signs" class="pillar-section">
             <h2>Warning Signs: When to Contact Dr. Rajesh Reddy Urgently</h2>
             <p>Most spine fracture recoveries proceed without serious complications. However, knowing the warning signs that require urgent attention can prevent a complication from becoming a catastrophe:</p>
@@ -685,6 +691,9 @@ $page_description = "A complete guide to spine fracture recovery — hospital st
           </section>
 
           <!-- Section 13: Consultation in Hyderabad -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="consultation" class="pillar-section" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 32px; margin-top: 40px;">
             <h2 style="margin-top: 0;">Recovery Guidance from Dr. Rajesh Reddy — Hyderabad's Spine Fracture Specialist</h2>
             <p>If you have questions about your recovery from a spine fracture — whether you are a patient of Dr. Rajesh Reddy or seeking a second opinion — contact the clinic for a comprehensive post-operative review at Medicover Hospital - Financial District, Hyderabad. Book via the Dr. Reddy's Neuro Care app on Google Play or call 8520052229.</p>

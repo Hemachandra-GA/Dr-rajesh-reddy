@@ -394,6 +394,9 @@ $page_title = "Types of Brain Tumors: A Complete Guide | Dr. Rajesh Reddy";
           </section>
 
           <!-- Gliomas Section -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="gliomas" class="pillar-section">
             <h2 class="pillar-section-title">Gliomas: The Most Common Primary Brain Tumors</h2>
             <p>Gliomas are tumors that arise from glial cells — the supportive cells of the brain that provide structure, insulation, and nourishment to neurons. They account for the majority of primary malignant brain tumors in adults.</p>
@@ -461,6 +464,9 @@ $page_title = "Types of Brain Tumors: A Complete Guide | Dr. Rajesh Reddy";
           </section>
 
           <!-- Medulloblastoma Section -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="medulloblastoma" class="pillar-section">
             <h2 class="pillar-section-title">Medulloblastoma</h2>
             <p>Medulloblastoma is the most common malignant brain tumor in children, arising from the cerebellum. It grows rapidly and has a tendency to spread through the cerebrospinal fluid (CSF) to other parts of the brain and spinal cord (leptomeningeal spread), which is why staging with full spine MRI and CSF analysis is essential at the time of diagnosis.</p>
@@ -527,6 +533,9 @@ $page_title = "Types of Brain Tumors: A Complete Guide | Dr. Rajesh Reddy";
           </section>
 
           <!-- FAQ Section -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="faq" class="pillar-section">
             <h2 class="pillar-section-title">Frequently Asked Questions</h2>
 

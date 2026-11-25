@@ -298,6 +298,9 @@ $page_title = "Ruptured vs. Unruptured Brain Aneurysm: Key Differences | Dr. Raj
           </section>
 
           <!-- Ruptured Aneurysm Section -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="ruptured-emergency" class="pillar-section">
             <h2 class="pillar-section-title">The Ruptured Aneurysm: A Life-Threatening Emergency</h2>
             
@@ -436,6 +439,9 @@ $page_title = "Ruptured vs. Unruptured Brain Aneurysm: Key Differences | Dr. Raj
           </section>
 
           <!-- Assessing Rupture Risk Section -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="rupture-risk" class="pillar-section">
             <h2 class="pillar-section-title">Assessing Rupture Risk: Low vs. High Risk Features</h2>
             <p>The table below summarises the features that define lower and higher rupture risk for unruptured aneurysms — the basis for the treatment decision conversation:</p>
@@ -577,6 +583,9 @@ $page_title = "Ruptured vs. Unruptured Brain Aneurysm: Key Differences | Dr. Raj
           </section>
 
           <!-- FAQ Section -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="faq" class="pillar-section">
             <h2 class="pillar-section-title">Frequently Asked Questions</h2>
 

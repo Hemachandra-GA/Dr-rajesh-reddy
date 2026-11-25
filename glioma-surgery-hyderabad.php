@@ -489,6 +489,9 @@ $page_title = "Glioma Surgery in Hyderabad | Dr. Rajesh Reddy, Neurosurgeon";
 
           <!-- Symptoms Section -->
 
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="symptoms" class="pillar-section">
 
             <h2 class="pillar-section-title">Glioma Symptoms: What to Look For</h2>
@@ -730,6 +733,9 @@ $page_title = "Glioma Surgery in Hyderabad | Dr. Rajesh Reddy, Neurosurgeon";
 
           <!-- Multimodal Treatment Section -->
 
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="treatment" class="pillar-section">
 
             <h2 class="pillar-section-title">Beyond Surgery: Multimodal Treatment for Gliomas</h2>
@@ -953,6 +959,9 @@ $page_title = "Glioma Surgery in Hyderabad | Dr. Rajesh Reddy, Neurosurgeon";
 
 
           <!-- FAQ Section -->
+
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
 
           <section id="faq" class="pillar-section">
 

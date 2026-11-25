@@ -574,6 +574,9 @@ $page_title = "Awake Craniotomy: What to Expect | Dr. Rajesh Reddy, Hyderabad";
           </section>
 
           <!-- Mapping Section -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="mapping" class="pillar-section">
             <h2 class="pillar-section-title">Intraoperative Brain Mapping: What Happens During the Awake Phase</h2>
             <p>Brain mapping during awake craniotomy uses a technique called <strong>direct electrical stimulation
@@ -834,6 +837,9 @@ $page_title = "Awake Craniotomy: What to Expect | Dr. Rajesh Reddy, Hyderabad";
           </section>
 
           <!-- Team Section -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="team" class="pillar-section">
             <h2 class="pillar-section-title">The Awake Craniotomy Multidisciplinary Team</h2>
             <ul>
@@ -907,6 +913,9 @@ $page_title = "Awake Craniotomy: What to Expect | Dr. Rajesh Reddy, Hyderabad";
           </section>
 
           <!-- FAQ Section -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="faq" class="pillar-section">
             <h2 class="pillar-section-title">Frequently Asked Questions</h2>
 

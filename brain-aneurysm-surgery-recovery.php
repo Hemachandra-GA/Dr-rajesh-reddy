@@ -323,6 +323,9 @@ $page_title = "Life After Brain Aneurysm Surgery: Recovery Guide | Dr. Rajesh Re
           </section>
 
           <!-- Week 1–2: Early Home Recovery -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="week-1-2" class="pillar-section">
             <h2 class="pillar-section-title">Week 1–2: Early Home Recovery</h2>
             <p>Whether home after 2 days (coiling) or 7 days (clipping), the first two weeks at home are about rest and gradual recovery. The brain and body are healing, and fatigue is the most universal — and most underestimated — early symptom.</p>
@@ -440,6 +443,9 @@ $page_title = "Life After Brain Aneurysm Surgery: Recovery Guide | Dr. Rajesh Re
           </section>
 
           <!-- Medications -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="medications" class="pillar-section">
             <h2 class="pillar-section-title">Medications After Brain Aneurysm Treatment</h2>
             <p>Understanding the medications prescribed after brain aneurysm treatment — what each is for and how long to take it — helps patients stay adherent and avoid dangerous interruptions:</p>
@@ -538,6 +544,9 @@ $page_title = "Life After Brain Aneurysm Surgery: Recovery Guide | Dr. Rajesh Re
           </section>
 
           <!-- Long-Term Life -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="long-term" class="pillar-section">
             <h2 class="pillar-section-title">Long-Term Life After Brain Aneurysm Treatment</h2>
             <div style="margin: 20px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">

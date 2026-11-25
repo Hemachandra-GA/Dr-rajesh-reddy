@@ -350,6 +350,9 @@ $page_title = "Meningioma Treatment Without Open Surgery | Dr. Rajesh Reddy, Hyd
           </section>
 
           <!-- Diagnosis Section -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="diagnosis" class="pillar-section">
             <h2 class="pillar-section-title">Diagnosing a Meningioma</h2>
             <p>Meningiomas have a characteristic appearance on MRI that experienced neurosurgeons recognise readily. Key diagnostic features include:</p>
@@ -437,6 +440,9 @@ $page_title = "Meningioma Treatment Without Open Surgery | Dr. Rajesh Reddy, Hyd
           </section>
 
           <!-- Radiosurgery Section -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="radiosurgery" class="pillar-section">
             <h2 class="pillar-section-title">Stereotactic Radiosurgery: Treating Meningioma Without Open Surgery</h2>
             <p>Stereotactic radiosurgery (SRS) — delivered by platforms such as Gamma Knife, CyberKnife, or linear accelerator-based systems — is one of the most important advances in meningioma management. Despite the name, it is not conventional surgery. It uses multiple highly focused beams of radiation that converge precisely on the tumor, delivering a high dose to the target while sparing surrounding tissue. There is no incision, no anaesthesia (or only mild sedation), and no hospital admission in most cases.</p>
@@ -564,6 +570,9 @@ $page_title = "Meningioma Treatment Without Open Surgery | Dr. Rajesh Reddy, Hyd
           </section>
 
           <!-- FAQ Section -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="faq" class="pillar-section">
             <h2 class="pillar-section-title">Frequently Asked Questions</h2>
 

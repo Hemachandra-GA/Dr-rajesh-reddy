@@ -318,6 +318,9 @@ $page_description = "Explore minimally invasive spine fracture surgery options i
           </section>
 
           <!-- Section 4: Minimally Invasive Procedures for Spine Fractures -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="mis-procedures" class="pillar-section">
             <h2>Minimally Invasive Procedures for Spine Fractures</h2>
             <p>The following procedures represent the MIS toolkit for spine fracture management. Several are available at Dr. Rajesh Reddy's centre in Hyderabad:</p>
@@ -446,6 +449,9 @@ $page_description = "Explore minimally invasive spine fracture surgery options i
           </section>
 
           <!-- Section 8: Balloon Kyphoplasty and Vertebroplasty -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="kyphoplasty-vertebroplasty" class="pillar-section">
             <h2>Balloon Kyphoplasty and Vertebroplasty for Compression Fractures</h2>
             <p>Vertebral compression fractures — the most common fracture type in patients over 60 — compress the front (anterior) column of the vertebra, producing a wedge-shaped deformity, height loss, and often severe axial back pain. When conservative management (rest, analgesia, bracing) fails to control pain, or when the fracture is progressive, cement augmentation procedures are highly effective.</p>
@@ -575,6 +581,9 @@ $page_description = "Explore minimally invasive spine fracture surgery options i
           </section>
 
           <!-- Section 12: References -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="references" class="pillar-section" style="margin-top: 40px; padding-top: 24px; border-top: 1px solid #e2e8f0;">
             <h3 style="font-size: 1.2rem; color: #1e293b;">Scientific References</h3>
             <p style="font-size: 0.9rem; color: #64748b;">The clinical statements on this page are supported by peer-reviewed neurosurgical and spinal literature:</p>

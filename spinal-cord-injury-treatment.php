@@ -337,6 +337,9 @@ $page_description = "Comprehensive guide to spinal cord injury treatment, ASIA g
           </section>
 
           <!-- Section 4: Incomplete SCI Syndromes -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="sci-syndromes" class="pillar-section">
             <h2>Incomplete SCI Syndromes: Patterns of Partial Injury</h2>
             <p>Incomplete spinal cord injuries produce characteristic clinical syndromes that reflect the specific anatomical location of cord damage. Recognising these syndromes guides prognosis and rehabilitation planning:</p>
@@ -515,6 +518,9 @@ $page_description = "Comprehensive guide to spinal cord injury treatment, ASIA g
           </section>
 
           <!-- Section 8: Rehabilitation After SCI -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="rehabilitation" class="pillar-section">
             <h2>Rehabilitation After Spinal Cord Injury</h2>
             <p>Rehabilitation begins in the ICU — not after discharge. Passive range-of-motion exercises, correct positioning, respiratory physiotherapy, and early splinting to prevent contractures start within the first 24–48 hours. The rehabilitation programme that follows is intensive, multidisciplinary, and long — it typically spans months in the inpatient setting and continues as an outpatient programme for years.</p>
@@ -642,6 +648,9 @@ $page_description = "Comprehensive guide to spinal cord injury treatment, ASIA g
           </section>
 
           <!-- Section 12: Consultation in Hyderabad -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="consultation" class="pillar-section" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 32px; margin-top: 40px;">
             <h2 style="margin-top: 0;">Consult Dr. Rajesh Reddy for Spinal Cord Injury Management in Hyderabad</h2>
             <p>Whether you are seeking emergency consultation for an acute spinal cord injury, a second opinion on surgical management, or guidance on rehabilitation planning, Dr. Rajesh Reddy Sannareddy provides comprehensive spinal cord injury consultations in Hyderabad. Book via the Dr. Reddy's Neuro Care app on Google Play or call 8520052229.</p>

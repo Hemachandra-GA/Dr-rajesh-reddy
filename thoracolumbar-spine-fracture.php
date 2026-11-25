@@ -273,6 +273,9 @@ $page_title = "Thoracolumbar Spine Fracture: Surgery vs. Conservative Management
           </section>
 
           <!-- Section 4: TLICS Score -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="tlics-score" class="pillar-section">
             <h2>The TLICS Score: The Evidence-Based Decision Tool</h2>
             <p>The Thoracolumbar Injury Classification and Severity (TLICS) score provides an objective, reproducible framework for the surgery vs. conservative management decision. It scores three parameters — fracture morphology, posterior ligamentous complex integrity, and neurological status — and adds the scores:</p>
@@ -466,6 +469,9 @@ $page_title = "Thoracolumbar Spine Fracture: Surgery vs. Conservative Management
           </section>
 
           <!-- Section 7: Surgical Treatment -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="surgical-treatment" class="pillar-section">
             <h2>Surgical Treatment: Minimally Invasive vs. Open</h2>
             <figure style="margin: 28px 0;">
@@ -597,6 +603,9 @@ $page_title = "Thoracolumbar Spine Fracture: Surgery vs. Conservative Management
           </section>
 
           <!-- Section 10: Consultation CTA -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="consultation" class="pillar-section" style="background-color: #f8fafc; padding: 32px; border-radius: 16px; border: 1px solid #e2e8f0; margin-top: 32px;">
             <h2 style="margin-top: 0; color: #1e293b;">Consult Dr. Rajesh Reddy for Thoracolumbar Fracture Assessment in Hyderabad</h2>
             <p>Whether you have recently sustained a thoracolumbar fracture and need an expert assessment of whether surgery is required — or you have been recommended surgery and want a second opinion — Dr. Rajesh Reddy Sannareddy provides comprehensive spine fracture consultations in Hyderabad with access to the full range of treatment options. Book via the Dr. Reddy's Neuro Care app on Google Play or call <strong>8520052229</strong>.</p>
