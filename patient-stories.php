@@ -8,15 +8,32 @@ $pageDescription = "Hear directly from patients about their neurosurgical recove
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $pageTitle; ?></title>
+  <link rel="canonical" href="https://drrajeshreddy.com/patient-stories">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/patient-stories">
+  <meta property="og:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta property="og:description" content="<?php echo $pageDescription; ?>">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/logo.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/patient-stories">
+  <meta name="twitter:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta name="twitter:description" content="<?php echo $pageDescription; ?>">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/logo.webp">
+
     <meta name="description" content="<?php echo $pageDescription; ?>">
     <meta name="keywords" content="patient success stories, neurosurgery recovery stories, brain surgery patient reviews, spine surgery testimonials Hyderabad, Dr Rajesh Reddy reviews">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap"></noscript>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript></noscript>
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
     
     <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/png" href="images/favicon-drrajeshreddy.png">
@@ -28,6 +45,14 @@ $pageDescription = "Hear directly from patients about their neurosurgical recove
     gtag('js', new Date());
 
     gtag('config', 'G-Q90BC8GWVR');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
   </script>
 </head>
 <body id="top">
@@ -235,11 +260,11 @@ $pageDescription = "Hear directly from patients about their neurosurgical recove
           <p class="app-subtitle" style="font-size: 1.25rem; font-weight: 400; margin-bottom: 2rem; color: #fff;">Manage appointments and medical reports seamlessly.</p>
 
           <div class="app-store-btns" style="display: flex; gap: 1rem;">
-            <a href="#" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <a href="https://apps.apple.com/in/app/dr-reddys-neuro-care/id6753586620" target="_blank" rel="noopener noreferrer" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
               <i class="fa-brands fa-app-store-ios" style="color: #0066cc; font-size: 1.25rem;"></i>
               Download on App Store
             </a>
-            <a href="#" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <a href="https://play.google.com/store/apps/details?id=com.docterz.connect.drreddysneurocare" target="_blank" rel="noopener noreferrer" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
               <i class="fa-brands fa-google-play" style="color: #1d1d1f; font-size: 1.25rem;"></i>
               Get it on Google Play
             </a>

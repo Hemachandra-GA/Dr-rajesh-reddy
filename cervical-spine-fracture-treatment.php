@@ -12,6 +12,21 @@ $page_title = "Cervical Spine Fracture Treatment: C1–C7 Injuries | Dr. Rajesh 
   <meta name="keywords"
     content="cervical spine fracture treatment, neck fracture surgery Hyderabad, C2 odontoid fracture, ACDF cervical fracture, cervical spine injury neurosurgeon, C1 Jefferson fracture, atlantoaxial instability">
   <link rel="canonical" href="https://drrajeshreddy.com/cervical-spine-fracture-treatment">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/cervical-spine-fracture-treatment">
+  <meta property="og:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta property="og:description" content="Expert cervical spine fracture treatment in Hyderabad by Dr. Rajesh Reddy — odontoid fractures, Jefferson fractures, hangman's fractures, burst fractures, and fracture-dislocations. Emergency and elective surgical care.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/cervical-spine-fracture-treatment/Spine Fracture Treatment_hero.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/cervical-spine-fracture-treatment">
+  <meta name="twitter:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta name="twitter:description" content="Expert cervical spine fracture treatment in Hyderabad by Dr. Rajesh Reddy — odontoid fractures, Jefferson fractures, hangman's fractures, burst fractures, and fracture-dislocations. Emergency and elective surgical care.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/cervical-spine-fracture-treatment/Spine Fracture Treatment_hero.webp">
   <title><?php echo $page_title; ?></title>
 
   <!-- Global Stylesheet -->
@@ -112,6 +127,14 @@ $page_title = "Cervical Spine Fracture Treatment: C1–C7 Injuries | Dr. Rajesh 
     gtag('js', new Date());
 
     gtag('config', 'G-Q90BC8GWVR');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
   </script>
 </head>
 
@@ -479,7 +502,7 @@ $page_title = "Cervical Spine Fracture Treatment: C1–C7 Injuries | Dr. Rajesh 
             <div style="background:#f4f8fc; border-radius:12px; padding:24px; margin-top:32px;">
               <h3 style="margin-top:0; color:#0066cc;">Emergency or Elective: Consult Dr. Rajesh Reddy for Cervical Spine Fracture</h3>
               <p style="margin-bottom:16px;">Whether you have sustained a recent cervical fracture and need emergency assessment, or have been told you have an unstable cervical injury and are seeking expert neurosurgical opinion — Dr. Rajesh Reddy Sannareddy provides comprehensive cervical spine consultations.</p>
-              <p style="margin-bottom:0; font-weight:600;">For emergencies, call 9000224265. For elective consultations, book via the Dr. Reddy's Neuro Care app on Google Play.</p>
+              <p style="margin-bottom:0; font-weight:600;">For emergencies, call 8520052229. For elective consultations, book via the Dr. Reddy's Neuro Care app on Google Play.</p>
             </div>
           </section>
 
@@ -534,7 +557,7 @@ $page_title = "Cervical Spine Fracture Treatment: C1–C7 Injuries | Dr. Rajesh 
             </div>
             <h3>Need Guidance?</h3>
             <p>Contact our clinic coordinators immediately for appointment scheduling, second opinions, or emergency details.</p>
-            <a href="tel:09000224265" class="guidance-phone">9000224265</a>
+            <a href="tel:08520052229" class="guidance-phone">8520052229</a>
             <a href="contact" class="guidance-btn">Book Appointment</a>
           </div>
         </aside>
@@ -542,7 +565,49 @@ $page_title = "Cervical Spine Fracture Treatment: C1–C7 Injuries | Dr. Rajesh 
       </div> <!-- /pillar-layout -->
     </div> <!-- /pillar-main-content -->
 
-    <!-- Mobile Floating Action Triggers & Overlay -->
+        <!-- THE PATIENT APP SECTION -->
+    <section class="app-section" style="background-color: #0066cc; padding: 0; position: relative; overflow: visible; margin-top: 100px;">
+      <div class="container" style="position: relative; z-index: 2;">
+        <div class="app-grid" style="display: flex; align-items: center; justify-content: space-between; min-height: 350px;">
+          <!-- Left Banner Content -->
+          <div class="app-content" style="flex: 1; padding: 60px 0; color: #fff; max-width: 600px;">
+            <h2 class="app-title" style="font-size: 2.75rem; font-weight: 700; margin-bottom: 1rem; color: #fff;">The Patient App.</h2>
+            <p class="app-subtitle" style="font-size: 1.25rem; font-weight: 400; margin-bottom: 2rem; color: #fff;">Manage appointments and medical reports seamlessly.</p>
+
+            <div class="app-store-btns" style="display: flex; gap: 1rem;">
+              <a href="https://apps.apple.com/in/app/dr-reddys-neuro-care/id6753586620" target="_blank" rel="noopener noreferrer" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                <i class="fa-brands fa-app-store-ios" style="color: #0066cc; font-size: 1.25rem;"></i>
+                Download on App Store
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.docterz.connect.drreddysneurocare" target="_blank" rel="noopener noreferrer" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                <i class="fa-brands fa-google-play" style="color: #1d1d1f; font-size: 1.25rem;"></i>
+                Get it on Google Play
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Phone Mockup -->
+          <div class="phone-mockup-wrapper" style="flex: 1; display: flex; justify-content: flex-end; position: relative;">
+            <img src="images/phone-qr.webp" alt="The Patient App" class="app-phone-img" style="width: 460px; max-width: none; position: absolute; bottom: -315px; right: 20px;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pre-footer CTA -->
+    <section class="pre-footer-cta" style="background-color: #111; color: #fff; padding: 40px 0;">
+      <div class="container cta-container" style="display: flex; justify-content: space-between; align-items: center;">
+        <div class="cta-text">
+          <h2 style="color: #fff; text-transform: uppercase; font-size: 1.5rem; margin-bottom: 8px;">Need Urgent Medical Assistance?</h2>
+          <p style="color: #ccc; margin-bottom: 0;">Contact our helpdesk 24/7</p>
+        </div>
+        <div class="cta-button">
+          <a href="tel:08520052229" class="btn-primary" style="background-color: #0066cc; color: #fff; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600;">Call 8520052229</a>
+        </div>
+      </div>
+    </section>
+
+<!-- Mobile Floating Action Triggers & Overlay -->
     <div class="mobile-float-triggers">
       <button id="floatOnThisPageBtn" class="mobile-float-btn float-left" aria-label="On This Page">
         <i class="fa-solid fa-list-ul"></i>

@@ -73,7 +73,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
       "description": "Senior Consultant Neurosurgeon with over 15 years of surgical experience across India and abroad. He specializes in microsurgical, endoscopic, and minimally invasive procedures for brain, spine, and neurovascular conditions — using intraoperative navigation and neuro-monitoring to protect function while treating even the most complex cases.",
       "url": "https://drrajeshreddy.com/profile",
       "image": "https://drrajeshreddy.com/images/doctor-portrait.webp",
-      "telephone": "+91-9000224265",
+      "telephone": "+91-8520052229",
       "email": "info@drrajeshreddy.com",
       "hasCredential": [
         {
@@ -150,7 +150,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
       "@id": "https://drrajeshreddy.com/#hospital",
       "name": "Medicover Hospital - Financial District",
       "url": "https://www.medicoverhospitals.in/",
-      "telephone": "+91-9000224265",
+      "telephone": "+91-8520052229",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Medicover Hospital - Financial District",
@@ -198,8 +198,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
         style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
         <picture>
           <source media="(max-width: 991px)" srcset="<?= $path_prefix ?>images/logo-icon.webp">
-          <img src="<?= $path_prefix ?>images/Logo.svg" alt="Dr. Rajesh Reddy Neurosurgery Logo" class="logo-img"
-            width="260" height="60" style="height: 60px; width: auto;" fetchpriority="high">
+          <img src="<?= $path_prefix ?>images/Logo.svg" alt="Dr. Rajesh Reddy Neurosurgery Logo" class="logo-img" width="220" height="52">
         </picture>
       </a>
 
@@ -223,6 +222,7 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
                   class="fa-solid fa-lightbulb" style="color: #0066cc; width: 20px;"></i> Insights & Expertise</a></li>
             <li class="mobile-only-link"><a href="<?= $path_prefix ?>patient-stories" class="<?= ($current_page === 'patient-stories') ? 'active' : '' ?>"><i class="fa-solid fa-star"
                   style="color: #0066cc; width: 20px;"></i> Patient Stories</a></li>
+            <li class="mobile-only-link"><a href="https://wa.me/918520052229?text=Hello%20Dr.%20Rajesh%20Reddy%27s%20Clinic%2C%20I%20would%20like%20to%20inquire%20about%20a%20consultation." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" style="color: #25D366; width: 20px;"></i> Chat on WhatsApp (24/7)</a></li>
             <li class="mobile-only-link"><a href="<?= $path_prefix ?>gallery" class="<?= ($current_page === 'gallery') ? 'active' : '' ?>"><i class="fa-solid fa-images"
                   style="color: #0066cc; width: 20px;"></i> Gallery</a></li>
 
@@ -325,6 +325,12 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
                               <a href="<?= $path_prefix ?>spine-fracture-recovery" class="apple-menu-link">Post-Fracture Recovery</a>
                             </div>
                           </div>
+                    <!-- Tab 3: Acute Stroke & Clots -->
+                    <div class="mega-cluster-panel" id="tab-acute-stroke">
+                      <div class="mega-cluster-header">
+                        <div class="mega-cluster-header-left">
+                          <div class="mega-cluster-title">Brain Stroke Treatment</div>
+                          <p class="mega-cluster-desc">Emergency mechanical thrombectomy, thrombolytic care, ICH evacuation, and rapid stroke response.</p>
                         </div>
                       </div>
 

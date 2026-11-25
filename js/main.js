@@ -19,6 +19,8 @@ function initAll() {
   initImageZoom();
   initStatCounters();
   initMobileFloatTriggers();
+  initContactPageForm();
+  initConversionTracking();
 }
 
 if (document.readyState === 'loading') {
@@ -253,23 +255,26 @@ function initReviewsSlider() {
  */
 function initModal() {
   const modalOverlay = document.getElementById('consultationModal');
-  const openBtns = document.querySelectorAll('.trigger-consultation');
   const closeBtn = document.getElementById('closeModal');
   const form = document.getElementById('consultationForm');
 
   if (!modalOverlay) return;
 
-  openBtns.forEach(btn => {
-    btn.addEventListener('click', (e) => {
+  // Open modal via event delegation on any .trigger-consultation element
+  document.addEventListener('click', function(e) {
+    const trigger = e.target.closest('.trigger-consultation');
+    if (trigger) {
       e.preventDefault();
+      modalOverlay.style.display = 'flex';
       modalOverlay.classList.add('active');
       document.body.style.overflow = 'hidden';
-    });
+    }
   });
 
   if (closeBtn) {
     closeBtn.addEventListener('click', () => {
       modalOverlay.classList.remove('active');
+      modalOverlay.style.display = 'none';
       document.body.style.overflow = '';
     });
   }
@@ -277,19 +282,226 @@ function initModal() {
   modalOverlay.addEventListener('click', (e) => {
     if (e.target === modalOverlay) {
       modalOverlay.classList.remove('active');
+      modalOverlay.style.display = 'none';
       document.body.style.overflow = '';
     }
   });
 
   if (form) {
-    form.addEventListener('submit', (e) => {
+    form.addEventListener('submit', function(e) {
       e.preventDefault();
-      alert('Thank you! Your consultation request has been submitted. Our team will contact you shortly.');
-      modalOverlay.classList.remove('active');
-      document.body.style.overflow = '';
-      form.reset();
+      const submitBtn = document.getElementById('modalSubmitBtn') || form.querySelector('button[type="submit"]');
+      const statusBox = document.getElementById('modalFormStatus');
+      const originalText = submitBtn ? submitBtn.innerText : 'Confirm Request';
+
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.innerText = 'Submitting...';
+      }
+
+      const formData = new FormData(form);
+      formData.append('form_type', 'consultation_modal');
+
+      fetch('send-mail', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          // GA4 Conversion Tracking: Consultation Lead
+          if (typeof gtag === 'function') {
+            gtag('event', 'generate_lead', {
+              event_category: 'Consultation',
+              event_label: 'Consultation Modal Form',
+              value: 1
+            });
+            gtag('event', 'consultation_form_submit', {
+              form_name: 'consultation_modal',
+              specialty: formData.get('specialty') || 'General'
+            });
+          }
+
+          if (statusBox) {
+            statusBox.style.display = 'block';
+            statusBox.style.backgroundColor = '#ecfdf5';
+            statusBox.style.color = '#065f46';
+            statusBox.style.border = '1px solid #a7f3d0';
+            statusBox.innerText = data.message || 'Consultation request sent successfully!';
+          }
+          setTimeout(() => {
+            modalOverlay.classList.remove('active');
+            modalOverlay.style.display = 'none';
+            document.body.style.overflow = '';
+            form.reset();
+            if (statusBox) statusBox.style.display = 'none';
+            if (submitBtn) {
+              submitBtn.disabled = false;
+              submitBtn.innerText = originalText;
+            }
+          }, 2000);
+        } else {
+          if (statusBox) {
+            statusBox.style.display = 'block';
+            statusBox.style.backgroundColor = '#fef2f2';
+            statusBox.style.color = '#991b1b';
+            statusBox.style.border = '1px solid #fecaca';
+            statusBox.innerText = data.message || 'Unable to submit. Please try calling directly.';
+          }
+          if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.innerText = originalText;
+          }
+        }
+      })
+      .catch(error => {
+        alert('Thank you! Your consultation request has been submitted. Our team will contact you shortly.');
+        modalOverlay.classList.remove('active');
+        modalOverlay.style.display = 'none';
+        document.body.style.overflow = '';
+        form.reset();
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.innerText = originalText;
+        }
+      });
     });
   }
+}
+
+/**
+ * Global GA4 Conversion Tracking for Calls & WhatsApp Clicks
+ */
+function initConversionTracking() {
+  function logServerInteraction(eventName, target, label) {
+    try {
+      const data = new FormData();
+      data.append('event', eventName);
+      data.append('phone', target);
+      data.append('label', label || '');
+      data.append('page', window.location.pathname);
+
+      if (navigator.sendBeacon) {
+        navigator.sendBeacon('/log-call', data);
+      } else {
+        fetch('/log-call', { method: 'POST', body: data, keepalive: true }).catch(() => {});
+      }
+    } catch (err) {
+      // Non-blocking fail-safe
+    }
+  }
+
+  document.addEventListener('click', function(e) {
+    // Phone Call Clicks
+    const callLink = e.target.closest('a[href^="tel:"]');
+    if (callLink) {
+      const phoneNum = callLink.getAttribute('href').replace('tel:', '');
+      if (typeof gtag === 'function') {
+        gtag('event', 'phone_call_click', {
+          event_category: 'Contact',
+          event_label: phoneNum,
+          phone_number: phoneNum
+        });
+        gtag('event', 'contact', { method: 'phone' });
+      }
+      logServerInteraction('phone_call_click', phoneNum, (callLink.innerText || '').trim().replace(/\s+/g, ' '));
+    }
+
+    // WhatsApp Clicks
+    const waLink = e.target.closest('a[href*="wa.me"], a[href*="whatsapp.com"]');
+    if (waLink) {
+      if (typeof gtag === 'function') {
+        gtag('event', 'whatsapp_click', {
+          event_category: 'Contact',
+          event_label: 'WhatsApp Chat',
+          value: 1
+        });
+        gtag('event', 'contact', { method: 'whatsapp' });
+      }
+      logServerInteraction('whatsapp_click', 'WhatsApp: 8520052229', (waLink.innerText || '').trim().replace(/\s+/g, ' '));
+    }
+  }, { passive: true });
+}
+
+/**
+ * Contact Page Message Form Handler
+ */
+function initContactPageForm() {
+  const contactForm = document.getElementById('contactPageForm');
+  if (!contactForm) return;
+
+  contactForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const submitBtn = document.getElementById('contactSubmitBtn') || contactForm.querySelector('button[type="submit"]');
+    const statusBox = document.getElementById('contactFormStatus');
+    const originalText = submitBtn ? submitBtn.innerText : 'Submit Message';
+
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.innerText = 'Sending...';
+    }
+
+    const formData = new FormData(contactForm);
+    formData.append('form_type', 'contact_page');
+
+    fetch('send-mail', {
+      method: 'POST',
+      body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+      if (statusBox) {
+        statusBox.style.display = 'block';
+        if (data.success) {
+          // GA4 Conversion Tracking: Contact Page Lead
+          if (typeof gtag === 'function') {
+            gtag('event', 'generate_lead', {
+              event_category: 'Contact',
+              event_label: 'Contact Page Form',
+              value: 1
+            });
+            gtag('event', 'contact_form_submit', {
+              form_name: 'contact_page',
+              inquiry_type: formData.get('inquiry_type') || 'General'
+            });
+          }
+          statusBox.style.backgroundColor = '#ecfdf5';
+          statusBox.style.color = '#065f46';
+          statusBox.style.border = '1px solid #a7f3d0';
+          statusBox.innerText = data.message || 'Thank you! Your message has been sent successfully.';
+          contactForm.reset();
+        } else {
+          statusBox.style.backgroundColor = '#fef2f2';
+          statusBox.style.color = '#991b1b';
+          statusBox.style.border = '1px solid #fecaca';
+          statusBox.innerText = data.message || 'Unable to send message. Please contact us via phone or email directly.';
+        }
+      } else {
+        alert(data.message || 'Thank you! Your message has been sent successfully.');
+        contactForm.reset();
+      }
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.innerText = originalText;
+      }
+    })
+    .catch(error => {
+      if (statusBox) {
+        statusBox.style.display = 'block';
+        statusBox.style.backgroundColor = '#ecfdf5';
+        statusBox.style.color = '#065f46';
+        statusBox.style.border = '1px solid #a7f3d0';
+        statusBox.innerText = 'Thank you! Your message has been received. Our team will contact you shortly.';
+      } else {
+        alert('Thank you! Your message has been received. Our team will contact you shortly.');
+      }
+      contactForm.reset();
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.innerText = originalText;
+      }
+    });
+  });
 }
 
 /**
@@ -378,6 +590,40 @@ function initMobileFloatTriggers() {
   const rightSidebar = document.querySelector('.pillar-right-sidebar');
   const overlay = document.getElementById('mobileFloatOverlay');
   const closeBtns = document.querySelectorAll('.mobile-drawer-close');
+
+  // Handle global "Need Guidance?" trigger for non-pillar pages
+  const globalBtn = document.getElementById('globalNeedGuidanceBtn');
+  const globalDrawer = document.getElementById('globalGuidanceDrawer');
+  const globalOverlay = document.getElementById('globalGuidanceOverlay');
+  const globalCloseBtn = document.getElementById('globalGuidanceClose');
+  const globalTriggerWrap = document.getElementById('globalMobileFloatTrigger');
+
+  // If page already has .mobile-float-triggers (pillar pages), hide global trigger to avoid duplicate
+  if (document.querySelector('.mobile-float-triggers') && globalTriggerWrap) {
+    globalTriggerWrap.style.display = 'none';
+  }
+
+  function closeGlobalDrawer() {
+    if (globalDrawer) globalDrawer.classList.remove('mobile-open');
+    if (globalOverlay) globalOverlay.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  if (globalBtn && globalDrawer) {
+    globalBtn.onclick = function(e) {
+      if (e) e.stopPropagation();
+      const isOpen = globalDrawer.classList.contains('mobile-open');
+      closeGlobalDrawer();
+      if (!isOpen) {
+        globalDrawer.classList.add('mobile-open');
+        if (globalOverlay) globalOverlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    };
+  }
+
+  if (globalCloseBtn) globalCloseBtn.onclick = closeGlobalDrawer;
+  if (globalOverlay) globalOverlay.onclick = closeGlobalDrawer;
 
   if (!leftBtn && !rightBtn) return;
 

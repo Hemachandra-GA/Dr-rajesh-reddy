@@ -20,6 +20,14 @@ $page_description = "Explore minimally invasive spine fracture surgery options i
   <meta property="og:url" content="https://drrajeshreddy.com/minimally-invasive-spine-fracture-surgery">
   <meta property="og:type" content="article">
   <meta property="og:image" content="https://drrajeshreddy.com/images/Minimally_Invasive_spine_Fracture-sugery/Minimally_Invasive_spine_Fracture-sugery.webp">
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/minimally-invasive-spine-fracture-surgery">
+  <meta name="twitter:title" content="<?= $page_title ?>">
+  <meta name="twitter:description" content="<?= $page_description ?>">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/Minimally_Invasive_spine_Fracture-sugery/Minimally_Invasive_spine_Fracture-sugery.webp">
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -63,7 +71,7 @@ $page_description = "Explore minimally invasive spine fracture surgery options i
         "jobTitle": "Senior Consultant Neurosurgeon",
         "url": "https://drrajeshreddy.com/profile",
         "medicalSpecialty": ["Neurosurgery", "Spine Surgery", "Minimally Invasive Spine Surgery"],
-        "telephone": "+91-9000224265",
+        "telephone": "+91-8520052229",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Medicover Hospital - Financial District",
@@ -129,6 +137,14 @@ $page_description = "Explore minimally invasive spine fracture surgery options i
       }
     ]
   }
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
   </script>
 </head>
 
@@ -551,10 +567,10 @@ $page_description = "Explore minimally invasive spine fracture surgery options i
           <!-- Section 11: Consultation in Hyderabad -->
           <section id="consultation" class="pillar-section" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 32px; margin-top: 40px;">
             <h2 style="margin-top: 0;">Consult Dr. Rajesh Reddy for Minimally Invasive Spine Surgery in Hyderabad</h2>
-            <p>Whether you have sustained a traumatic spine fracture, are suffering from a painful osteoporotic compression fracture, or are seeking a second opinion on whether open surgery is truly necessary, Dr. Rajesh Reddy Sannareddy provides expert minimally invasive spine consultations at Medicover Hospital - Financial District, Hyderabad. Book via the Dr. Reddy's Neuro Care app on Google Play or call 9000224265.</p>
+            <p>Whether you have sustained a traumatic spine fracture, are suffering from a painful osteoporotic compression fracture, or are seeking a second opinion on whether open surgery is truly necessary, Dr. Rajesh Reddy Sannareddy provides expert minimally invasive spine consultations at Medicover Hospital - Financial District, Hyderabad. Book via the Dr. Reddy's Neuro Care app on Google Play or call 8520052229.</p>
             <div style="display: flex; gap: 16px; flex-wrap: wrap; margin-top: 24px;">
               <a href="contact" class="btn-primary" style="padding: 10px 24px; font-weight: 600;">Book Spine Consultation</a>
-              <a href="tel:09000224265" class="btn-outline" style="padding: 10px 24px; font-weight: 600;">For appointments - 9000224265</a>
+              <a href="tel:08520052229" class="btn-outline" style="padding: 10px 24px; font-weight: 600;">For appointments - 8520052229</a>
             </div>
           </section>
 
@@ -613,7 +629,7 @@ $page_description = "Explore minimally invasive spine fracture surgery options i
             </div>
             <h3>Need Guidance?</h3>
             <p>Contact our clinic coordinators immediately for appointment scheduling, emergency spine care, or second opinions.</p>
-            <a href="tel:09000224265" class="guidance-phone">9000224265</a>
+            <a href="tel:08520052229" class="guidance-phone">8520052229</a>
             <a href="contact" class="guidance-btn">Book Appointment</a>
           </div>
         </aside>
@@ -621,7 +637,49 @@ $page_description = "Explore minimally invasive spine fracture surgery options i
       </div> <!-- /container -->
     </div> <!-- /pillar-main-content -->
 
-    <!-- Mobile Floating Action Triggers & Overlay -->
+        <!-- THE PATIENT APP SECTION -->
+    <section class="app-section" style="background-color: #0066cc; padding: 0; position: relative; overflow: visible; margin-top: 100px;">
+      <div class="container" style="position: relative; z-index: 2;">
+        <div class="app-grid" style="display: flex; align-items: center; justify-content: space-between; min-height: 350px;">
+          <!-- Left Banner Content -->
+          <div class="app-content" style="flex: 1; padding: 60px 0; color: #fff; max-width: 600px;">
+            <h2 class="app-title" style="font-size: 2.75rem; font-weight: 700; margin-bottom: 1rem; color: #fff;">The Patient App.</h2>
+            <p class="app-subtitle" style="font-size: 1.25rem; font-weight: 400; margin-bottom: 2rem; color: #fff;">Manage appointments and medical reports seamlessly.</p>
+
+            <div class="app-store-btns" style="display: flex; gap: 1rem;">
+              <a href="https://apps.apple.com/in/app/dr-reddys-neuro-care/id6753586620" target="_blank" rel="noopener noreferrer" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                <i class="fa-brands fa-app-store-ios" style="color: #0066cc; font-size: 1.25rem;"></i>
+                Download on App Store
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.docterz.connect.drreddysneurocare" target="_blank" rel="noopener noreferrer" class="app-badge-btn" style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                <i class="fa-brands fa-google-play" style="color: #1d1d1f; font-size: 1.25rem;"></i>
+                Get it on Google Play
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Phone Mockup -->
+          <div class="phone-mockup-wrapper" style="flex: 1; display: flex; justify-content: flex-end; position: relative;">
+            <img src="images/phone-qr.webp" alt="The Patient App" class="app-phone-img" style="width: 460px; max-width: none; position: absolute; bottom: -315px; right: 20px;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pre-footer CTA -->
+    <section class="pre-footer-cta" style="background-color: #111; color: #fff; padding: 40px 0;">
+      <div class="container cta-container" style="display: flex; justify-content: space-between; align-items: center;">
+        <div class="cta-text">
+          <h2 style="color: #fff; text-transform: uppercase; font-size: 1.5rem; margin-bottom: 8px;">Need Urgent Medical Assistance?</h2>
+          <p style="color: #ccc; margin-bottom: 0;">Contact our helpdesk 24/7</p>
+        </div>
+        <div class="cta-button">
+          <a href="tel:08520052229" class="btn-primary" style="background-color: #0066cc; color: #fff; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600;">Call 8520052229</a>
+        </div>
+      </div>
+    </section>
+
+<!-- Mobile Floating Action Triggers & Overlay -->
     <div class="mobile-float-triggers">
       <button id="floatOnThisPageBtn" class="mobile-float-btn float-left" aria-label="On This Page">
         <i class="fa-solid fa-list-ul"></i>

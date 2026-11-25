@@ -7,8 +7,24 @@
   <meta name="description"
     content="Senior Consultant Neurosurgeon in Hyderabad with 15+ years' experience and 5,000+ surgeries. Specialist in brain tumors, spine disorders & neurovascular care.">
   <meta name="keywords"
-    content="Best Neurosurgeon in Hyderabad, Brain and Spine Neurosurgeon in Hyderabad, Best Spine Surgeon in Hyderabad, Endovascular Neurosurgeon in Hyderabad">
-  <title>Dr. Rajesh Reddy Sannareddy | Best Neurosurgeon in Hyderabad</title>
+    content="Neurosurgeon in Hyderabad, Brain and Spine Surgeon in Hyderabad, Minimally Invasive Spine Surgeon Hyderabad, Endovascular Neurosurgeon in Hyderabad">
+  <link rel="canonical" href="https://drrajeshreddy.com/">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/">
+  <meta property="og:title" content="Dr. Rajesh Reddy Sannareddy | Consultant Brain &amp; Spine Neurosurgeon in Hyderabad">
+  <meta property="og:description" content="Senior Consultant Neurosurgeon in Hyderabad with 15+ years' experience and 5,000+ surgeries. Specialist in brain tumors, spine disorders & neurovascular care.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/logo.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/">
+  <meta name="twitter:title" content="Dr. Rajesh Reddy Sannareddy | Consultant Brain &amp; Spine Neurosurgeon in Hyderabad">
+  <meta name="twitter:description" content="Senior Consultant Neurosurgeon in Hyderabad with 15+ years' experience and 5,000+ surgeries. Specialist in brain tumors, spine disorders & neurovascular care.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/logo.webp">
+  <title>Dr. Rajesh Reddy Sannareddy | Consultant Brain &amp; Spine Neurosurgeon in Hyderabad</title>
   
   <!-- Preconnect to Font domains -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -57,6 +73,14 @@
       setTimeout(loadGTM, 6000);
     });
   </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
+  </script>
 </head>
 
 <body id="top">
@@ -104,31 +128,31 @@
           <!-- Card 1 — Brain Tumors -->
           <div class="treatment-card-new">
             <div class="treatment-icon-img">
-              <img src="images/brain-tumors.webp" alt="Brain Tumors">
+              <img src="images/brain-tumors.webp" alt="Brain Tumors" width="600" height="400" loading="lazy">
             </div>
             <h3 class="treatment-title">Brain Tumors</h3>
             <p class="treatment-desc">Awake craniotomy and advanced microsurgical techniques help remove tumors near critical brain regions while preserving speech, movement, and memory. Every case is planned with intraoperative navigation for maximum safety.</p>
-            <a href="brain-tumor-removal-surgery.php" class="treatment-link-blue">Explore Brain Tumor Care ›</a>
+            <a href="brain-tumor-removal-surgery" class="treatment-link-blue">Explore Brain Tumor Care ›</a>
           </div>
 
           <!-- Card 2 — Spine Disorders -->
           <div class="treatment-card-new">
             <div class="treatment-icon-img">
-              <img src="images/Spine Disorders.webp" alt="Spine Disorders">
+              <img src="images/Spine Disorders.webp" alt="Spine Disorders" width="600" height="400" loading="lazy">
             </div>
             <h3 class="treatment-title">Spine Disorders</h3>
             <p class="treatment-desc">Herniated discs, spinal stenosis, and chronic back pain are treated through endoscopic and minimally invasive spine surgery — smaller incisions, less muscle damage, and a quicker return to daily life.</p>
-            <a href="spine-fracture-treatment.php" class="treatment-link-blue">Explore Spine Care ›</a>
+            <a href="spine-fracture-treatment" class="treatment-link-blue">Explore Spine Care ›</a>
           </div>
 
           <!-- Card 3 — Neurovascular -->
           <div class="treatment-card-new">
             <div class="treatment-icon-img">
-              <img src="images/Neurovascular.webp" alt="Neurovascular">
+              <img src="images/Neurovascular.webp" alt="Neurovascular" width="600" height="400" loading="lazy">
             </div>
             <h3 class="treatment-title">Neurovascular</h3>
             <p class="treatment-desc">Brain aneurysms and vascular malformations are treated using endovascular coiling and microsurgical clipping, combining a cardiologist's precision with a neurosurgeon's depth of expertise.</p>
-            <a href="brain-aneurysm-treatment.php" class="treatment-link-blue">Explore Neurovascular Care ›</a>
+            <a href="brain-aneurysm-treatment" class="treatment-link-blue">Explore Neurovascular Care ›</a>
           </div>
 
         </div>
@@ -300,11 +324,21 @@
       <div class="section-header" style="text-align: center; margin-bottom: 40px;">
         <h2 class="section-title" style="font-size: 2.5rem; font-weight: 700; color: #1d1d1f; margin-bottom: 12px;">
           What Our Patients Say</h2>
+        <div style="display: inline-flex; align-items: center; gap: 8px; background: #fff; padding: 6px 16px; border-radius: 999px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 14px; border: 1px solid #e2e8f0;">
+          <span style="color: #fac20e; font-size: 1.1rem;">★★★★★</span>
+          <span style="font-weight: 700; color: #1e293b; font-size: 0.95rem;">4.9 / 5.0</span>
+          <span style="color: #64748b; font-size: 0.85rem;">(Google Business Profile)</span>
+        </div>
         <p class="section-subtitle" style="font-size: 1.1rem; color: #7a7a7a; margin-bottom: 16px;">
           Verified reviews from real patients treated by Dr. Rajesh Reddy Sannareddy.</p>
-        <a href="https://maps.app.goo.gl/aRtoiw27ZujRCFJaA" target="_blank" rel="noopener noreferrer" class="btn-secondary-link" style="display: inline-flex; align-items: center; gap: 8px; font-weight: 600; text-decoration: none;">
+        <div style="display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;">
+          <a href="https://maps.app.goo.gl/aRtoiw27ZujRCFJaA" target="_blank" rel="noopener noreferrer" class="btn-secondary-link" style="display: inline-flex; align-items: center; gap: 8px; font-weight: 600; text-decoration: none; padding: 8px 16px; border: 1px solid #cbd5e1; border-radius: 8px; background: #fff;">
             <i class="fa-brands fa-google" style="color: #4285F4;"></i> View All Reviews on Google Maps →
-        </a>
+          </a>
+          <a href="https://g.page/r/CXAiCZDiQPHtEBM/review" target="_blank" rel="noopener noreferrer" class="btn-primary" style="display: inline-flex; align-items: center; gap: 8px; font-weight: 600; text-decoration: none; padding: 8px 18px; border-radius: 8px; font-size: 0.9rem;">
+            <i class="fa-solid fa-star" style="color: #fac20e;"></i> Write a Google Review
+          </a>
+        </div>
       </div>
 
       <div class="reviews-carousel-wrapper" style="overflow: hidden; padding: 10px; margin-bottom: 20px;">
@@ -469,12 +503,12 @@
           <p class="app-subtitle" style="font-size: 1.25rem; font-weight: 400; margin-bottom: 2rem; color: #fff;">Book appointments, access reports, and stay connected to your treatment plan — anytime, anywhere.</p>
 
           <div class="app-store-btns" style="display: flex; gap: 1rem;">
-            <a href="#" class="app-badge-btn"
+            <a href="https://apps.apple.com/in/app/dr-reddys-neuro-care/id6753586620" target="_blank" rel="noopener noreferrer" class="app-badge-btn"
               style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
               <i class="fa-brands fa-app-store-ios" style="color: #0066cc; font-size: 1.25rem;"></i>
               Download on the App Store
             </a>
-            <a href="#" class="app-badge-btn"
+            <a href="https://play.google.com/store/apps/details?id=com.docterz.connect.drreddysneurocare" target="_blank" rel="noopener noreferrer" class="app-badge-btn"
               style="display: inline-flex; align-items: center; background: #fff; color: #1d1d1f; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; gap: 0.5rem; transition: transform 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
               <i class="fa-brands fa-google-play" style="color: #1d1d1f; font-size: 1.25rem;"></i>
               Get it on Google Play
@@ -559,41 +593,7 @@
     </footer>
   <?php } ?>
 
-  <!-- CONSULTATION MODAL -->
-  <div class="modal-overlay" id="consultationModal">
-    <div class="modal-content">
-      <button class="modal-close" id="closeModal" aria-label="Close Modal">&times;</button>
-      <h3 class="modal-title">Book Consultation</h3>
-      <p class="modal-subtitle">Schedule an appointment with Dr. Rajesh Reddy Sannareddy</p>
-
-      <form id="consultationForm">
-        <div class="form-group">
-          <label for="patientName" class="form-label">Full Name</label>
-          <input type="text" id="patientName" class="form-input" placeholder="e.g. Rahul Sharma" required>
-        </div>
-        <div class="form-group">
-          <label for="patientPhone" class="form-label">Phone Number</label>
-          <input type="tel" id="patientPhone" class="form-input" placeholder="+91 98765 43210" required>
-        </div>
-        <div class="form-group">
-          <label for="treatmentType" class="form-label">Treatment Specialty</label>
-          <select id="treatmentType" class="form-select">
-            <option value="brain">Brain Tumor Surgery</option>
-            <option value="spine">Minimally Invasive Spine</option>
-            <option value="neurovascular">Neurovascular & Stroke</option>
-            <option value="endoscopic">Endoscopic Surgery</option>
-            <option value="other">General Consultation</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="preferredDate" class="form-label">Preferred Date</label>
-          <input type="date" id="preferredDate" class="form-input" required>
-        </div>
-        <button type="submit" class="btn-primary" style="width: 100%; margin-top: 0.5rem;">Confirm Appointment
-          Request</button>
-      </form>
-    </div>
-  </div>
+  <!-- Consultation Modal moved to components/footer.php -->
 
   <!-- VIDEO LIGHTBOX MODAL FOR PATIENT STORIES -->
   <div class="video-modal" id="videoModal" onclick="closeVideoModal(event)" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.85); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); z-index: 2000; display: none; align-items: center; justify-content: center; opacity: 0; transition: opacity 0.3s ease;">

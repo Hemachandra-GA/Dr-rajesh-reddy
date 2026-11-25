@@ -7,6 +7,23 @@ $page_title = "Coming Soon | Dr. Rajesh Reddy";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $page_title; ?></title>
+  <link rel="canonical" href="https://drrajeshreddy.com/coming-soon">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/coming-soon">
+  <meta property="og:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta property="og:description" content="Something exciting is coming soon from Dr. Rajesh Reddy. Stay tuned for our latest update.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/logo.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/coming-soon">
+  <meta name="twitter:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta name="twitter:description" content="Something exciting is coming soon from Dr. Rajesh Reddy. Stay tuned for our latest update.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/logo.webp">
+
     <meta name="description" content="Something exciting is coming soon from Dr. Rajesh Reddy. Stay tuned for our latest update.">
     <meta name="keywords" content="Dr Rajesh Reddy coming soon, neurosurgery updates Hyderabad">
     <meta name="robots" content="noindex, follow">
@@ -173,6 +190,14 @@ $page_title = "Coming Soon | Dr. Rajesh Reddy";
     gtag('js', new Date());
 
     gtag('config', 'G-Q90BC8GWVR');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
   </script>
 </head>
 <body id="top">

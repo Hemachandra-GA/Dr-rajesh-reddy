@@ -9,6 +9,23 @@ $page_title = "Privacy Policy | Dr. Rajesh Reddy";
   <meta name="description" content="Privacy Policy and patient data handling guidelines for the clinic of Dr. Rajesh Reddy Sannareddy.">
   <meta name="keywords" content="Dr Rajesh Reddy privacy policy, patient data privacy, medical confidentiality Hyderabad, healthcare privacy guidelines">
   <title><?php echo $page_title; ?></title>
+  <link rel="canonical" href="https://drrajeshreddy.com/privacy">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drrajeshreddy.com/privacy">
+  <meta property="og:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta property="og:description" content="Privacy Policy and patient data handling guidelines for the clinic of Dr. Rajesh Reddy Sannareddy.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/logo.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/privacy">
+  <meta name="twitter:title" content="Dr. Rajesh Reddy Sannareddy | Neurosurgeon in Hyderabad">
+  <meta name="twitter:description" content="Privacy Policy and patient data handling guidelines for the clinic of Dr. Rajesh Reddy Sannareddy.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/logo.webp">
+
     <!-- Preconnect to Font domains -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -78,6 +95,14 @@ $page_title = "Privacy Policy | Dr. Rajesh Reddy";
 
     gtag('config', 'G-Q90BC8GWVR');
   </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
+  </script>
 </head>
 <body id="top">
 
@@ -109,7 +134,7 @@ $page_title = "Privacy Policy | Dr. Rajesh Reddy";
   <p>We maintain strict administrative and technological safety protocols to ensure patient confidentiality is never compromised:</p>
   <ul>
     <li>All digital files are stored inside secure, access-controlled directories.</li>
-    <li>Any scanning reports sent via our dedicated WhatsApp helpline are routed directly to the doctor's clinical management team, protected by end-to-end messaging encryption.</li>
+    <li>Any scanning reports sent via our dedicated WhatsApp line are routed directly to the doctor's clinical management team, protected by end-to-end messaging encryption.</li>
     <li>We do not sell, rent, or distribute patient contact details or medical files to third-party advertising brokers or pharmaceutical companies.</li>
   </ul>
 
@@ -117,11 +142,11 @@ $page_title = "Privacy Policy | Dr. Rajesh Reddy";
   <p>This website utilizes minimal verified integrations to offer interactive patient features:</p>
   <ul>
     <li><strong>Google Maps Widget:</strong> Used to display navigation directions to our physical clinical address.</li>
-    <li><strong>Helpline Callers:</strong> Direct integrations allowing patients to trigger native phone calls and WhatsApp chats.</li>
+    <li><strong>Clinic Callers:</strong> Direct integrations allowing patients to trigger native phone calls and WhatsApp chats.</li>
   </ul>
 
   <h2>5. Your Rights and Access Control</h2>
-  <p>Patients retain complete control over their saved records. You have the right to request a copy of your stored administrative files, rectify errors in your records, or request complete deletion of any non-regulatory archives from our secure helpline folders. To invoke these rights, please contact us at <strong>info@drrajeshreddy.com</strong>.</p>
+  <p>Patients retain complete control over their saved records. You have the right to request a copy of your stored administrative files, rectify errors in your records, or request complete deletion of any non-regulatory archives from our secure clinic folders. To invoke these rights, please contact us at <strong>info@drrajeshreddy.com</strong>.</p>
 </main>
 
 <?php include __DIR__ . '/components/footer.php'; ?>

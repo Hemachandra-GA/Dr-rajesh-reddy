@@ -4,13 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Balancing Your Brain: The Mental Health Benefits of Key Minerals | Dr. Rajesh Reddy</title>
+  <link rel="canonical" href="https://drrajeshreddy.com/patient-education/balancing-your-brain">
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://drrajeshreddy.com/patient-education/balancing-your-brain">
+  <meta property="og:title" content="Balancing Your Brain: The Mental Health Benefits of Key Minerals | Dr. Rajesh Reddy">
+  <meta property="og:description" content="Discover how essential minerals like Iron, Magnesium, Zinc, and Calcium support mood regulation, neurotransmitters, and cognitive health. Insights by Dr. Rajesh Reddy.">
+  <meta property="og:image" content="https://drrajeshreddy.com/images/logo.webp">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dr_rajeshreddy">
+  <meta name="twitter:creator" content="@dr_rajeshreddy">
+  <meta name="twitter:url" content="https://drrajeshreddy.com/patient-education/balancing-your-brain">
+  <meta name="twitter:title" content="Balancing Your Brain: The Mental Health Benefits of Key Minerals | Dr. Rajesh Reddy">
+  <meta name="twitter:description" content="Discover how essential minerals like Iron, Magnesium, Zinc, and Calcium support mood regulation, neurotransmitters, and cognitive health. Insights by Dr. Rajesh Reddy.">
+  <meta name="twitter:image" content="https://drrajeshreddy.com/images/logo.webp">
+
     
     <meta name="description" content="Discover how essential minerals like Iron, Magnesium, Zinc, and Calcium support mood regulation, neurotransmitters, and cognitive health. Insights by Dr. Rajesh Reddy.">
     <meta name="keywords" content="brain minerals mental health, magnesium zinc brain health, neurochemistry nutrition, micronutrients brain function">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap"></noscript>
     
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
@@ -40,8 +58,8 @@
             --color-emergency-light: #fdf2f2;
  
             /* Typography */
-            --font-display: "Inter", "SF Pro Display", system-ui, -apple-system, sans-serif;
-            --font-text: "Inter", "SF Pro Text", system-ui, -apple-system, sans-serif;
+            --font-display: "Plus Jakarta Sans", "Inter", system-ui, -apple-system, sans-serif;
+            --font-text: "Plus Jakarta Sans", "Inter", system-ui, -apple-system, sans-serif;
 
             /* Spacing */
             --spacing-xs: 8px;
@@ -323,6 +341,14 @@
 
     gtag('config', 'G-Q90BC8GWVR');
   </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "zizh1na9vw");
+  </script>
 </head>
 <body>
 
@@ -334,9 +360,9 @@
         
         <!-- Breadcrumb -->
         <div class="breadcrumb">
-            <a href="../patient-education.php">Patient Education</a>
+            <a href="../patient-education">Patient Education</a>
             <span>/</span>
-            <a href="../patient-education.php">Nutrition & Brain Care</a>
+            <a href="../patient-education">Nutrition & Brain Care</a>
             <span>/</span>
             <span>Key Minerals for Brain Health</span>
         </div>
@@ -416,11 +442,11 @@
             <!-- Sidebar Column -->
             <aside style="position: sticky; top: 80px; align-self: start;">
                 
-                <!-- HELPLINE Widget -->
+                <!-- Emergency Assistance Widget -->
                 <div class="sidebar-widget sidebar-emergency">
-                    <h4>HELPLINE</h4>
+                    <h4>EMERGENCY ASSISTANCE</h4>
                     <p class="emergency-desc">For specialized neurological consultations or clinical evaluation, contact our desk:</p>
-                    <a href="tel:09000224265" class="btn-sidebar-call">
+                    <a href="tel:08520052229" class="btn-sidebar-call">
                         <span>📞 Call Help Desk</span>
                     </a>
                 </div>
@@ -444,7 +470,7 @@
                             <span class="sidebar-stat-label">PAPERS</span>
                         </div>
                     </div>
-                    <a href="tel:09000224265" class="btn-sidebar-helpline">📞 Call Helpline</a>
+                    <a href="tel:08520052229" class="btn-sidebar-helpline">📞 Call Help Desk</a>
                 </div>
             </aside>
             

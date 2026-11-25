@@ -8,8 +8,32 @@ if (rtrim($uri, '/') === '/about' || rtrim($uri, '/') === '/about.php') {
     exit;
 }
 
-// 1b. Redirect direct requests for .php files to clean URLs (301 Permanent Redirect)
-if (preg_match('/\.php$/i', $uri)) {
+// Redirect old spine health article slug to new slug
+if (rtrim($uri, '/') === '/patient-education/spine-health-as-you-age--tips-to-maintain-a-strong-back-after-50') {
+    $query = $_SERVER['QUERY_STRING'] ? '?' . $_SERVER['QUERY_STRING'] : '';
+    header("Location: /patient-education/spine-health-after-50" . $query, true, 301);
+    exit;
+}
+// Redirect legacy /blogs/ URLs (including osteoporotic spine fractures)
+if (preg_match('#^/blogs?/understanding-osteoporotic-spine-fractures#i', $uri)) {
+    $query = $_SERVER['QUERY_STRING'] ? '?' . $_SERVER['QUERY_STRING'] : '';
+    header("Location: /patient-education/osteoporotic-spine-fractures" . $query, true, 301);
+    exit;
+}
+if (preg_match('#^/blogs?/(.+)$#i', $uri, $matches)) {
+    $query = $_SERVER['QUERY_STRING'] ? '?' . $_SERVER['QUERY_STRING'] : '';
+    header("Location: /patient-education/" . $matches[1] . $query, true, 301);
+    exit;
+}
+if (preg_match('#^/blogs?/?$#i', $uri)) {
+    $query = $_SERVER['QUERY_STRING'] ? '?' . $_SERVER['QUERY_STRING'] : '';
+    header("Location: /patient-education" . $query, true, 301);
+    exit;
+}
+
+
+// 1b. Redirect direct GET requests for .php files to clean URLs (301 Permanent Redirect)
+if ($_SERVER['REQUEST_METHOD'] === 'GET' && preg_match('/\.php$/i', $uri)) {
     $clean_uri = preg_replace('/\.php$/i', '', $uri);
     if ($clean_uri === '/index') {
         $clean_uri = '/';
