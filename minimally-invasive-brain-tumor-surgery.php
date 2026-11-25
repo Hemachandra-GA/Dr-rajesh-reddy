@@ -356,6 +356,9 @@ $page_title = "Minimally Invasive Brain Tumor Removal | Dr. Rajesh Reddy, Hydera
           </section>
 
           <!-- Comparison Section -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="comparison" class="pillar-section">
             <h2 class="pillar-section-title">Minimally Invasive vs. Traditional Open Surgery: A Direct Comparison</h2>
             <p>Patients frequently want to understand what they gain — and what they might give up — by choosing a minimally invasive approach. The comparison below addresses this directly:</p>
@@ -513,6 +516,9 @@ $page_title = "Minimally Invasive Brain Tumor Removal | Dr. Rajesh Reddy, Hydera
           </section>
 
           <!-- Expertise Section -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="expertise" class="pillar-section">
             <h2 class="pillar-section-title">Why Choose Dr. Rajesh Reddy for Minimally Invasive Brain Tumor Surgery?</h2>
             <p>Minimally invasive brain tumor surgery demands more from a surgeon, not less — it requires mastery of advanced instruments, fluency with endoscopic technique in confined spaces, and the clinical judgement to know when a minimally invasive approach is appropriate and when it is not. Dr. Rajesh Reddy's training and practice span the full range of minimally invasive neurosurgical techniques:</p>
@@ -570,6 +576,9 @@ $page_title = "Minimally Invasive Brain Tumor Removal | Dr. Rajesh Reddy, Hydera
           </section>
 
           <!-- FAQ Section -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="faq" class="pillar-section">
             <h2 class="pillar-section-title">Frequently Asked Questions</h2>
 

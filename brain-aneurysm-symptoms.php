@@ -295,6 +295,9 @@ $page_title = "Brain Aneurysm Symptoms: When Is It an Emergency? | Dr. Rajesh Re
           </section>
 
           <!-- Unruptured Symptoms Section -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="unruptured-symptoms" class="pillar-section">
             <h2 class="pillar-section-title">Symptoms of an Unruptured but Symptomatic Aneurysm</h2>
             <p>A minority of unruptured aneurysms do cause symptoms — typically through mass effect (the aneurysm
@@ -456,6 +459,9 @@ $page_title = "Brain Aneurysm Symptoms: When Is It an Emergency? | Dr. Rajesh Re
           </section>
 
           <!-- Thunderclap vs Migraine Section -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="migraine-vs-thunderclap" class="pillar-section">
             <h2 class="pillar-section-title">Thunderclap Headache vs. Migraine: The Critical Differences</h2>
             <p>The most dangerous diagnostic error in emergency medicine is dismissing a thunderclap headache as
@@ -626,6 +632,9 @@ $page_title = "Brain Aneurysm Symptoms: When Is It an Emergency? | Dr. Rajesh Re
           </section>
 
           <!-- Investigations Section -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="investigations" class="pillar-section">
             <h2 class="pillar-section-title">How a Brain Aneurysm Is Investigated After Symptoms</h2>
 

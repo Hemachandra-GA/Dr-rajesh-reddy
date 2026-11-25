@@ -329,6 +329,9 @@ $page_title = "Brain Tumor Surgery Recovery: Week-by-Week Guide | Dr. Rajesh Red
           </section>
 
           <!-- Timeline Section -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="timeline" class="pillar-section">
             <h2 class="pillar-section-title">Week-by-Week Recovery Guide</h2>
 
@@ -505,6 +508,9 @@ $page_title = "Brain Tumor Surgery Recovery: Week-by-Week Guide | Dr. Rajesh Red
           </section>
 
           <!-- Caregivers Section -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="caregivers" class="pillar-section">
             <h2 class="pillar-section-title">A Note for Caregivers and Family Members</h2>
             <p>Brain tumor surgery does not happen to a patient in isolation — it happens to a family. Caregivers carry an enormous burden during the recovery period: providing physical care, managing medications, attending appointments, and supporting the patient emotionally while managing their own anxiety and grief.</p>
@@ -520,6 +526,9 @@ $page_title = "Brain Tumor Surgery Recovery: Week-by-Week Guide | Dr. Rajesh Red
           </section>
 
           <!-- FAQ Section -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="faq" class="pillar-section">
             <h2 class="pillar-section-title">Frequently Asked Questions</h2>
 

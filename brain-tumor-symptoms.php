@@ -302,6 +302,9 @@ $page_title = "Brain Tumor Symptoms: Warning Signs to Know | Dr. Rajesh Reddy";
           </section>
 
           <!-- Headaches Section -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="headaches" class="pillar-section">
             <h2 class="pillar-section-title">Brain Tumor Headaches: How to Tell Them Apart</h2>
             <p>Headache is the symptom most people associate with brain tumors — and one of the most frequently Googled. The reality is nuanced: headache is a symptom in only about 50% of brain tumor patients at diagnosis, and most headaches are not caused by brain tumors. However, certain headache characteristics are genuine red flags that warrant investigation.</p>
@@ -451,6 +454,9 @@ $page_title = "Brain Tumor Symptoms: Warning Signs to Know | Dr. Rajesh Reddy";
           </section>
 
           <!-- Cranial Nerve Dysfunction Section -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="cranial-nerves" class="pillar-section">
             <h2 class="pillar-section-title">Cranial Nerve Dysfunction: An Overlooked Group of Symptoms</h2>
             <p>Brain tumors — particularly those at the skull base, in the posterior fossa, or along the brainstem — can affect the cranial nerves, which control many essential functions of the head, face, and throat. Cranial nerve dysfunction produces a specific and recognisable set of symptoms that patients and families should be aware of:</p>
@@ -502,6 +508,9 @@ $page_title = "Brain Tumor Symptoms: Warning Signs to Know | Dr. Rajesh Reddy";
           </section>
 
           <!-- When Should You See a Neurosurgeon Section -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="when-to-see-doctor" class="pillar-section">
             <h2 class="pillar-section-title">When Should You See a Neurosurgeon?</h2>
             <p>You should seek a neurosurgical consultation — which will typically begin with an MRI of the brain — if you experience any of the following:</p>

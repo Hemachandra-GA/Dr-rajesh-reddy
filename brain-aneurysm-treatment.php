@@ -333,6 +333,9 @@ $page_title = "Brain Aneurysm Treatment in Hyderabad | Dr. Rajesh Reddy";
           </section>
 
           <!-- Brain Aneurysm Symptoms: Unruptured vs. Ruptured -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="symptoms" class="pillar-section">
             <h2 class="pillar-section-title">Brain Aneurysm Symptoms: Unruptured vs. Ruptured</h2>
             <div style="margin: 20px 0 24px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.08); display: flex; justify-content: center;">
@@ -549,6 +552,9 @@ $page_title = "Brain Aneurysm Treatment in Hyderabad | Dr. Rajesh Reddy";
           </section>
 
           <!-- Intrasaccular Devices -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="intrasaccular-devices" class="pillar-section">
             <h2 class="pillar-section-title">Intrasaccular Devices: WEB, Contour, Artisse</h2>
             <p>The Woven EndoBridge (WEB) device is a single-layer or double-layer mesh device deployed entirely within the aneurysm sac, disrupting flow at the aneurysm neck. It is particularly suited to wide-neck bifurcation aneurysms — such as MCA bifurcation and basilar tip aneurysms — where it avoids the need for a stent in the parent vessel and the associated requirement for dual antiplatelet therapy. The WEB device can be deployed in a single session and does not require a stent, simplifying the procedure and the post-operative medication regimen. Other intrasaccular devices now available include the Contour and Artisse devices — each designed for specific aneurysm neck geometries, offering expanding options for wide-neck bifurcation aneurysms without the need for parent vessel stenting.</p>
@@ -703,6 +709,9 @@ $page_title = "Brain Aneurysm Treatment in Hyderabad | Dr. Rajesh Reddy";
           </section>
 
           <!-- Recovery After Brain Aneurysm Treatment -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="recovery" class="pillar-section">
             <h2 class="pillar-section-title">Recovery After Brain Aneurysm Treatment</h2>
 

@@ -257,6 +257,9 @@ $page_title = "Vertebroplasty and Kyphoplasty for Spinal Compression Fractures i
           </section>
 
           <!-- Section 4: Vertebroplasty Explained -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="vertebroplasty-procedure" class="pillar-section">
             <h2>Vertebroplasty: The Procedure Explained</h2>
             <p>Vertebroplasty was first performed in France in 1984 for the treatment of a painful vertebral haemangioma, with the initial clinical report published in 1987 by Galibert et al. (Galibert and colleagues). It was subsequently adopted for osteoporotic compression fractures in the 1990s and has since become one of the most widely performed minimally invasive spine procedures worldwide.</p>
@@ -462,6 +465,9 @@ $page_title = "Vertebroplasty and Kyphoplasty for Spinal Compression Fractures i
           </section>
 
           <!-- Section 9: Pathological Fractures in Cancer -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="cancer-pathological" class="pillar-section">
             <h2>Pathological Fractures: Vertebroplasty in Cancer</h2>
             <p>Vertebral metastases — bone deposits from cancers of the breast, lung, prostate, kidney, and thyroid, as well as multiple myeloma — are a major cause of pathological compression fractures. The pain from metastatic vertebral disease can be severe and refractory to analgesics, and the associated fracture significantly impairs the patient's quality of life and functional independence.</p>
@@ -551,6 +557,9 @@ $page_title = "Vertebroplasty and Kyphoplasty for Spinal Compression Fractures i
           </section>
 
           <!-- Section 12: FAQ -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="faq" class="pillar-section">
             <h2>Frequently Asked Questions</h2>
             <div class="faq-accordion">

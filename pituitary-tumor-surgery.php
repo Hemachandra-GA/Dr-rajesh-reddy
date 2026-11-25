@@ -309,6 +309,9 @@ $page_title = "Pituitary Tumor Surgery: Endoscopic Approach | Dr. Rajesh Reddy, 
           </section>
 
           <!-- Symptoms Section -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="symptoms" class="pillar-section">
             <h2 class="pillar-section-title">Pituitary Tumor Symptoms: Why They Are Often Missed</h2>
             <p>Pituitary tumor symptoms fall into two categories that often develop so gradually that patients adapt to them before recognising they are abnormal:</p>
@@ -506,6 +509,9 @@ $page_title = "Pituitary Tumor Surgery: Endoscopic Approach | Dr. Rajesh Reddy, 
           </section>
 
           <!-- Cushing's & Acromegaly Section -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="cushings-acromegaly" class="pillar-section">
             <h2 class="pillar-section-title">Special Cases: Surgery for Cushing's Disease & Acromegaly</h2>
 
@@ -587,6 +593,9 @@ $page_title = "Pituitary Tumor Surgery: Endoscopic Approach | Dr. Rajesh Reddy, 
           </section>
 
           <!-- FAQ Section -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="faq" class="pillar-section">
             <h2 class="pillar-section-title">Frequently Asked Questions</h2>
 

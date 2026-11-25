@@ -278,6 +278,9 @@ $page_title = "Subarachnoid Hemorrhage (SAH): Causes, Symptoms & Treatment | Dr.
           </section>
 
           <!-- Symptoms of Subarachnoid Hemorrhage -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="symptoms" class="pillar-section">
             <h2 class="pillar-section-title">Symptoms of Subarachnoid Hemorrhage</h2>
             <div style="margin: 20px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
@@ -491,6 +494,9 @@ $page_title = "Subarachnoid Hemorrhage (SAH): Causes, Symptoms & Treatment | Dr.
           </section>
 
           <!-- Emergency Treatment: Securing the Aneurysm -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="treatment" class="pillar-section">
             <h2 class="pillar-section-title">Emergency Treatment: Securing the Aneurysm</h2>
             <p>
@@ -658,6 +664,9 @@ $page_title = "Subarachnoid Hemorrhage (SAH): Causes, Symptoms & Treatment | Dr.
           </section>
 
           <!-- Frequently Asked Questions -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="faq" class="pillar-section">
             <h2 class="pillar-section-title">Frequently Asked Questions</h2>
 

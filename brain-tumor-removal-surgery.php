@@ -504,6 +504,9 @@ $page_title = "Brain Tumor Removal Surgery in Hyderabad | Dr. Rajesh Reddy";
             </div>
           </section>
 
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <!-- Diagnosis Section -->
           <section id="diagnosis" class="pillar-section">
             <h2 class="pillar-section-title">How Is a Brain Tumor Diagnosed?</h2>
@@ -762,6 +765,9 @@ $page_title = "Brain Tumor Removal Surgery in Hyderabad | Dr. Rajesh Reddy";
             </ul>
           </section>
 
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <!-- Why Choose Dr. Reddy Section -->
           <section id="expertise" class="pillar-section">
             <h2 class="pillar-section-title">Why Choose Dr. Rajesh Reddy?</h2>
@@ -955,6 +961,9 @@ $page_title = "Brain Tumor Removal Surgery in Hyderabad | Dr. Rajesh Reddy";
               </li>
             </ul>
           </section>
+
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
 
           <!-- Multimodal Treatment Section -->
           <section id="multimodal" class="pillar-section">

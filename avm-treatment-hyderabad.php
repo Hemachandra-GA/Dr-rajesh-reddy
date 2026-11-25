@@ -262,6 +262,9 @@ $page_title = "Arteriovenous Malformation (AVM) Treatment in Hyderabad | Dr. Raj
           </section>
 
           <!-- AVM vs. Brain Aneurysm: Understanding the Difference -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="avm-vs-aneurysm" class="pillar-section">
             <h2 class="pillar-section-title">AVM vs. Brain Aneurysm: Understanding the Difference</h2>
             <p>
@@ -381,6 +384,9 @@ $page_title = "Arteriovenous Malformation (AVM) Treatment in Hyderabad | Dr. Raj
           </section>
 
           <!-- Grading AVM Complexity: The Spetzler-Martin Scale -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="grading" class="pillar-section">
             <h2 class="pillar-section-title">Grading AVM Complexity: The Spetzler-Martin Scale</h2>
             <p>
@@ -555,6 +561,9 @@ $page_title = "Arteriovenous Malformation (AVM) Treatment in Hyderabad | Dr. Raj
           </section>
 
           <!-- Frequently Asked Questions -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="faq" class="pillar-section">
             <h2 class="pillar-section-title">Frequently Asked Questions</h2>
 

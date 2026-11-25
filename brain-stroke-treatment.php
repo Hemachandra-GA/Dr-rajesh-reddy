@@ -433,6 +433,9 @@ $page_title = "Brain Stroke Treatment in Hyderabad | Dr. Rajesh Reddy Sannareddy
             <p>Despite this burden, stroke care in India has improved markedly. The establishment of dedicated stroke units in major centres, the availability of mechanical thrombectomy in cities like Hyderabad, and increased public awareness of FAST symptoms have all contributed to better outcomes. The challenge remains getting patients to treatment within the therapeutic window — the critical period within which treatment can save brain tissue and reduce disability.</p>
           </section>
 
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="befast-signs" class="pillar-section">
             <h2>Recognising a Stroke: The BEFAST Signs</h2>
             <p>The classic FAST mnemonic — Face, Arms, Speech, Time — has been expanded to <strong>BEFAST</strong> to include two additional symptoms more common in posterior circulation strokes, which affect the back of the brain:</p>
@@ -600,6 +603,9 @@ $page_title = "Brain Stroke Treatment in Hyderabad | Dr. Rajesh Reddy Sannareddy
             <p>Young stroke requires a thorough investigation protocol — not just the standard CT and ECG, but also cardiac MRI, prolonged cardiac monitoring for paroxysmal AF, coagulation screen, connective tissue disease workup, and in some cases digital subtraction angiography (DSA). Dr. Rajesh Reddy coordinates this workup and ensures the cause of the stroke — not just the event — is identified and addressed.</p>
           </section>
 
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="cvst-overview" class="pillar-section">
             <h2>Cerebral Venous Sinus Thrombosis (CVST): The Often-Missed Stroke</h2>
             <p>Most stroke resources focus exclusively on arterial stroke. Cerebral venous sinus thrombosis (CVST) is a distinct and frequently overlooked form of stroke caused by thrombosis of the cerebral venous sinuses or cortical veins — not arterial occlusion. Because venous drainage is blocked, the brain develops venous congestion, oedema, and haemorrhagic infarction that does not follow arterial vascular territories and can appear anywhere in the brain. CVST is most common in young women — particularly during pregnancy and the postpartum period — and in patients with thrombophilia, oral contraceptive use, dehydration, infections (mastoiditis, sinusitis), or haematological disorders.</p>
@@ -659,6 +665,9 @@ $page_title = "Brain Stroke Treatment in Hyderabad | Dr. Rajesh Reddy Sannareddy
               <p style="margin-bottom: 0; font-weight: 600;">For appointments call <a href="tel:08520052229" style="color: #0066cc;">8520052229</a> or visit Medicover Hospital, Financial District, Hyderabad.</p>
             </div>
           </section>
+
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
 
           <section id="faq" class="pillar-section">
             <h2>Frequently Asked Questions</h2>

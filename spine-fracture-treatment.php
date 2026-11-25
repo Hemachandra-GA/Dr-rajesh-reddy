@@ -228,6 +228,9 @@ $page_title = "Spine Fracture Treatment in Hyderabad | Dr. Rajesh Reddy";
             <p>A fracture involving two or more columns is considered unstable and typically requires surgical treatment. Compression fractures involving only the anterior column are generally stable; burst fractures involving the anterior and middle columns with retropulsion of bone into the spinal canal are unstable and carry neurological risk.</p>
           </section>
 
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="types-of-spine-fractures" class="pillar-section">
             <h2>Types of Spine Fractures: A Complete Overview</h2>
             <p>The table below summarises the main types of spinal fractures, their causes, neurological risk, and typical treatment approach:</p>
@@ -381,6 +384,9 @@ $page_title = "Spine Fracture Treatment in Hyderabad | Dr. Rajesh Reddy";
             <h3>CT Myelography</h3>
             <p>In patients who cannot undergo MRI (pacemaker, certain implants), CT myelography — injection of contrast into the CSF followed by CT — provides detailed imaging of the neural elements within the spinal canal and identifies sites of cord or root compression.</p>
           </section>
+
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
 
           <section id="treatment-options" class="pillar-section">
             <h2>Spine Fracture Treatment Options: A Complete Overview</h2>
@@ -568,6 +574,9 @@ $page_title = "Spine Fracture Treatment in Hyderabad | Dr. Rajesh Reddy";
               <p style="margin-bottom:0; color:#856404;">Are you interested in volunteering to support patients and families navigating a spinal cord injury or spinal fracture diagnosis? Reach out to learn how you can make a difference at a patient's most vulnerable moment.</p>
             </div>
           </section>
+
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
 
           <section id="faq" class="pillar-section">
             <h2>Frequently Asked Questions</h2>

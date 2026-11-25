@@ -344,6 +344,9 @@ $page_title = "Flow Diversion Treatment for Brain Aneurysms | Dr. Rajesh Reddy, 
           </section>
 
           <!-- When Is Flow Diversion the Right Treatment? -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="indications" class="pillar-section">
             <h2 class="pillar-section-title">When Is Flow Diversion the Right Treatment?</h2>
 
@@ -473,6 +476,9 @@ $page_title = "Flow Diversion Treatment for Brain Aneurysms | Dr. Rajesh Reddy, 
           </section>
 
           <!-- Risks of Flow Diversion: An Honest Assessment -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="risks" class="pillar-section">
             <h2 class="pillar-section-title">Risks of Flow Diversion: An Honest Assessment</h2>
 
@@ -558,6 +564,9 @@ $page_title = "Flow Diversion Treatment for Brain Aneurysms | Dr. Rajesh Reddy, 
           </section>
 
           <!-- Frequently Asked Questions -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="faq" class="pillar-section">
             <h2 class="pillar-section-title">Frequently Asked Questions</h2>
 

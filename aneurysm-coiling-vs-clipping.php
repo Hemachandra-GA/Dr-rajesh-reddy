@@ -329,6 +329,9 @@ $page_title = "Aneurysm Coiling vs. Surgical Clipping: Which Is Better? | Dr. Ra
           </section>
 
           <!-- Clinical Evidence Section -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="clinical-trials" class="pillar-section">
             <h2 class="pillar-section-title">What the Evidence Says: Key Clinical Trials</h2>
             <p>The debate between coiling and clipping has been shaped by several landmark clinical trials. Understanding the evidence — and its limitations — is essential for an informed treatment decision:</p>
@@ -477,6 +480,9 @@ $page_title = "Aneurysm Coiling vs. Surgical Clipping: Which Is Better? | Dr. Ra
           </section>
 
           <!-- Microsurgical Clipping in Depth Section -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="clipping-in-depth" class="pillar-section">
             <h2 class="pillar-section-title">Microsurgical Clipping in Depth</h2>
 
@@ -561,6 +567,9 @@ $page_title = "Aneurysm Coiling vs. Surgical Clipping: Which Is Better? | Dr. Ra
           </section>
 
           <!-- FAQ Section -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="faq" class="pillar-section">
             <h2 class="pillar-section-title">Frequently Asked Questions</h2>
 

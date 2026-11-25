@@ -198,7 +198,8 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
         style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
         <picture>
           <source media="(max-width: 991px)" srcset="<?= $path_prefix ?>images/logo-icon.webp">
-          <img src="<?= $path_prefix ?>images/Logo.svg" alt="Dr. Rajesh Reddy Neurosurgery Logo" class="logo-img" width="220" height="52">
+          <img src="<?= $path_prefix ?>images/Logo.svg" alt="Dr. Rajesh Reddy Neurosurgery Logo" class="logo-img"
+            width="260" height="60" style="height: 60px; width: auto;" fetchpriority="high">
         </picture>
       </a>
 
@@ -325,12 +326,6 @@ $is_brain_tumor_active = in_array($current_page, $brain_tumor_pages);
                               <a href="<?= $path_prefix ?>spine-fracture-recovery" class="apple-menu-link">Post-Fracture Recovery</a>
                             </div>
                           </div>
-                    <!-- Tab 3: Acute Stroke & Clots -->
-                    <div class="mega-cluster-panel" id="tab-acute-stroke">
-                      <div class="mega-cluster-header">
-                        <div class="mega-cluster-header-left">
-                          <div class="mega-cluster-title">Brain Stroke Treatment</div>
-                          <p class="mega-cluster-desc">Emergency mechanical thrombectomy, thrombolytic care, ICH evacuation, and rapid stroke response.</p>
                         </div>
                       </div>
 

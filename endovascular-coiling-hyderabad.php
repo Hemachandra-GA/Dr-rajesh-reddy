@@ -312,6 +312,9 @@ Brain aneurysm surgery once meant one thing: open skull surgery, a craniotomy un
           </section>
 
           <!-- Coil Types -->
+          <!-- Mid-Content CTA Banner 1: Clinical Evaluation -->
+          <?php include __DIR__ . '/components/mid-content-cta-1.php'; ?>
+
           <section id="coil-types" class="pillar-section">
             <h2 class="pillar-section-title">Types of Coils Used in Aneurysm Embolisation</h2>
 
@@ -476,6 +479,9 @@ Brain aneurysm surgery once meant one thing: open skull surgery, a craniotomy un
           </section>
 
           <!-- Recovery -->
+          <!-- Mid-Content CTA Banner 2: Unsure if You Need Surgery? -->
+          <?php include __DIR__ . '/components/mid-content-cta-2.php'; ?>
+
           <section id="recovery" class="pillar-section">
             <h2 class="pillar-section-title">Recovery After Endovascular Coiling: Elective vs. Emergency</h2>
 
@@ -615,6 +621,9 @@ Brain aneurysm surgery once meant one thing: open skull surgery, a craniotomy un
           </section>
 
           <!-- FAQ -->
+          <!-- Mid-Content CTA Banner 3: Second Opinion & Report Review -->
+          <?php include __DIR__ . '/components/mid-content-cta-3.php'; ?>
+
           <section id="faq" class="pillar-section">
             <h2 class="pillar-section-title">Frequently Asked Questions</h2>
 
